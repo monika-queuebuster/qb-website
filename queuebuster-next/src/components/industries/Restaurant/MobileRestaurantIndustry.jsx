@@ -15,7 +15,7 @@ import MobilePDBanner from '../../common/MobilePDBanner';
 import MobileTestimonialSection from '../../common/MobileTestimonialSection';
 import MobileEcstatic from '../../common/MobileEcstatic';
 import { useRouter } from 'next/router';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import TrustFactor from '@/components/common/TrustFactor';
 import VerificationPopup from '@/components/modals/VerificationPopup';
 import Verification from '@/components/modals/Verification';
@@ -42,7 +42,7 @@ const MobileRetailIndustry = () => {
                <h1>
                   <br />
                   <span className={styles.black_text}>{pageHeading} <br /></span>
-                  <span className={styles.blue_text}><ReactTyped strings={[typingText1, typingText2, typingText3, typingText4]} typeSpeed={200} loop /></span>
+                  {/* <span className={styles.blue_text}><ReactTyped strings={[typingText1, typingText2, typingText3, typingText4]} typeSpeed={200} loop /></span> */}
                </h1>
                <p className={styles.page_desc}>{pageDesc}</p>
                <div style={{ display: "flex", flexDirection: "column" }}>

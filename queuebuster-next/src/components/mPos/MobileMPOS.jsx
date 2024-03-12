@@ -14,7 +14,7 @@ import GiveItTryMobile from '../Industry/GiveItTry_mobile';
 import FAQmobile from '../Industry/FAQ_mobile';
 import MobilePDBanner from '../common/MobilePDBanner';
 import { useRouter } from 'next/router';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import TrustFactor from '../common/TrustFactor';
 import VerificationPopup from '../modals/VerificationPopup';
 
@@ -42,7 +42,7 @@ const MobileMPOS = () => {
           <div className={styles.hero_img}><Image src='/assets/mPOS/hero-img.webp' alt='mPOS hero img' fill /></div>
         </div>
         <div className={styles.text_container}>
-          <h1 className={styles.hero_heading}>{pageHeading} <br /><span className={styles.blue_text}><ReactTyped strings={[typewritterText1, typewritterText2, typewritterText3]} typeSpeed={200} loop /></span></h1>
+          {/* <h1 className={styles.hero_heading}>{pageHeading} <br /><span className={styles.blue_text}><ReactTyped strings={[typewritterText1, typewritterText2, typewritterText3]} typeSpeed={200} loop /></span></h1> */}
           <p className={styles.hero_content}>{pageDesc}</p>
           <BlueCustomButton text='Get Started' style={{ padding: '0 2rem' }} onClick={() => router.push('/get-free-demo')} />
           <div className={styles.ratings}>

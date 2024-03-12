@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -31,7 +31,7 @@ const DesktopQSR = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>QSR Billing Software For</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["KOT", "Faster checkouts", "Order Management"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["KOT", "Faster checkouts", "Order Management"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>QueueBuster Android POS brings you the finest QSR billing software exclusively designed for quick-service restaurants. Our cutting-edge technology simplifies operations, enhances efficiency, and ensures customer satisfaction, transforming your culinary business experience.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

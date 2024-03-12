@@ -9,7 +9,7 @@ import GiveItTryMobile from '../Industry/GiveItTry_mobile';
 import FAQmobile from '../Industry/FAQ_mobile';
 import NewIndustryCards from '../common/NewIndustryCards';
 import Link from 'next/link';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import Router from 'next/router';
 import MobilePDBanner from '../common/MobilePDBanner';
 import content from '../../language/ENGLISH.json';
@@ -36,7 +36,7 @@ const MobileCrmLoyalty = () => {
         <div className={styles.left_container}>
           <h1>
             <span className={styles.black_text}>{estorePageHeadingP1} {estorePageHeadingP2} {estorePageHeadingP3}</span><br />
-            <span className={styles.blue_text}><ReactTyped strings={[estoreTypingText1, estoreTypingText2]} typeSpeed={300} loop /></span>
+            {/* <span className={styles.blue_text}><ReactTyped strings={[estoreTypingText1, estoreTypingText2]} typeSpeed={300} loop /></span> */}
           </h1>
           <div className={styles.right_container}>
             <div className={styles.section1_image_container}>

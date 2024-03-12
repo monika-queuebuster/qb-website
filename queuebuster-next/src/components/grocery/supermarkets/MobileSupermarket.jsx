@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/MobileFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -30,7 +30,7 @@ const MobileSupermarkets = () => {
           <div className={styles.hero_text_container}>
             <h1>
               <span className={styles.heading1}>Supermarket Billing Software for</span> &nbsp;
-              <span className={styles.heading2}><ReactTyped strings={["Bulk Billing", "Stock Transfers", "Loyalty Rewards"]} typeSpeed={200} loop /></span>
+              {/* <span className={styles.heading2}><ReactTyped strings={["Bulk Billing", "Stock Transfers", "Loyalty Rewards"]} typeSpeed={200} loop /></span> */}
             </h1>
             <p className={styles.hero_desc}>QueueBuster’s powerful Android Supermarket billing Software can efficiently manage customer flow and reduce wait times at your supermarket(s). The software also offers features such as real-time reporting, customer feedback management, and multilingual support to further enhance customer engagement.</p>
             <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

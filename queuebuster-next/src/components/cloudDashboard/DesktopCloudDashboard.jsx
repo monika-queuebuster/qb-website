@@ -11,7 +11,7 @@ import Router from 'next/router';
 import Link from 'next/link';
 import OtherHighlights from '../common/OtherHighlights';
 import RewardingSection from '../common/RewardingSection';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import PersonalisedDemoBanner from '../common/PersonalisedDemoBanner';
 import content from '../../language/ENGLISH.json';
 import VerificationPopup from '../modals/VerificationPopup';
@@ -34,7 +34,7 @@ const DesktopCloudDashboard = () => {
                 <div className={styles.left_container}>
                     <h1>
                         <span className={styles.black_text}>{CDPageHeading}</span><br />
-                        <span className={styles.blue_text}><ReactTyped strings={[CDTypingText1, CDTypingText2]} typeSpeed={200} loop /></span>
+                        {/* <span className={styles.blue_text}><ReactTyped strings={[CDTypingText1, CDTypingText2]} typeSpeed={200} loop /></span> */}
                     </h1>
                     <p className={styles.page_subheading}>{CDPageDesc}</p>
                     <div style={{ display: "flex", gap: "2rem" }}>

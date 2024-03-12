@@ -11,7 +11,7 @@ import Router from 'next/router';
 import Link from 'next/link';
 import OtherHighlights from '../common/OtherHighlights';
 import RewardingSection from '../common/RewardingSection';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import { otherFeature } from '@/constants/enterprise';
 import PersonalisedDemoBanner from '../common/PersonalisedDemoBanner';
 import content from '../../language/ENGLISH.json';
@@ -36,7 +36,7 @@ const DesktopEStore = () => {
                 <div className={styles.left_container}>
                     <h1>
                         <span className={styles.black_text}>{estorePageHeadingP1} {estorePageHeadingP2} </span><span className={styles.black_text}>{estorePageHeadingP3}</span><br />
-                        <span className={styles.blue_text}><ReactTyped strings={[estoreTypingText1, estoreTypingText2]} typeSpeed={200} loop /></span>
+                        {/* <span className={styles.blue_text}><ReactTyped strings={[estoreTypingText1, estoreTypingText2]} typeSpeed={200} loop /></span> */}
                     </h1>
                     <p className={styles.page_subheading}>{estorePageDesc}</p>
                     <div style={{ display: "flex", gap: "2rem" }}>

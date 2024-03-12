@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -31,7 +31,7 @@ const DesktopFashion = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>Fashion and Apparel Billing Software for</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["CRM & Loyalty", "Inventory Management", "Online Store"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["CRM & Loyalty", "Inventory Management", "Online Store"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>Effortlessly elevate customer interactions and adapt to dynamic expectations with our bespoke QueueBuster Fashion and apparel billing software, ensuring a seamless retail experience for your clothing store. Tailored for precision, it's your key to staying agile in a rapidly changing retail landscape.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

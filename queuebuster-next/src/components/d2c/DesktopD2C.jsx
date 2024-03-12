@@ -1,7 +1,7 @@
 import React, { use, useEffect, useState } from 'react'
 import styles from '../../styles/D2C/DesktopD2C.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, TransparentCustomButton, WhiteCustomButton } from '../qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial, D2CFAQ } from '@/constants/common';
 import content from '../../language/ENGLISH.json';
@@ -263,7 +263,7 @@ const DesktopD2C = () => {
                     <div className={styles.text_container}>
                         <h1>
                             <span className={styles.small_heading}>POS Solution for D2C Brands</span><br />enabling &nbsp;
-                            <span className={styles.bold_heading}><ReactTyped strings={["e-Commerce", "ERP", "WMS"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.bold_heading}><ReactTyped strings={["e-Commerce", "ERP", "WMS"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.page_desc} style={{ height: heroDescMore ? "fit-content" : "fit-content", overflow: "hidden", transition: "1s" }}>{heroDesc}</p>
                         {/* <p className={styles.page_desc}> { heroDesc } </p> */}

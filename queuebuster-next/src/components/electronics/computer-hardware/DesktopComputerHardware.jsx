@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -31,7 +31,7 @@ const DesktopComputerHardware = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>A Computer Hardware Store Billing Software for </span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["Vendor Management", "Customer Engagement", "Offline Access"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["Vendor Management", "Customer Engagement", "Offline Access"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>QueueBuster offers industry-leading solutions designed to streamline and optimize your business workflow. With our comprehensive suite of tools, you can efficiently keep track of your inventory, access critical data, and make more informed business decisions.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

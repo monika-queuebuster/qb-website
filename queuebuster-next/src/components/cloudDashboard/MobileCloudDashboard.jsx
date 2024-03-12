@@ -9,7 +9,7 @@ import GiveItTryMobile from '../Industry/GiveItTry_mobile';
 import FAQmobile from '../Industry/FAQ_mobile';
 import NewIndustryCards from '../common/NewIndustryCards';
 import Link from 'next/link';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import Router from 'next/router';
 import MobilePDBanner from '../common/MobilePDBanner';
 import content from '../../language/ENGLISH.json';
@@ -35,7 +35,7 @@ const MobileCloudDashboard = () => {
         <div className={styles.left_container}>
           <h1>
             <span className={styles.black_text}>{CDPageHeading}</span><br />
-            <span className={styles.blue_text}><ReactTyped strings={[CDTypingText1, CDTypingText2]} typeSpeed={200} loop /></span>
+            {/* <span className={styles.blue_text}><ReactTyped strings={[CDTypingText1, CDTypingText2]} typeSpeed={200} loop /></span> */}
           </h1>
           <div className={styles.right_container}>
             <div className={styles.section1_image_container}>

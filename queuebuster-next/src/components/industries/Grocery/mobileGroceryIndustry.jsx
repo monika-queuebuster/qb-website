@@ -15,7 +15,7 @@ import MobilePDBanner from '../../common/MobilePDBanner';
 import MobileTestimonialSection from '../../common/MobileTestimonialSection';
 import MobileEcstatic from '../../common/MobileEcstatic';
 import { useRouter } from 'next/router';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import TrustFactor from '@/components/common/TrustFactor';
 import VerificationPopup from '@/components/modals/VerificationPopup';
 import Verification from '@/components/modals/Verification';
@@ -41,7 +41,7 @@ const mobileGroceryIndustry = () => {
             <div className={styles.text_part}>
                <h1>
                   <span className={styles.black_text}>{groceryPOS}</span><br />
-                  <span className={styles.blue_text}>For <ReactTyped strings={[groceryTypingText1, groceryTypingText2, groceryTypingText3]} typeSpeed={200} loop /></span>
+                  {/* <span className={styles.blue_text}>For <ReactTyped strings={[groceryTypingText1, groceryTypingText2, groceryTypingText3]} typeSpeed={200} loop /></span> */}
                </h1>
                <p className={styles.page_desc}>{groceryHeroSectionDesc}</p>
                <div style={{ display: "flex", flexDirection: "column" }}>

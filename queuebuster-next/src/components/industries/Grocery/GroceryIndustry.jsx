@@ -13,7 +13,7 @@ import content from '../../../language/ENGLISH.json';
 import FrequentQuestions from '../../homePage/FrequentQuestions';
 import PersonalisedDemoBanner from '../../common/PersonalisedDemoBanner';
 import styles from '../../../styles/Industries/grocery/DesktopGrocery.module.css';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import { useRouter } from 'next/router';
 import TrustFactor from '@/components/common/TrustFactor';
 import VerificationPopup from '@/components/modals/VerificationPopup';
@@ -35,7 +35,7 @@ const RetailIndustry = () => {
          <VerificationPopup isOpen={demoModal} closeModal={() => setDemoModal(false)} formHeading={formHeading} />
          <div className={styles.hero_section}>
             <div className={styles.text_part}>
-               <h1> <span className={styles.black_text}>{groceryPOS}</span><br /> <span className={styles.blue_text}>For <ReactTyped strings={[groceryTypingText1, groceryTypingText2, groceryTypingText3]} typeSpeed={200} loop /></span></h1>
+               {/* <h1> <span className={styles.black_text}>{groceryPOS}</span><br /> <span className={styles.blue_text}>For <ReactTyped strings={[groceryTypingText1, groceryTypingText2, groceryTypingText3]} typeSpeed={200} loop /></span></h1> */}
                <p className={styles.page_desc}>{groceryHeroSectionDesc}</p>
                <div style={{ display: "flex", gap: "2rem" }}>
                   <BlackCustomButton text="Get Free Demo" style={{ bordeRadius: '0.3rem', padding: '0 2rem', marginTop: '2.5rem' }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

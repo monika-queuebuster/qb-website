@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -32,7 +32,7 @@ const DesktopFootwear = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>Footwear Billing Software for</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["Stock Transfer", "Multi-Store Management", "Bulk Billing"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["Stock Transfer", "Multi-Store Management", "Bulk Billing"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>Managing your footwear store's inventory becomes a breeze with QueueBuster Footwear Billing Software. The billing software simplifies the process of adding, editing, and deleting stock items, transforming these tasks into quick and efficient actions that require just a few clicks.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

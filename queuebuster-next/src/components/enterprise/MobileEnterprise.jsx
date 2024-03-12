@@ -13,7 +13,7 @@ import { RecommendedHardware } from '../mobileQbStrap';
 import SwiperCore, { Navigation } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import Link from 'next/link';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import MobilePDBanner from '../common/MobilePDBanner';
 import MobileTestimonialSection from '../common/MobileTestimonialSection';
 import IndustryFeatures from '../common/IndustryFeatures';
@@ -69,7 +69,7 @@ const MobileEnterprise = () => {
           </div>
         </div>
         <div className={styles.leftSide}>
-          <h1 className={styles.enterpriseHeading}>{integratedOmnichannel} <ReactTyped strings={[bigger, smarter, greater]} typeSpeed={200} loop /></h1>
+          {/* <h1 className={styles.enterpriseHeading}>{integratedOmnichannel} <ReactTyped strings={[bigger, smarter, greater]} typeSpeed={200} loop /></h1> */}
           <p className={styles.enterprisePara}>{enterpriseSubPara}</p>
           <div className={styles.btn_container}>
             <Link href='#enterpriseForm' onClick={(e) => handleScroll(e)} style={{ width: '100%' }}>

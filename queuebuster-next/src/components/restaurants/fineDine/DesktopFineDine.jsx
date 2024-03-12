@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -31,7 +31,7 @@ const DesktopFineDine = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>Fine Dine Billing Software For</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["Billing", "Online Ordering", "Live Sales Reporting"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["Billing", "Online Ordering", "Live Sales Reporting"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>QueueBuster's billing software for fine dining restaurants is a comprehensive solution that streamlines all your tableside operations, from managing orders and menus to monitoring raw material inventory and optimizing KOT tasks. With our software, you can easily manage your restaurant's seating arrangements, waitlist, and reservations, giving your guests a smooth and hassle-free dining experience.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />
