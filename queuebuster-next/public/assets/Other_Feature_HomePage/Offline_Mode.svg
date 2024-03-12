@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path2550" d="M0-682.665H30v30H0Z" transform="translate(0 682.665)" fill="#5a5a5a"/>
+    </clipPath>
+  </defs>
+  <g id="Group_69245" data-name="Group 69245" transform="translate(-590 -3020)">
+    <path id="Path_14041" data-name="Path 14041" d="M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" transform="translate(590 3020)" fill="#f8d378"/>
+    <g id="offline_mode" data-name="offline mode" transform="translate(605 3035)" clip-path="url(#clip-path)">
+      <g id="Group_69001" data-name="Group 69001">
+        <path id="path2556" d="M-42.066,0a1.934,1.934,0,0,1,1.934,1.934,1.934,1.934,0,0,1-1.934,1.934A1.934,1.934,0,0,1-44,1.934,1.934,1.934,0,0,1-42.066,0" transform="translate(57.008 23.438)" fill="#5a5a5a"/>
+        <path id="path2560" d="M-101.979,0a19.1,19.1,0,0,0-4.687,3.689" transform="translate(107.838 6.155)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path2564" d="M-392.619-131.3a18.676,18.676,0,0,0-13.828-6.035h0a19.131,19.131,0,0,0-4.219.467" transform="translate(421.447 141.142)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path2568" d="M-122.379,0A13.88,13.88,0,0,0-128,3.488" transform="translate(133.453 11.222)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path2572" d="M-158.063-84.769a13.663,13.663,0,0,0-7.265-3.9" transform="translate(182.614 99.479)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path2576" d="M-180.917-20.76a6.915,6.915,0,0,0-3.352-.954h-.085a7.282,7.282,0,0,0-4.88,2.109" transform="translate(199.257 39.176)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path2580" d="M0,0,27.656,27.656" transform="translate(1.172 1.172)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

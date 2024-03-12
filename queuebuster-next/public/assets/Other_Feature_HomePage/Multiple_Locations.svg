@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path1947" d="M0-682.665H30v30H0Z" transform="translate(0 682.665)" fill="#5a5a5a"/>
+    </clipPath>
+  </defs>
+  <g id="Group_69253" data-name="Group 69253" transform="translate(-1030 -3500)">
+    <circle id="Ellipse_638" data-name="Ellipse 638" cx="30" cy="30" r="30" transform="translate(1030 3500)" fill="#8ae4f6"/>
+    <g id="multiple_location" data-name="multiple location" transform="translate(1045 3515)" clip-path="url(#clip-path)">
+      <g id="Group_69004" data-name="Group 69004">
+        <path id="path1953" d="M-61.106-230.894l2.261,2.248a.622.622,0,0,0,.88,0l3.456-3.456a5.509,5.509,0,0,0,0-7.792h0a5.509,5.509,0,0,0-7.792,0,5.509,5.509,0,0,0,0,7.792" transform="translate(65.249 247.74)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1957" d="M-92.815-15.924h0a2.5,2.5,0,0,0-3.534,0,2.5,2.5,0,0,0,0,3.534h0a2.5,2.5,0,0,0,3.534,0h0A2.5,2.5,0,0,0-92.815-15.924Z" transform="translate(101.426 25.899)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1961" d="M-50.669-174.16l1.36,1.353a.453.453,0,0,0,.64,0l2.515-2.515a4.009,4.009,0,0,0,0-5.669,4.009,4.009,0,0,0-5.669,0,4.009,4.009,0,0,0,0,5.669" transform="translate(74.003 191.951)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1965" d="M-67.534-11.587h0a1.818,1.818,0,0,0-2.572,0,1.818,1.818,0,0,0,0,2.572,1.818,1.818,0,0,0,2.572,0h0A1.818,1.818,0,0,0-67.534-11.587Z" transform="translate(93.835 24.097)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1969" d="M0,0H2.948" transform="translate(26.612 22.387)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1973" d="M0,0H14.938" transform="translate(8.535 22.387)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1977" d="M0,0H4.744" transform="translate(0.439 22.387)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1981" d="M-60.046-30.024a1.38,1.38,0,0,1-1.38,1.38,1.38,1.38,0,0,1-1.38-1.38,1.38,1.38,0,0,1,1.38-1.38A1.38,1.38,0,0,1-60.046-30.024Z" transform="translate(68.271 52.41)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="path1985" d="M-60.046-30.024a1.38,1.38,0,0,1-1.38,1.38,1.38,1.38,0,0,1-1.38-1.38,1.38,1.38,0,0,1,1.38-1.38A1.38,1.38,0,0,1-60.046-30.024Z" transform="translate(86.441 52.41)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

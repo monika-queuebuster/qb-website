@@ -1,0 +1,16 @@
+<svg id="Group_2315" data-name="Group 2315" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <circle id="Ellipse_3" data-name="Ellipse 3" cx="40" cy="40" r="40" fill="#498bdc"/>
+  <g id="billing" transform="translate(28.96 22)">
+    <path id="Shape" d="M18.853,5.6h-1.9V1a1,1,0,0,0-1-1H5.9a1,1,0,0,0-1,1V5.6H3a3.006,3.006,0,0,0-3,3V33a3.006,3.006,0,0,0,3,3H18.853a3.006,3.006,0,0,0,3-3V8.6A3.006,3.006,0,0,0,18.853,5.6ZM6.9,2h8.052V9.4H6.9ZM18.853,34H2.952a1,1,0,0,1-1-1V8.6a1,1,0,0,1,1-1h1.9V9.4h-.5a1,1,0,0,0,0,2H17.4a1,1,0,0,0,0-2h-.5V7.6h1.9a1,1,0,0,1,1,1V33h.048A1.008,1.008,0,0,1,18.853,34Z" fill="#feffff"/>
+    <path id="Shape-2" data-name="Shape" d="M17.492,12.976H4.395a1,1,0,0,0-1,1v4.748a1,1,0,0,0,1,1h13.05a1,1,0,0,0,1-1v-4.7A.948.948,0,0,0,17.492,12.976Zm-1.05,4.748H5.391v-2.7H16.442Z" transform="translate(0.007 0.026)" fill="#feffff"/>
+    <path id="Shape-3" data-name="Shape" d="M5.9,22h-1.5a1,1,0,0,0,0,2H5.9a1,1,0,0,0,0-2Z" transform="translate(0.007 0.045)" fill="#feffff"/>
+    <path id="Shape-4" data-name="Shape" d="M11.635,22h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,0,0,0-2Z" transform="translate(0.019 0.045)" fill="#feffff"/>
+    <path id="Shape-5" data-name="Shape" d="M17.421,22h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(0.03 0.045)" fill="#feffff"/>
+    <path id="Shape-6" data-name="Shape" d="M5.9,25.945h-1.5a1,1,0,0,0,0,2H5.9a1,1,0,1,0,0-2Z" transform="translate(0.007 0.053)" fill="#feffff"/>
+    <path id="Shape-7" data-name="Shape" d="M11.635,25.945h-1.5a1,1,0,1,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(0.019 0.053)" fill="#feffff"/>
+    <path id="Shape-8" data-name="Shape" d="M17.421,25.945h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(0.03 0.053)" fill="#feffff"/>
+    <path id="Shape-9" data-name="Shape" d="M5.9,29.892h-1.5a1,1,0,0,0,0,2H5.9a1,1,0,1,0,0-2Z" transform="translate(0.007 0.061)" fill="#feffff"/>
+    <path id="Shape-10" data-name="Shape" d="M11.635,29.892h-1.5a1,1,0,1,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(0.019 0.061)" fill="#feffff"/>
+    <path id="Shape-11" data-name="Shape" d="M17.421,29.892h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(0.03 0.061)" fill="#feffff"/>
+  </g>
+</svg>

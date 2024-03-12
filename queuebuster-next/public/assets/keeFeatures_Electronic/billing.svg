@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="98" viewBox="0 0 98 98">
+  <defs>
+    <filter id="Ellipse_38" x="0" y="0" width="98" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.353"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_69236" data-name="Group 69236" transform="translate(-91 -1416)">
+    <g transform="matrix(1, 0, 0, 1, 91, 1416)" filter="url(#Ellipse_38)">
+      <g id="Ellipse_38-2" data-name="Ellipse 38" transform="translate(9 6)" fill="#d5e5ff" stroke="#5a5a5a" stroke-width="1">
+        <circle cx="40" cy="40" r="40" stroke="none"/>
+        <circle cx="40" cy="40" r="39.5" fill="none"/>
+      </g>
+    </g>
+    <g id="billing" transform="translate(9236.902 -10815.037)">
+      <path id="Shape" d="M19.851,32.985a1,1,0,0,1-1,1H2.948a1,1,0,0,1-1-1V8.585a1,1,0,0,1,1-1h1.9v1.8h-.5a1,1,0,0,0,0,2H17.4a1,1,0,0,0,0-2h-.5v-1.8h1.9a1,1,0,0,1,1,1v24.4h.048Z" transform="translate(-9107.899 12259.053)" fill="#d5e5ff"/>
+      <path id="Shape-2" data-name="Shape" d="M18.853,5.6h-1.9V1a1,1,0,0,0-1-1H5.9a1,1,0,0,0-1,1V5.6H3a3.006,3.006,0,0,0-3,3V33a3.006,3.006,0,0,0,3,3H18.853a3.006,3.006,0,0,0,3-3V8.6A3.006,3.006,0,0,0,18.853,5.6ZM6.9,2h8.052V9.4H6.9ZM18.853,34H2.952a1,1,0,0,1-1-1V8.6a1,1,0,0,1,1-1h1.9V9.4h-.5a1,1,0,0,0,0,2H17.4a1,1,0,0,0,0-2h-.5V7.6h1.9a1,1,0,0,1,1,1V33h.048A1.008,1.008,0,0,1,18.853,34Z" transform="translate(-9107.903 12259.037)" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="0.2"/>
+      <path id="Shape-3" data-name="Shape" d="M17.492,12.976H4.395a1,1,0,0,0-1,1v4.748a1,1,0,0,0,1,1h13.05a1,1,0,0,0,1-1v-4.7A.948.948,0,0,0,17.492,12.976Zm-1.05,4.748H5.391v-2.7H16.442Z" transform="translate(-9107.896 12259.063)" fill="#5a5a5a"/>
+      <path id="Shape-4" data-name="Shape" d="M5.9,22h-1.5a1,1,0,0,0,0,2H5.9a1,1,0,0,0,0-2Z" transform="translate(-9107.896 12259.082)" fill="#5a5a5a"/>
+      <path id="Shape-5" data-name="Shape" d="M11.635,22h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,0,0,0-2Z" transform="translate(-9107.885 12259.082)" fill="#5a5a5a"/>
+      <path id="Shape-6" data-name="Shape" d="M17.421,22h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(-9107.873 12259.082)" fill="#5a5a5a"/>
+      <path id="Shape-7" data-name="Shape" d="M5.9,25.945h-1.5a1,1,0,0,0,0,2H5.9a1,1,0,1,0,0-2Z" transform="translate(-9107.896 12259.09)" fill="#5a5a5a"/>
+      <path id="Shape-8" data-name="Shape" d="M11.635,25.945h-1.5a1,1,0,1,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(-9107.885 12259.09)" fill="#5a5a5a"/>
+      <path id="Shape-9" data-name="Shape" d="M17.421,25.945h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(-9107.873 12259.09)" fill="#5a5a5a"/>
+      <path id="Shape-10" data-name="Shape" d="M5.9,29.892h-1.5a1,1,0,0,0,0,2H5.9a1,1,0,1,0,0-2Z" transform="translate(-9107.896 12259.098)" fill="#5a5a5a"/>
+      <path id="Shape-11" data-name="Shape" d="M11.635,29.892h-1.5a1,1,0,1,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(-9107.885 12259.098)" fill="#5a5a5a"/>
+      <path id="Shape-12" data-name="Shape" d="M17.421,29.892h-1.5a1,1,0,0,0,0,2h1.5a1,1,0,1,0,0-2Z" transform="translate(-9107.873 12259.098)" fill="#5a5a5a"/>
+    </g>
+  </g>
+</svg>

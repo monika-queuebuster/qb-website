@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232" height="232" viewBox="0 0 232 232">
+  <defs>
+    <filter id="Rectangle_6688" x="0" y="0" width="232" height="232" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_69206" data-name="Group 69206" transform="translate(-1030 -7352)">
+    <g transform="matrix(1, 0, 0, 1, 1030, 7352)" filter="url(#Rectangle_6688)">
+      <rect id="Rectangle_6688-2" data-name="Rectangle 6688" width="220" height="220" rx="20" transform="translate(6 6)" fill="#fff"/>
+    </g>
+    <g id="Group_68626" data-name="Group 68626" transform="translate(0 10)">
+      <g id="check" transform="translate(1121 7376.832)">
+        <ellipse id="Ellipse_646" data-name="Ellipse 646" cx="25.016" cy="25" rx="25.016" ry="25" transform="translate(0 0.168)" fill="#32bea6"/>
+        <path id="Path_14235" data-name="Path 14235" d="M126.26,159.674l-11.828-9.215,3.363-4.316,7.263,5.658,11.988-17.3,4.5,3.116Z" transform="translate(-103.25 -121.209)" fill="#fff"/>
+      </g>
+      <text id="Beague-Special" transform="translate(1146 7448.001)" fill="#212b36" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="-0.021em"><tspan x="-50" y="0">Stock Inventory</tspan><tspan x="-64" y="17">Sorted Successfully</tspan></text>
+      <g id="Group_68625" data-name="Group 68625">
+        <text id="Beague-Special-2" data-name="Beague-Special" transform="translate(1095 7496.001)" fill="#212b36" font-size="10" font-family="Helvetica" letter-spacing="-0.021em"><tspan x="-25" y="0">Store Name</tspan></text>
+        <text id="Beague-Special-3" data-name="Beague-Special" transform="translate(1200 7496.001)" fill="#212b36" font-size="10" font-family="Helvetica" letter-spacing="-0.021em"><tspan x="-25" y="0">Ritu’s World</tspan></text>
+        <text id="Beague-Special-4" data-name="Beague-Special" transform="translate(1090 7516.001)" fill="#212b36" font-size="10" font-family="Helvetica" letter-spacing="-0.021em"><tspan x="-20" y="0">Total Item</tspan></text>
+        <text id="Beague-Special-5" data-name="Beague-Special" transform="translate(1185 7516.001)" fill="#212b36" font-size="10" font-family="Helvetica" letter-spacing="-0.021em"><tspan x="-10" y="0">1784</tspan></text>
+        <text id="Beague-Special-6" data-name="Beague-Special" transform="translate(1079 7536.001)" fill="#212b36" font-size="10" font-family="Helvetica" letter-spacing="-0.021em"><tspan x="-10" y="0">Date</tspan></text>
+        <text id="Beague-Special-7" data-name="Beague-Special" transform="translate(1198 7536.001)" fill="#212b36" font-size="10" font-family="Helvetica" letter-spacing="-0.021em"><tspan x="-24" y="0">16/01/2023</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

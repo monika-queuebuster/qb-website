@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_69238" data-name="Group 69238" transform="translate(-100 -1796)">
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="40" cy="40" r="40" transform="translate(100 1796)" fill="#d5e5ff"/>
+    <g id="inventory_management" data-name="inventory management" transform="translate(9242.963 -9308)">
+      <g id="Group" transform="translate(-9120.963 11126)">
+        <path id="Shape" d="M34.927,25.3H5.786a1,1,0,0,1-1-1V2.845a1,1,0,0,0-1-1H1a1,1,0,0,0,0,2H2.8V24.3A3,3,0,0,0,5.791,27.3H34.927a1,1,0,0,0,0-2Z" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="0.4"/>
+        <path id="Shape-2" data-name="Shape" d="M28.2,27.892a4.041,4.041,0,1,0,4.041,4.041A4.057,4.057,0,0,0,28.2,27.892Zm0,6.041a2.047,2.047,0,1,1,2.047-2.047A2.094,2.094,0,0,1,28.2,33.933Z" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="0.4"/>
+        <path id="Shape-3" data-name="Shape" d="M29.189,0H10.327A3,3,0,0,0,7.333,2.994V20.309A3,3,0,0,0,10.327,23.3H29.189a3,3,0,0,0,2.994-2.994V2.994A3,3,0,0,0,29.189,0Zm1,20.309a1,1,0,0,1-1,1H10.327a1,1,0,0,1-1-1V16.666H11.47a1,1,0,1,0,0-2H9.327V12.672H13.47a1,1,0,0,0,0-2H9.333V2.994a1,1,0,0,1,1-1h4.69v5.19a1,1,0,0,0,1.446.9l2.2-1.1,1.8,1.3a1.06,1.06,0,0,0,.851.149l2.494-.7a.967.967,0,0,0,.75-.946V2H29.2a1,1,0,0,1,1,1V20.309ZM22.5,1.994V5.988l-1.3.4-1.9-1.345a1.093,1.093,0,0,0-1.048-.1l-1.25.649v-3.6Z" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="0.4"/>
+        <path id="Shape-4" data-name="Shape" d="M11.476,14.672h-.149v1.994h.149a1,1,0,1,0,0-1.994Zm1.994-3.994H11.327v1.994H13.47a1,1,0,1,0,0-1.994Z" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="0.4"/>
+      </g>
+      <path id="Shape-5" data-name="Shape" d="M11.375,27.892a4.041,4.041,0,1,0,4.041,4.041A4.057,4.057,0,0,0,11.375,27.892Zm0,6.041a2.047,2.047,0,1,1,2.047-2.047A2.086,2.086,0,0,1,11.375,33.933Z" transform="translate(-9120.963 11126)" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="0.4"/>
+    </g>
+  </g>
+</svg>
