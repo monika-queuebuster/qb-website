@@ -1,0 +1,44 @@
+.contactPagetopContainer {
+   height: 57.5rem;
+   background-image: url(../../../public/assets/ContactPage/contctPageBackgroundImage.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   margin-bottom: 46rem;
+}
+.contactPagetopContainer > h1 {
+   font-size: 4.2rem;
+   color: var(--white);
+   padding: 20.5rem 0 1rem 0;
+   text-align: center;
+}
+.contactPagetopContainer > p {
+   width: 70%;
+   text-align: center;
+   margin: auto;
+   color: var(--white);
+   font-size: 1.6rem;
+   line-height: 2rem;
+   letter-spacing: 0px !important;
+}
+.getStarted {
+   margin: 5rem 5% 0 5%;
+   height: 60rem;
+   width: 90%;
+   border-radius: 1.46rem;
+   box-shadow: 5px 0px 10px #00000029;
+   padding: 3rem;
+   position: absolute;
+   top: 35rem;
+   background-color: var(--white);
+}
+
+.moreHelp {
+   margin: 5rem 5% 0 5%;
+   width: 90%;
+   border-radius: 1.46rem;
+   box-shadow: 5px 0px 10px #00000029;
+   padding: 3rem 5rem;
+   top: 35rem;
+   background-color: var(--white);
+}

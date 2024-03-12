@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.541" height="50" viewBox="0 0 40.541 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_15785" data-name="Rectangle 15785" width="40.541" height="50" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="billingicon" clip-path="url(#clip-path)">
+    <path id="Path_24365" data-name="Path 24365" d="M7,38.452H.7V17.884a3.541,3.541,0,0,1,.227-1.321,3.376,3.376,0,0,1,.7-1.12,3.142,3.142,0,0,1,1.053-.74,2.987,2.987,0,0,1,1.242-.241,2.987,2.987,0,0,1,1.242.241,3.142,3.142,0,0,1,1.053.74,3.376,3.376,0,0,1,.7,1.12,3.541,3.541,0,0,1,.227,1.321V45.306a3.539,3.539,0,0,0,.223,1.325,3.376,3.376,0,0,0,.7,1.125A3.143,3.143,0,0,0,9.1,48.5a2.984,2.984,0,0,0,1.245.241m0,0a3.018,3.018,0,0,0,1.248-.246,3.177,3.177,0,0,0,1.058-.745,3.41,3.41,0,0,0,.7-1.126,3.575,3.575,0,0,0,.231-1.327V.74l3.22,3.422L20.026.74l3.239,3.422L26.482.74,29.7,4.162,32.918.74,36.26,4.162,39.356.74V45.318a3.542,3.542,0,0,1-.227,1.321,3.376,3.376,0,0,1-.7,1.12,3.145,3.145,0,0,1-1.053.74,2.987,2.987,0,0,1-1.242.241Z" transform="translate(0.244 0.26)" fill="none" stroke="#747474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_24366" data-name="Path 24366" d="M12.431,10.9l-9.355-.01" transform="translate(1.081 3.825)" fill="none" stroke="#747474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_24367" data-name="Path 24367" d="M17.027,16.88h9.757" transform="translate(5.983 5.931)" fill="none" stroke="#747474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_24368" data-name="Path 24368" d="M23.557,28.059,17.11,21.2s6.447.274,6.447-3.29-6.53-3.566-6.53-3.566h9.757" transform="translate(5.983 5.041)" fill="none" stroke="#747474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

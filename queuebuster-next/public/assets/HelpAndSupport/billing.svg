@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.311" height="30.1" viewBox="0 0 18.311 30.1">
+  <g id="billing" transform="translate(9107.953 -12258.987)">
+    <path id="Shape" d="M15.711,4.667H14.125V.835A.837.837,0,0,0,13.29,0H4.92a.837.837,0,0,0-.835.835V4.667H2.5A2.505,2.505,0,0,0,0,7.167V27.5A2.505,2.505,0,0,0,2.5,30H15.711a2.505,2.505,0,0,0,2.5-2.5V7.167A2.505,2.505,0,0,0,15.711,4.667Zm-9.96-3h6.71V7.833H5.751Zm9.96,26.67H2.46a.837.837,0,0,1-.835-.835V7.167a.837.837,0,0,1,.835-.835H4.046v1.5H3.628a.835.835,0,0,0,0,1.67H14.5a.835.835,0,0,0,0-1.67h-.417v-1.5h1.585a.837.837,0,0,1,.835.835V27.5h.04A.84.84,0,0,1,15.711,28.335Z" transform="translate(-9107.903 12259.037)" fill="#5a5a5a" stroke="#5a5a5b" stroke-linecap="round" stroke-width="0.1"/>
+    <path id="Shape-2" data-name="Shape" d="M15.142,12.976H4.228a.837.837,0,0,0-.835.835v3.956a.837.837,0,0,0,.835.835H15.1a.837.837,0,0,0,.835-.835V13.85A.79.79,0,0,0,15.142,12.976Zm-.875,3.956H5.058V14.68h9.21Z" transform="translate(-9108.463 12256.896)" fill="#5a5a5a"/>
+    <path id="Shape-3" data-name="Shape" d="M5.48,22H4.228a.835.835,0,0,0,0,1.67H5.48a.835.835,0,0,0,0-1.67Z" transform="translate(-9108.463 12255.407)" fill="#5a5a5a"/>
+    <path id="Shape-4" data-name="Shape" d="M11.218,22H9.965a.835.835,0,1,0,0,1.67h1.252a.835.835,0,1,0,0-1.67Z" transform="translate(-9109.409 12255.407)" fill="#5a5a5a"/>
+    <path id="Shape-5" data-name="Shape" d="M17,22H15.751a.835.835,0,0,0,0,1.67H17A.835.835,0,1,0,17,22Z" transform="translate(-9110.364 12255.407)" fill="#5a5a5a"/>
+    <path id="Shape-6" data-name="Shape" d="M5.48,25.945H4.228a.835.835,0,0,0,0,1.67H5.48a.835.835,0,0,0,0-1.67Z" transform="translate(-9108.463 12254.757)" fill="#5a5a5a"/>
+    <path id="Shape-7" data-name="Shape" d="M11.218,25.945H9.965a.835.835,0,0,0,0,1.67h1.252a.835.835,0,1,0,0-1.67Z" transform="translate(-9109.409 12254.757)" fill="#5a5a5a"/>
+    <path id="Shape-8" data-name="Shape" d="M17,25.945H15.751a.835.835,0,0,0,0,1.67H17a.835.835,0,0,0,0-1.67Z" transform="translate(-9110.364 12254.757)" fill="#5a5a5a"/>
+    <path id="Shape-9" data-name="Shape" d="M5.48,29.892H4.228a.835.835,0,1,0,0,1.67H5.48a.835.835,0,1,0,0-1.67Z" transform="translate(-9108.463 12254.105)" fill="#5a5a5a"/>
+    <path id="Shape-10" data-name="Shape" d="M11.218,29.892H9.965a.835.835,0,1,0,0,1.67h1.252a.835.835,0,1,0,0-1.67Z" transform="translate(-9109.409 12254.105)" fill="#5a5a5a"/>
+    <path id="Shape-11" data-name="Shape" d="M17,29.892H15.751a.835.835,0,1,0,0,1.67H17a.835.835,0,1,0,0-1.67Z" transform="translate(-9110.364 12254.105)" fill="#5a5a5a"/>
+  </g>
+</svg>

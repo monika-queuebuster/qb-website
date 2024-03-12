@@ -1,0 +1,242 @@
+.hero_stack_container {
+  position: relative;
+  margin: 4rem 9.3rem 0 9.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero_stack1 {
+  background-color: #3586e3;
+  border-radius: 20px;
+  position: absolute;
+  top: 3rem;
+  height: 55rem;
+  width: 100%;
+  width: 96%;
+}
+
+.hero_stack2 {
+  background-color: #2d78cf;
+  position: absolute;
+  top: 1.5rem;
+  border-radius: 20px;
+  height: 55rem;
+  width: 98%;
+}
+
+.hero_section {
+  width: 100%;
+  height: 55rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  padding: 5rem 5rem 2rem 5rem;
+}
+
+.hero_text_container {
+  width: 50%;
+}
+
+.hero_img_container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.hero_img {
+  width: 45rem;
+  height: 45rem;
+  position: relative;
+}
+
+.heading1 {
+  font: normal normal bold 2.3rem/5rem Inter;
+  color: #fff;
+}
+
+.heading2 {
+  font: normal normal bold 4.3rem/6.5rem Inter;
+  color: #e3faff;
+}
+
+.hero_desc {
+  font: normal normal normal 1.8rem/3rem Inter;
+  color: #fff;
+  margin: 3rem 0;
+}
+
+.marquee_section {
+  margin-top: 10rem;
+}
+
+.section_heading {
+  width: fit-content;
+  margin: auto;
+}
+
+.section_heading > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.heading_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem 0 3rem auto;
+}
+
+.other_features_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem;
+}
+
+.other_features_Desc {
+  margin-top: 2rem;
+  font: normal normal normal 1.6rem/3rem Inter;
+}
+
+.other_features {
+  padding: 2.2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(68, 185, 255, 0.29);
+  width: 20rem;
+  background-color: #eef9ff;
+  cursor: pointer;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.other_features .description {
+  font: normal normal normal 1.3rem/1.8rem Inter;
+  color: #5a5a5a;
+}
+
+.other_features > p {
+  font: normal normal 500 1.4rem/1.8rem Inter;
+  margin-top: 0.5rem;
+}
+
+.other_features .icon {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+}
+
+.features_section,
+.demo_banner_section {
+  margin: 6.25rem 9.3rem 0 9.3rem;
+}
+
+.other_features_section {
+  margin: 9rem 9.3rem 9.3rem 9.3rem;
+  display: flex;
+  justify-content: space-between;
+  /* height: 50rem; */
+}
+
+.other_features_section .text_side {
+  width: 40%;
+}
+.other_features_section .box_side {
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: end;
+  gap: 1.5rem;
+  grid-row-end: -1;
+}
+
+.testimonial_section {
+  margin: 4.25rem 9.3rem 0 9.3rem;
+}
+
+.get_started_section {
+  margin: 6.3rem 9.3rem 6.3rem 9.3rem;
+  background-color: #f8d47837;
+  border-radius: 20px;
+  display: flex;
+}
+
+.get_started_section > div {
+  width: 50%;
+}
+
+.get_started_section .right_side {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.get_started_section > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.get_started_section > div:nth-child(1) > h4 {
+  font: normal normal 600 2rem/3rem Inter;
+}
+
+.get_started_section > div:nth-child(1) > p {
+  font: normal normal normal 1.8rem/3rem Inter;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.right_img_container {
+  height: 30rem;
+  width: 36rem;
+  position: relative;
+  margin-top: auto;
+  margin-right: 4rem;
+}
+
+.why_qb_section {
+  margin: 4rem 9.3rem 0 9.3rem;
+}
+
+.why_qb_section > h2 { 
+  margin: 3rem 0 3rem 0;
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+}
+
+.why_container {
+  background-color: #8ae4f626;
+  border-radius: 10px;
+}
+
+.why_container .content_part {
+  padding: 4rem;
+}
+
+.why_qb_section .read_more_part {
+  text-align: center;
+  padding: 2rem;
+  font: normal normal 600 1.8rem/3rem Inter;
+  border-top: 2px dashed #80e8fe;
+}
+
+.why_qb_section .read_more_part > span {
+  cursor: pointer;
+}
+
+.why_text {
+  margin-bottom: 3rem;
+}
+
+.why_text > h4 {
+  color: #2a6ab4;
+  font: normal normal 600 2rem/3rem Inter;
+}
+
+.why_text > p,
+.why_qb_desc {
+  font: normal normal normal 1.8rem/3rem Inter;
+}

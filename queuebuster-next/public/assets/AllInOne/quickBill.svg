@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_70101" data-name="Group 70101" transform="translate(-200 -1798)">
+    <g id="Group_2313" data-name="Group 2313" transform="translate(200 1798)">
+      <path id="Path_9027" data-name="Path 9027" d="M40,0A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" fill="#498bdc"/>
+    </g>
+    <g id="quick_bill" data-name="quick bill" transform="translate(219.999 1823.333)">
+      <path id="Fill-1" d="M2.54,12.507H7.134V11.173H2.54Z" transform="translate(-0.375 -1.656)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Fill-2" d="M2.54,23.429H7.134V22.1H2.54Z" transform="translate(-0.375 -3.273)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Fill-3" d="M0,17.968H6.757V16.635H0Z" transform="translate(0 -2.463)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Fill-4" d="M0,15.334A15.45,15.45,0,1,1,15.45,30.667,15.392,15.392,0,0,1,0,15.334Z" transform="translate(9.1 0)" fill="none" stroke="#feffff" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Path_14068" data-name="Path 14068" d="M-7911.477,10951.265v8.455l6.516,5.451" transform="translate(7936.028 -10944.047)" fill="none" stroke="#feffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

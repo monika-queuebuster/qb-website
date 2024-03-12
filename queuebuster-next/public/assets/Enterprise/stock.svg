@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path1722" d="M0-682.665H30v30H0Z" transform="translate(0 682.665)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="stock" transform="translate(-15 -15)">
+    <g id="product_catalog" data-name="product catalog" transform="translate(15 15)" clip-path="url(#clip-path)">
+      <g id="Group_69000" data-name="Group 69000" transform="translate(5.266 0.44)">
+        <path id="path1728" d="M-348.568-533.639h-15.143a.879.879,0,0,1-.879-.879v-22.771a.879.879,0,0,1,.879-.879h15.143a.879.879,0,0,1,.879.879v22.771A.879.879,0,0,1-348.568-533.639Z" transform="translate(367.156 562.76)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="434 35 400 0"/>
+        <path id="path1732" d="M0-93.568a.88.88,0,0,1,.194-.022H13.65V-97.3a.875.875,0,0,0-.206-.565Z" transform="translate(3.252 98.182)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="path1736" d="M0-101.292v-4.246a.41.41,0,0,1,.41-.41H4.99a.41.41,0,0,1,.41.41v4.246a.41.41,0,0,1-.41.41H.41A.41.41,0,0,1,0-101.292Z" transform="translate(4.676 115.193)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="path1744" d="M0-101.292v-4.246a.41.41,0,0,1,.41-.41H4.99a.41.41,0,0,1,.41.41v4.246a.41.41,0,0,1-.41.41H.41A.41.41,0,0,1,0-101.292Z" transform="translate(4.676 125.348)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="path1748" d="M0,0H5.431" transform="translate(11.927 10.948)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="path1752" d="M0,0H2.031" transform="translate(11.927 12.609)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="path1756" d="M0,0H5.431" transform="translate(11.927 21.103)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="path1760" d="M0,0H2.031" transform="translate(11.927 22.764)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="path1772" d="M-.085,0h0Z" transform="translate(3.433 4.597)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="434 35 600 0"/>
+        <path id="path1776" d="M-70.72-100.385l13.444-4.3a.876.876,0,0,0-.672-.313H-73.092a.879.879,0,0,0-.879.879V-81.35a.879.879,0,0,0,.879.879H-71.4V-99.529A.879.879,0,0,1-70.72-100.385Z" transform="translate(73.97 105)" fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="434 35 600 0"/>
+      </g>
+    </g>
+  </g>
+</svg>

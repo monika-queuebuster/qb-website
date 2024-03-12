@@ -1,0 +1,5 @@
+.placeHolderGray::placeholder {
+   color: #5a5a5a99;
+   font-weight: 300;
+   font: 300 1.6rem / 2.2rem Inter
+}

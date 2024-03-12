@@ -1,0 +1,61 @@
+.section_heading {
+  width: fit-content;
+  margin: auto;
+}
+
+.heading_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem 0 3.75rem auto;
+}
+
+.section_heading > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.verification_form {
+  margin: 5rem 9.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_subheading {
+  text-align: center;
+}
+
+.otp_input {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #6d6d6d;
+  text-align: center;
+}
+
+.blue_text {
+  font-size: 1.4rem;
+  color: rgb(42, 106, 180);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 1s;
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 2px
+    no-repeat;
+}
+
+.blue_text:hover {
+  --d: 100%;
+}
+
+.black_text {
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .verification_form {
+    margin: 5rem 3rem;
+  }
+}

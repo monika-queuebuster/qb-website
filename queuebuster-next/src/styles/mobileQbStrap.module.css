@@ -1,0 +1,94 @@
+.contactUsContainer {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.contactUsContainer p {
+  margin-top: 2rem;
+}
+
+.contactUsContainer h2 {
+  font-weight: 600;
+}
+
+.inputContactMobile {
+  border: transparent;
+  width: 100%;
+  box-shadow: 0px 0px 4px #00000033;
+  margin-bottom: 1rem;
+  height: 5rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+.cardMobile {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 0px 10px #00000029;
+  border-radius: 20px;
+}
+
+.officeDetails > div {
+  margin-top: 2rem;
+}
+
+.loginCardMobile {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  /* box-shadow: 5px 0px 10px #00000029;
+    border-radius: 20px; */
+  border: 2.5px solid #0d0d0d18;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.reactStrapInput::placeholder {
+  font-size: 1.6rem;
+  color: #5a5a5a99 !important;
+  font-weight: 300;
+}
+
+.customTextArea::placeholder {
+  color: #5a5a5a99 !important;
+  font-weight: 300;
+}
+
+.footer_btn_container, .gdnv_btn {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-around;
+  /* border-top: 1px solid rgba(128, 128, 128, 0.431); */
+  position: fixed;
+  bottom: 0;
+  transition: 350ms ease-in;
+  z-index: 10;
+  box-shadow: rgba(43, 43, 43, 0.2) 0px 2px 8px 0px;
+}
+
+.testimonial_heading {
+  text-align: center;
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  margin-bottom: 3rem;
+}
+
+.testimonial_section {
+  margin: 5rem 3rem;
+}
+
+.section_heading {
+  width: fit-content;
+  margin: auto;
+}
+
+.heading_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem 0 3rem auto;
+}
+
+.section_heading > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}

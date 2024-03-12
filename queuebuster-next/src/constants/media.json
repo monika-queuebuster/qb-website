@@ -1,0 +1,236 @@
+{
+  "newsHeadlines22to23": [
+    {
+      "id": "1",
+      "newsLogo": "/assets/media/tg-logo.svg",
+      "headline": "Point-of-sale startup QueueBuster lands Rs 63 crore funding",
+      "link": "https://economictimes.indiatimes.com/tech/funding/point-of-sale-startup-queuebuster-lands-rs-63-crore-funding/articleshow/92179286.cms?from=mdr",
+      "width": "20rem",
+      "mobileWidth": "10rem"
+    },
+    {
+      "id": "2",
+      "newsLogo": "/assets/media/VCC-logo.svg",
+      "headline": "PoS App QueueBuster Raises Series A Funding From Chiratae, Omidyar, Others",
+      "link": "https://www.vccircle.com/pos-app-queuebuster-raises-series-a-funding-from-chiratae-omidyar-others",
+      "width": "13rem",
+      "mobileWidth": "10rem"
+    },
+    {
+      "id": "3",
+      "newsLogo": "/assets/media/your-story.png",
+      "headline": "FUNDING ALERT] MOBILE POS STARTUP QUEUEBUSTER RAISES RS 63.3 CR IN SERIES A",
+      "link": "https://yourstory.com/2022/06/mobilepos-startup-queuebuster-chiratae-ventures-omidyar-network",
+      "width": "10rem",
+      "mobileWidth": "10rem"
+    }
+  ],
+
+  "newsHeadlines23to24": [
+    {
+      "id": "0",
+      "newsLogo": "/assets/media/dquest-logo.webp",
+      "headline": "QueueBuster POS primary focus is on optimizing store operations, efficient inventory management",
+      "link": "https://www.dqindia.com/queuebuster-pos-primary-focus-is-on-optimizing-store-operations-efficient-inventory-management-varun-tangri/",
+      "width": "25rem",
+      "mobileWidth": "18rem"
+    },
+    {
+      "id": "1",
+      "newsLogo": "/assets/media/tg-logo.svg",
+      "headline": "How generative AI and ChatGPT help businesses retain their customers this festival season",
+      "link": "https://cio.techgig.com/leaders-opinion/how-generative-ai-and-chatgpt-help-businesses-retain-their-customers-this-festival-season/articleshow_b2b/104854138.cms",
+      "width": "10rem",
+      "mobileWidth": "8rem"
+    },
+    {
+      "id": "2",
+      "newsLogo": "/assets/media/india-business-trade.png",
+      "headline": "Inventory management and product cataloging: Essentials for the upcoming festive season",
+      "link": "https://www.tpci.in/indiabusinesstrade/blogs/inventory-management-and-product-cataloging-essentials-for-the-upcoming-festive-season/",
+      "width": "12rem",
+      "mobileWidth": "8rem"
+    },
+    {
+      "id": "3",
+      "newsLogo": "/assets/media/startup-logo_v1.svg",
+      "headline": "QueueBuster POS teams up with TVS electronics to expand sales merchant base",
+      "link": "https://startup.outlookindia.com/sector/e-commerce/queuebuster-pos-teams-up-with-tvs-electronics-to-expand-sales-merchant-base-news-9683",
+      "width": "10rem",
+      "mobileWidth": "8rem"
+    },
+    {
+      "id": "4",
+      "newsLogo": "/assets/media/businessline-logo.svg",
+      "headline": "QueueBuster POS joins hands with TVS Electronics to expand its sales merchant base",
+      "link": "https://www.thehindubusinessline.com/info-tech/queuebuster-pos-joins-hands-with-tvs-electronics-to-expand-its-sales-merchant-base/article67425897.ece",
+      "width": "20rem",
+      "mobileWidth": "20rem"
+    },
+    {
+      "id": "5",
+      "newsLogo": "/assets/media/WION.png",
+      "headline": "Festivals, Shopping, & The Bottom Line: India's upcoming festive season unveiled",
+      "link": "https://www.wionews.com/business-economy/festivals-shopping-the-bottom-line-indias-upcoming-festive-season-unveiled-640050",
+      "width": "5rem",
+      "mobileWidth": "5rem"
+    },
+    {
+      "id": "6",
+      "newsLogo": "/assets/media/Trak.in-final-logo.png",
+      "headline": "Empowering 65,000+ Businesses To Reduce POS Expenses By 50%",
+      "link": "https://trak.in/stories/exclusive-interview-this-retail-tech-company-is-empowering-65000-businesses-to-reduce-pos-expenses-by-50/",
+      "width": "15rem",
+      "mobileWidth": "15rem"
+    },
+    {
+      "id": "7",
+      "newsLogo": "/assets/media/cxo-logo.png",
+      "headline": "Revolutioninsing Retail - 5 ways in which you can optimise your retail checkouts",
+      "link": "https://www.cxotoday.com/specials/revolutionising-retail-5-optimizing-ways-that-give-superspeed-to-your-retail-checkouts/",
+      "width": "18rem",
+      "mobileWidth": "18rem"
+    },
+    {
+      "id": "8",
+      "newsLogo": "/assets/media/BW-Retail.webp",
+      "headline": "In the festive season, how QueueBuster is creating difference in the retail world by automating various processes?",
+      "link": "https://bwretailworld.businessworld.in/news/only-7-9-of-indian-merchants-use-software-to-manage-businesses",
+      "width": "14rem",
+      "mobileWidth": "14rem"
+    },
+    {
+      "id": "9",
+      "newsLogo": "/assets/media/india-business-trade.png",
+      "headline": "Shopping trends in 2023",
+      "link": "https://www.tpci.in/indiabusinesstrade/blogs/shopping-trends-in-india-turning-to-phygital/",
+      "width": "12rem",
+      "mobileWidth": "8rem"
+    },
+    {
+      "id": "10",
+      "newsLogo": "/assets/media/tg-logo.svg",
+      "headline": "Startups reshaping the Indian retail industry",
+      "link": "https://content.techgig.com/industry-insights/startups-reshaping-the-indian-retail-industry/articleshow/103057041.cms",
+      "width": "20rem",
+      "mobileWidth": "10rem"
+    },
+    {
+      "id": "11",
+      "newsLogo": "/assets/media/DQ-week.webp",
+      "headline": "8 Must-Have Retail Tech Solutions for Streamlining Store Operations",
+      "link": "https://www.dqweek.com/retail-ratna/8-must-have-retail-tech-solutions-for-streamlining-store-operations",
+      "width": "14rem",
+      "mobileWidth": "12rem"
+    },
+    {
+      "id": "12",
+      "newsLogo": "/assets/media/adgully.png",
+      "headline": "Point-of-Sale Startup QueueBuster launches its first ad campaign",
+      "link": "https://www.adgully.com/point-of-sale-startup-queuebuster-launches-its-first-ad-campaign-134660.html",
+      "width": "13rem",
+      "mobileWidth": "12rem"
+    },
+    {
+      "id": "13",
+      "newsLogo": "/assets/media/bmi_logo.jpg",
+      "headline": "We aim to garner 200% increase in business queries with our first campaign launch: QueueBuster",
+      "link": "https://bestmediainfo.com/2023/07/we-aim-to-garner-200-increase-in-business-queries-with-our-first-campaign-launch-queuebuster",
+      "width": "20rem",
+      "mobileWidth": "18rem"
+    },
+    {
+      "id": "14",
+      "newsLogo": "/assets/media/FE-logo.png",
+      "headline": "Point-of-Sale startup QueueBuster launches its first ad campaign Business Hoga Asaan",
+      "link": "https://www.financialexpress.com/business/brandwagon-point-of-sale-startup-queuebuster-launches-its-first-ad-campaign-business-hoga-asaan-3189746/",
+      "width": "30rem",
+      "mobileWidth": "26rem"
+    },
+    {
+      "id": "15",
+      "newsLogo": "/assets/media/MediaNews4U.png",
+      "headline": "QueueBuster makes #BusinessHogaAsaan promise in debut campaign",
+      "link": "https://www.medianews4u.com/queuebuster-makes-businesshogaasaan-promise-in-debut-campaign/",
+      "width": "20rem",
+      "mobileWidth": "20rem"
+    },
+    {
+      "id": "16",
+      "newsLogo": "/assets/media/BNTW.webp",
+      "headline": "Innovation takes the center stage at Engage'23: Redefining India's Entrepreneurial Landscape",
+      "link": "http://businessnewsthisweek.com/business/innovation-takes-center-stage-at-engage23-redefining-indias-entrepreneurial-landscape/",
+      "width": "14rem",
+      "mobileWidth": "10rem"
+    },
+    {
+      "id": "18",
+      "newsLogo": "/assets/media/zee-news-logo.avif",
+      "headline": "Exclusive: Jimmy Sheirgill Opens Up on Troll Culture In Bollywood, says 'People Do This To Be In News",
+      "link": "https://zeenews.india.com/people/exclusive-jimmy-sheirgill-opens-up-on-troll-culture-in-bollywood-says-people-do-this-to-be-in-news-2627657.html",
+      "width": "8rem",
+      "mobileWidth": "8rem"
+    },
+    {
+      "id": "19",
+      "newsLogo": "/assets/media/DB-logo.png",
+      "headline": "एंगेज-23 समिट में पहुंचे अभिनेता जिमी शेरगिल",
+      "link": "https://www.bhaskarhindi.com/city/new-delhi/actor-jimmy-shergill-arrives-at-engage-23-summit-943494",
+      "width": "8rem",
+      "mobileWidth": "8rem"
+    }
+  ],
+
+  "newsHeadlines24to25": [
+    {
+      "id": "0",
+      "newsLogo": "/assets/media/bizz-buzz-logo.png",
+      "headline": "The rise of android POS systems is reshaping the business landscape",
+      "link": "https://www.bizzbuzz.news/bizz-talk/the-rise-of-android-pos-systems-is-reshaping-the-business-landscape-1295355",
+      "width": "15rem",
+      "mobileWidth": "10rem"
+    },
+    {
+      "id": "1",
+      "newsLogo": "/assets/media/inc42.svg",
+      "headline": "How Android-POS Software QueueBuster Empowers 65K+ Businesses With A Super-App-Like Tech Stack",
+      "link": "https://inc42.com/startups/how-android-pos-software-queuebuster-empowers-65k-businesses-with-a-super-app-like-tech-stack/",
+      "width": "15rem",
+      "mobileWidth": "10rem"
+    },
+    {
+      "id": "2",
+      "newsLogo": "/assets/media/toi.svg",
+      "headline": "QueueBuster eyes half a million businesses for its POS solutions",
+      "link": "https://timesofindia.indiatimes.com/business/startups/companies/queuebuster-eyes-half-a-million-businesses-for-its-pos-solutions/articleshow/106537004.cms?from=mdr",
+      "width": "45rem",
+      "mobileWidth": "25rem"
+    },
+    {
+      "id": "3",
+      "newsLogo": "/assets/media/siliconIndia.png",
+      "headline": "How emerging technologies are propelling modern retail towards greater progress.",
+      "link": "https://technology.siliconindia.com/viewpoint/cxoinsights/how-emerging-technologies-are-propelling-modern-retail-towards-greater-progress-nwid-43739.html",
+      "width": "15rem",
+      "mobileWidth": "10rem"
+    }
+  ],
+
+  "years": [
+    {
+      "id": "1",
+      "value": "24-25",
+      "name": "FY 2024-2025"
+    },
+    {
+      "id": "2",
+      "value": "23-24",
+      "name": "FY 2023-2024"
+    },
+    {
+      "id": "3",
+      "value": "22-23",
+      "name": "FY 2022-2023"
+    }
+  ]
+}

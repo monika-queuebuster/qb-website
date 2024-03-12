@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="130" viewBox="0 0 230 130">
+  <defs>
+    <filter id="Rectangle_7555" x="0" y="0" width="230" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_72794" data-name="Group 72794" transform="translate(-1685 -720)">
+    <g transform="matrix(1, 0, 0, 1, 1685, 720)" filter="url(#Rectangle_7555)">
+      <rect id="Rectangle_7555-2" data-name="Rectangle 7555" width="200" height="100" rx="50" transform="translate(10 10)" fill="#fff"/>
+    </g>
+    <text id="Customer_Retention" data-name="Customer
+Retention" transform="translate(1795 771)" fill="#8a9d56" font-size="26" font-family="Barlow-BoldItalic, Barlow" font-weight="700" font-style="italic"><tspan x="-54" y="0">Customer</tspan><tspan x="-54" y="32">Retention</tspan></text>
+  </g>
+</svg>

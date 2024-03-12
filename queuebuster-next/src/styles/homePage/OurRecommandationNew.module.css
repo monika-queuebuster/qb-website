@@ -1,0 +1,278 @@
+.mainContainer {
+   display: grid;
+   grid-template-columns: 76.5% 23.5%;
+   padding: 2rem 9.3rem 3rem 9.3rem;
+}
+
+.containerFivePointFiveAndEight {
+   display: grid;
+   grid-template-columns: 40% 60%;
+   /* border: 2px solid red; */
+}
+.containerFivePointFive {
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: 28%;
+   background-position: 26rem 1rem;
+   height: 24.09rem;
+   background-color: #f5f4ff;
+   padding: 2rem 0 0 1.3rem;
+   display: flex;
+}
+
+.containerFivePointFive > div:nth-child(1) {
+   width: 78%;
+}
+
+.five_point_five_heading {
+   font-size: 3.65rem;
+   margin-bottom: 1.5rem;
+}
+.five_point_five_text {
+   font: normal normal normal 1.8rem/2.5rem Inter;
+   color: #5a5a5a;
+}
+
+.image_container {
+   position: relative;
+   height: 21rem;
+   width: 14rem;
+}
+
+.containerEightPointZero {
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: 22%;
+   background-position: 38rem 1rem;
+   height: 24.09rem;
+   background-color: #eff6ff;
+   display: flex;
+   padding: 2rem 0 0 1.3rem;
+}
+
+.containerEightPointZero > div > h4 {
+   font-size: 3.65rem;
+   margin-bottom: 1.5rem;
+}
+
+.containerEightPointZero > div:nth-child(1) {
+   width: 60%;
+}
+.containerEightPointZero > div :nth-child(2) {
+   font: normal normal normal 1.8rem/2.5rem Inter;
+   color: #5a5a5a;
+}
+
+.eight_image_container {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   height: 21rem;
+   width: 21rem;
+}
+.knowMore {
+   font-size: 1.314rem;
+   color: #000d4b;
+   cursor: pointer;
+}
+.containerTenFourteenThirteen {
+   display: grid;
+   grid-template-columns: 59% 41%;
+}
+
+.containerTen {
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: 47%;
+   background-position: 30rem 2rem;
+   height: 21.9rem;
+   background-color: #e1f3ec;
+   display: flex;
+}
+.containerTen > div:nth-child(1) {
+   width: 45%;
+   height: 100%;
+   padding: 2rem 0 0 1.3rem;
+}
+.containerTen > div > h4 {
+   font-size: 3.65rem;
+   margin-bottom: 1.5rem;
+}
+.containerTen > div > h3 {
+   font-size: 1.9rem;
+   margin-bottom: 0.7rem;
+}
+.containerTen > div :nth-child(2) {
+   font: normal normal normal 1.8rem/2.5rem Inter;
+   color: #5a5a5a;
+}
+.ten_image_container {
+   position: relative;
+   height: 16rem;
+   width: 20rem;
+   margin-top: 2rem;
+   margin-left: 5rem;
+}
+.containerThirteen {
+   /* background-image: url(../../../public/assets/whitePos1.webp); */
+   position: relative;
+   display: flex;
+   background-repeat: no-repeat;
+   background-size: 58%;
+   background-position: 21.8rem 2rem;
+   height: 25.55rem;
+   background-color: #eff6ff;
+}
+.containerThirteen > div:nth-child(1) {
+   width: 40%;
+   height: 100%;
+   padding: 2rem 0 0 1.3rem;
+}
+.containerThirteen > div > h4 {
+   font-size: 3.65rem;
+   margin-bottom: 1.5rem;
+}
+.containerThirteen > div > h3 {
+   font-size: 1.9rem;
+   margin-bottom: 0.7rem;
+}
+.containerThirteen > div :nth-child(2) {
+   font: normal normal normal 1.8rem/2.5rem Inter;
+   color: #5a5a5a;
+}
+.thirteen_image_container {
+   position: relative;
+   height: 22rem;
+   width: 32rem;
+   margin-top: 2rem;
+}
+
+.containerFourteen {
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: 58%;
+   background-position: 16rem 12rem;
+   padding: 2rem 2rem 0 2rem;
+   background-color: #f0fcff;
+   height: 100%;
+}
+.containerFourteen > div  > h4 {
+   font-size: 3.65rem;
+   margin-bottom: 1.5rem;
+}
+.containerFourteen > div > h3 {
+   font-size: 1.9rem;
+   margin-bottom: 0.7rem;
+}
+.containerFourteen > div :nth-child(2) {
+   width: 65%;
+   font: normal normal normal 1.8rem/2.5rem Inter;
+   color: #5a5a5a;
+}
+.fourteen_image_container {
+   position: absolute;
+   height: 35rem;
+   width: 23rem;
+   bottom: 1rem;
+   right: 0;
+}
+.containerFiveDotZero {
+   /* background-image: url(../../../public/assets/whiteMobPos1.webp); */
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: 45%;
+   background-position: 16rem 14rem;
+   background-color: #e1f3ec;
+   height: 100%;
+   padding: 3rem 0 0 1.5rem;
+}
+.containerFiveDotZero > div > h4 {
+   font-size: 3.65rem;
+   margin-bottom: 1.5rem;
+}
+.containerFiveDotZero > div > h3 {
+   font-size: 1.9rem;
+   margin-bottom: 1rem;
+}
+.containerFiveDotZero > div > p {
+   width: 90%;
+   font: normal normal normal 1.8rem/2.5rem Inter;
+   color: #5a5a5a;
+}
+.five_image_container {
+   position: absolute;
+   height: 20rem;
+   width: 14rem;
+   right: 0;
+   bottom: 1rem;
+}
+.containerSmartPhone {
+   /* background-image: url(../../../public/assets/newSmartPhone1.webp); */
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: 41%;
+   background-position: 17rem 11rem;
+   background-color: #f5f4ff;
+   padding: 3rem 0 0 1.5rem;
+   height: 100%;
+}
+.containerSmartPhone > div > h2 {
+   font-size: 3.65rem;
+   margin-bottom: 1.5rem;
+}
+.containerSmartPhone > div > p {
+   width: 60%;
+   font: normal normal normal 1.8rem/2.5rem Inter;
+   color: #5a5a5a;
+}
+.smartphone_image_container {
+   position: absolute;
+   height: 24rem;
+   width: 15rem;
+   bottom: 1rem;
+   right: 0.5rem;
+}
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0.5rem;
+   color: #ffffff;
+   background-color: #000d4b;
+   width: 14.6rem;
+   margin-top: 4rem;
+   height: 3.65rem;
+}
+
+.modal {
+   margin-top: 20rem;
+   max-width: 73rem;
+   height: 43.8rem;
+}
+.modal > div:nth-child(1) {
+   border: none;
+}
+.modal > div > div:nth-child(1) {
+   border: none;
+}
+.modal > div > div:nth-child(2) > div {
+   width: 60%;
+   padding-left: 2rem;
+}
+.modal > div > div:nth-child(2) > div > h1 {
+   font-size: 5.84rem;
+   margin-bottom: 3rem;
+}
+.modal > div > div:nth-child(2) > div > ul {
+   font-size: 2.19rem;
+   color: #5a5a5a;
+}
+.modal > div > div:nth-child(2) {
+   display: flex;
+   align-items: center;
+}
+.modal > div > div:nth-child(2) > img {
+   height: 35rem;
+   margin-left: 5rem;
+   color: green;
+}

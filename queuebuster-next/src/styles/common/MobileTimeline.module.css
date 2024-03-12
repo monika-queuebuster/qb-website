@@ -1,0 +1,75 @@
+.timeline_outer_container {
+  display: flex;
+  align-items: center;
+}
+
+.timeline_inner_container {
+  margin: 0 3rem;
+  overflow-x: clip;
+}
+
+.timeline {
+  height: 0.8rem;
+  background-color: #2a6ab4;
+  display: flex;
+  padding: 0 5rem;
+}
+
+.events {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  margin-right: 15rem;
+  position: relative;
+  bottom: 0.7rem;
+  cursor: pointer;
+  border: 2px solid #2a6ab4;
+  overflow: visible !important;
+}
+
+.current_event {
+  background-color: #2a6ab4;
+}
+
+.other_event {
+  background-color: #fff;
+}
+
+.right_arrow,
+.left_arrow {
+  font-size: 3rem;
+  color: #3c3c3c;
+}
+
+.right_arrow {
+  right: 0;
+}
+
+.OurJourneyDiv {
+  height: 42rem;
+  margin-top: 5rem;
+}
+.OurJourneyDiv > h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.OurJourneyDiv > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.OurJourneyDiv > div > div > p {
+  text-align: start;
+}
+.OurJourneyDiv > div > div {
+  color: #5a5a5a;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.disabled_arrow {
+  pointer-events: none;
+  color: rgb(217, 217, 217);
+}

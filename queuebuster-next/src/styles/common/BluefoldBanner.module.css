@@ -1,0 +1,52 @@
+.blue_fold {
+  display: flex;
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  height: 45rem;
+}
+
+.left_side {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.blue_fold_heading {
+  font: normal normal bold 3rem/3.6rem Inter;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.blue_fold_img_container {
+  position: relative;
+  width: 50%;
+}
+
+.blue_fold_desc {
+  font: normal normal normal 1.62rem/2.3rem Inter;
+  color: #fff;
+  margin-bottom: 3.75rem;
+}
+
+.img_container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .blue_fold {
+    flex-direction: column-reverse;
+    height: 65rem;
+  }
+  .left_side {
+    width: 100%;
+    padding: 2rem 3rem;
+  }
+  .blue_fold_img_container {
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+}

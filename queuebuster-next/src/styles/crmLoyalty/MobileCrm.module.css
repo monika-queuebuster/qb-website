@@ -1,0 +1,398 @@
+.section_one {
+  display: flex;
+  margin: 3rem;
+  flex-direction: column;
+}
+
+.left_container {
+  margin-top: 0rem;
+}
+
+.black_text {
+  font: normal normal bold 2rem/3rem Inter;
+}
+
+.blue_text {
+  color: #2a6ab4;
+  font: normal normal bold 3.5rem/5rem Inter;
+}
+
+.right_container {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.section1_image_container {
+  height: 35rem;
+  width: 44rem;
+}
+
+.section1_image_container > img {
+  border-radius: 20px;
+}
+
+.page_heading {
+  font: normal normal bold 3.75rem/4.5rem Inter;
+}
+
+.page_subheading {
+  font: normal normal normal 1.62rem/2rem Inter;
+  color: #5a5a5a;
+  margin: 1.8rem 0 3.75rem 0;
+}
+
+.ratings {
+  display: flex;
+  gap: 3rem;
+  margin-top: 6.25rem;
+}
+
+.rating_container {
+  border-radius: 6px;
+  /* padding: 0.7rem 0.8rem; */
+}
+
+.company_img_container {
+  height: 1.65rem;
+  width: 7.5rem;
+  position: relative;
+}
+
+.element_rating {
+  font-size: 1.25rem;
+}
+
+.outof_rating {
+  font-size: 0.75rem;
+  margin-top: 0.2rem;
+}
+
+.ratings_img_container {
+  height: 1.45rem;
+  width: 6.5rem;
+  position: relative;
+  display: inline-block;
+  margin-left: 0.6rem;
+}
+
+.section_two {
+  background-color: #f7f9ff !important;
+  padding: 3.75rem 0 4.2rem 0;
+}
+
+.section_two_heading {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 3.75rem;
+}
+
+.section_two > div > div {
+  background-color: #f7f9ff;
+}
+
+.section_three {
+  margin: 0 3rem;
+  margin-top: 1rem;
+}
+
+.section_three_containers {
+  align-items: center;
+  margin-bottom: 6.25rem;
+  gap: 6.25rem;
+}
+
+.section3_image_container {
+  height: 35.75rem;
+  width: 35.75rem;
+  position: relative;
+  border-radius: 30px;
+  margin-bottom: 2rem;
+}
+
+.section3_content {
+  margin-top: 3rem;
+}
+
+.container_heading {
+  font: normal normal bold 2.2rem/3.12rem Inter;
+  margin-bottom: 2.5rem;
+}
+
+.container_normal_text {
+  font: normal normal normal 1.8rem/2.75rem Inter;
+  color: #5a5a5a;
+}
+
+.container_link {
+  margin-top: 4.35rem;
+}
+
+.container_link > span {
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 2px
+    no-repeat;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container_link > span:hover {
+  --d: 100%;
+}
+
+.container_link > span {
+  color: #2a6ab4;
+  font: normal normal bold 2rem/2rem Inter;
+}
+
+.section_four {
+  background-color: #2a6ab4;
+  border-radius: 16px;
+  margin: 0 3rem 6rem 3rem;
+}
+
+.section4_left_side {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section4_image_container {
+  height: 23.68rem;
+  width: 32.43rem;
+  position: relative;
+  top: 2rem;
+}
+
+.section_four_heading {
+  font: normal normal bold 3rem/4rem Inter;
+  color: #fff;
+  text-align: left;
+}
+
+.section_four_content {
+  font: normal normal normal 1.8rem/2.5rem Inter;
+  color: #fff;
+  margin: 1.87rem 0;
+  text-align: left;
+}
+
+.section_five {
+  margin: 2rem;
+}
+
+.section5_heading_image {
+  height: 12rem;
+  width: 30rem;
+  position: relative;
+  top: 33.42rem;
+}
+
+.section5_container {
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.section5_image_container {
+  height: 36.42rem;
+  width: 33.87rem;
+  position: absolute;
+  top: -3rem;
+}
+
+.section5_right_container {
+  margin-top: 30rem;
+}
+
+.section5_LC_heading {
+  font: normal normal bold 3rem/3.8rem Inter;
+}
+
+.LC_heading {
+  font: normal normal normal 1.7rem/3rem Inter;
+  margin: 0;
+}
+
+.LC_number {
+  font: normal normal bold 3.75rem/3.12rem Inter;
+  color: #2a6ab4;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.LC_text {
+  font-size: 3rem;
+}
+
+.section_six {
+  margin: 0 3rem;
+}
+
+.highlights_sec_heading,
+.industry_heading {
+  font: normal normal bold 2.3rem/3.1rem Inter;
+  text-align: center;
+}
+
+.testimonial_heading {
+  height: 3.9rem;
+  width: 23.75rem;
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.section_seven {
+  margin: 4rem 3rem;
+}
+
+.section_nine {
+  margin: 3rem;
+}
+
+.section9_banner {
+  background-color: #2a6ab4;
+  padding: 3rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section9_banner_heading {
+  font: normal normal bold 3.37rem/4.5rem Inter;
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.side_img1 {
+  height: 7rem;
+  width: 13rem;
+  position: absolute;
+  bottom: 0rem;
+  left: -3.5rem;
+}
+
+.side_img2 {
+  height: 12.5rem;
+  width: 20rem;
+  position: absolute;
+  top: -3rem;
+  right: -3rem;
+}
+
+.tag {
+  width: fit-content;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+  font: normal normal bold 1.35rem/3rem Inter;
+  margin-bottom: 1.25rem;
+}
+
+.point_title {
+  font: normal normal bold 1.87rem/2.75rem Inter;
+  color: #5a5a5a;
+}
+
+.point_desc {
+  font: normal normal normal 1.87rem/2.75rem Inter;
+  display: inline;
+  color: #5a5a5a;
+}
+
+.otherFeature {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.highlights_section {
+  margin: 3rem;
+}
+
+.features_icon_container {
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  margin-bottom: 2rem;
+}
+
+.other_feature_heading {
+  font: normal normal bold 1.8rem/2.75rem Inter;
+  color: #343434;
+}
+
+.other_feature_desc {
+  font: normal normal normal 1.8rem/2.75rem Inter;
+  color: #5a5a5a;
+}
+
+.bullet_points {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+}
+
+.mobile_industries_section {
+  margin: 5.85rem 3.25rem 5rem 3.25rem;
+}
+
+.mobile_industry_section_heading {
+  position: relative;
+  height: 3.93rem;
+  width: 24rem;
+  margin: auto;
+}
+
+.demo_img {
+  height: 12rem;
+  width: 20rem;
+  position: relative;
+}
+
+.demo_desc {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.rewarding_section_heading {
+  font: normal normal bold 3rem/4rem Inter;
+  margin-top: 5rem;
+}
+
+/* strokes */
+.highlights_sec_stroke {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  margin-left: auto;
+  top: -1rem;
+  margin-bottom: 2.8rem;
+}
+
+.industries_stroke_img {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  margin-left: auto;
+  top: -1rem;
+}
+
+.testimonials_stroke_img {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  margin-left: auto;
+  margin-bottom: 2.8rem;
+  top: -1rem;
+}
+
+.business_stroke_img {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  top: -1rem;
+  left: 0rem;
+}

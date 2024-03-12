@@ -1,0 +1,37 @@
+.icon_container {
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font: normal normal 600 1.8rem/3rem Inter;
+}
+
+.desc {
+  font: normal normal normal 1.4rem/2.5rem Inter;
+}
+
+.trustfactor_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 9rem 9.3rem 3rem 9.3rem;
+}
+
+.trust_factor_component {
+  padding: 2rem;
+}
+
+.trust_factor_component:hover {
+  background-color: #EEC9FF26;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 540px) {
+  .trustfactor_container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 6.25rem 3rem 6.25rem 3rem;
+  }
+}

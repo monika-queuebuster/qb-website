@@ -1,0 +1,221 @@
+.container {
+   width: 100vw;
+}
+.topBanner_parent {
+   height: 45rem;
+   background-image: url("https://quebuster.s3.ap-south-1.amazonaws.com/website/assets/careers/hero-img+(2).webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.topBanner_contentWrap {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   position: absolute;
+   bottom: 10rem;
+   color: white;
+}
+.topBanner_contentWrap > h1 {
+   font-size: 5rem;
+   height: 7.2rem;
+   margin-bottom: 0;
+}
+.topBanner_contentWrap > div:nth-child(2) {
+   font-size: 1.6rem;
+   height: 5.2rem;
+   width: 66.8rem;
+   text-align: center;
+   font-weight: normal;
+}
+.mainContent_parent {
+   padding: 8rem;
+   display: flex;
+   flex-direction: column;
+   row-gap: 8rem;
+   /* border: 2px solid red; */
+}
+.mainContent_child1,
+.mainContent_child2,
+.mainContent_child3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* gap: 12.8rem; */
+   /* height: 40rem; */
+   /* border: 2px solid green; */
+}
+
+.mainContent_child1 > div:nth-child(1) {
+   flex: 1;
+}
+.mainContent_child1 > div:nth-child(2) {
+   flex: 1.4;
+   height: 43.8rem;
+}
+.mainContent_child2 > div:nth-child(1) {
+   flex: 1.4;
+   height: 43.8rem;
+}
+.mainContent_child2 > div:nth-child(2) {
+   flex: 1;
+}
+.mainContent_child3 > div:nth-child(1) {
+   flex: 1;
+   /* border: 2px solid green; */
+}
+.mainContent_child3 > div:nth-child(2) {
+   flex: 1.4;
+   height: 39.42rem;
+   /* border: 2px solid green; */
+}
+.mainContent_child1_img {
+   background-image: url("https://quebuster.s3.ap-south-1.amazonaws.com/website/assets/careers/mission+(1).webp");
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.mainContent_child2_img {
+   background-image: url("https://quebuster.s3.ap-south-1.amazonaws.com/website/assets/careers/join+(1).webp");
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.mainContent_child3_img {
+   background-image: url("https://quebuster.s3.ap-south-1.amazonaws.com/website/assets/careers/culture+(1).webp");
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.mainContent_child_text {
+   display: flex;
+   align-items: center;
+}
+.mainContent_child1_textWrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+}
+.mainContent_child1_text1 {
+   font: normal normal bold 3.65rem/4.38rem inter;
+}
+.mainContent_child1_text2 {
+   font-size: 1.6rem;
+}
+.flex {
+   display: flex;
+   gap: 1rem;
+}
+
+.column {
+   flex-direction: column;
+}
+.bigFont {
+   font-size: 6rem;
+   color: #222222;
+   opacity: 0.2;
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+}
+.image_wrapper {
+   /* height: 70rem; */
+   display: flex;
+   justify-content: center;
+   gap: 6rem;
+   padding: 8rem;
+   padding-top: 0rem;
+}
+.imageGroup_img1 {
+   width: 29.2rem;
+   position: relative;
+   height: 29.2rem;
+}
+.imageGroup_img2 {
+   width: 29.2rem;
+   position: relative;
+   height: 29.2rem;
+}
+.imageGroup_img3 {
+   width: 43.8rem;
+   position: relative;
+   height: 61rem;
+}
+.imageGroup_img4 {
+   width: 43.8rem;
+   position: relative;
+   height: 61rem;
+}
+.hiringProcess_wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #f6f9fe;
+   height: 60rem;
+}
+.hiringProcess_wrapper > div:nth-child(1) {
+   margin-bottom: 20px;
+   /* font-size: 50px;
+   font-weight: bold; */
+   font: normal normal bold 4.08rem/4.964rem inter;
+   margin-top: 8rem;
+}
+.hiringProcess_wrapper > div:nth-child(2) {
+   font: normal normal normal 1.314rem/1.606rem inter;
+   width: 85rem;
+   text-align: center;
+}
+
+.hiringProcess_wrapper > div:nth-child(3) {
+   margin: 9rem 20rem;
+}
+
+
+.img_grid_container {
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   padding: 8rem;
+   gap: 1rem;
+}
+
+.outer_left_container {
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+   gap: 1rem;
+}
+.inner_top_container {
+   display: grid;
+   grid-template-columns: 1fr auto;
+   gap: 1rem;
+}
+.inner_bottom_container {
+   display: grid;
+   grid-template-columns: auto 1fr;
+   gap: 1rem;
+}
+.itlc_img, .ibrc_img {
+   height: 30rem;
+   width:  100%;
+   position: relative;
+   gap: 1rem;
+}
+.itrc_img, .iblc_img {
+   height: 30rem;
+   width: 60rem;
+   position: relative;
+   gap: 1rem;
+}
+
+.olc_img {
+   height: 61rem;
+   width: 30rem;
+   position: relative;
+}
+
+.culture_content > p {
+   margin-bottom: 0;
+}

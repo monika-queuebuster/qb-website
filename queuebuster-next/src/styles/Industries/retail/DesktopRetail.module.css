@@ -1,0 +1,257 @@
+.hero_section {
+  margin: 0 9.37rem 0 9.37rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_part {
+  width: 40%;
+  margin-top: 6.25rem;
+}
+
+.black_text {
+  font: normal normal bold 2.3rem/4.5rem Inter;
+  color: #343434;
+}
+
+.blue_text {
+  font: normal normal bold 5.12rem/6.5rem Inter;
+  color: #2a6ab4;
+}
+
+.page_desc {
+  color: #5a5a5a;
+  font: normal normal normal 1.8rem/3rem Inter;
+}
+
+/* .image_part {
+  margin-top: 6.25rem;
+} */
+
+.hero_image_container {
+  height: 50.6rem;
+  width: 68.8rem;
+  position: relative;
+}
+
+.ratings {
+  display: flex;
+  gap: 5rem;
+  margin-top: 6.25rem;
+}
+
+.rating_container {
+  border-radius: 6px;
+  /* padding: 0.7rem 0.8rem; */
+}
+
+.company_img_container {
+  height: 3.65rem;
+  width: 11.5rem;
+  position: relative;
+}
+
+.element_rating {
+  font-size: 2rem;
+}
+
+.outof_rating {
+  font-size: 1rem;
+  margin-top: 0.4rem;
+}
+
+.ratings_img_container {
+  height: 2.45rem;
+  width: 9rem;
+  position: relative;
+  display: inline-block;
+  margin-left: 0.6rem;
+}
+
+.marquee_section {
+  background-color: #fff;
+  padding: 3.75rem 0;
+}
+
+.marquee_heading {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 3.75rem;
+}
+
+.ecstatic_section {
+  margin: 6.25rem 5.3rem 0 5.3rem;
+}
+
+.features_section {
+  margin: 6.25rem 9.3rem 0 9.3rem;
+}
+
+.ecstatic_header,
+.features_header,
+.glimpses_header,
+.video_header,
+.outlet_header,
+.testimonial_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.ecstatic_header > h3,
+.features_header > h3,
+.glimpses_header > h3,
+.video_header > h3,
+.outlet_header > h3,
+.testimonial_header > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.ecstatic_stroke {
+  height: 2rem;
+  width: 22rem;
+  position: relative;
+  /* left: 15rem; */
+  top: -0.5rem;
+  margin-bottom: 1.9rem;
+  margin-left: auto;
+}
+
+.features_stroke {
+  height: 2rem;
+  width: 10rem;
+  position: relative;
+  /* left: 4rem; */
+  margin-top: -0.5rem;
+  margin-bottom: 3.75rem;
+  margin-left: auto;
+}
+
+.video_section,
+.outlet_section,
+.blue_fold_section,
+.demo_banner_section {
+  margin: 6.25rem 9.3rem 0 9.3rem;
+}
+
+.testimonial_section,
+.glimpses_section {
+  margin: 6.25rem 5.3rem 0 5.3rem;
+}
+
+.glimpses_stroke {
+  height: 2rem;
+  width: 10rem;
+  position: relative;
+  margin-top: -0.5rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+}
+
+.video_stroke {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  margin-top: -0.5rem;
+  margin-bottom: 3.75rem;
+  margin-left: auto;
+}
+
+.iframe_container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.iframe_left_banner {
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  padding: 2.8rem;
+  height: 40rem;
+  width: 40%;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.iframe_left_banner > p {
+  color: #fff;
+  font: normal normal normal 1.8rem/3rem Inter;
+  width: 80%;
+}
+
+.large_text {
+  font: normal normal 600 3.8rem/3rem Inter;
+}
+
+.yellow_text {
+  color: #ffba00;
+}
+
+.qb_img_container {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.outlet_stroke {
+  height: 2rem;
+  width: 12rem;
+  position: relative;
+  /* left: 6rem; */
+  margin-top: -0.5rem;
+  margin-bottom: 3.75rem;
+  margin-left: auto;
+}
+
+.testimonial_stroke {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  /* left: 3.2rem; */
+  margin-bottom: 2.8rem;
+  top: -0.5rem;
+  margin-left: auto;
+}
+
+.give_it_try_section {
+  margin-top: 10rem;
+}
+
+.section_heading {
+  width: fit-content;
+  margin: auto;
+}
+
+.section_heading > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.heading_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem 0 3rem auto;
+}
+
+@media screen and (min-width: 1600px) {
+  .hero_section {
+    margin: 0 12rem 0 12rem;
+  }
+  .ecstatic_section,
+  .features_section,
+  .glimpses_section,
+  .video_section,
+  .outlet_section,
+  .blue_fold_section,
+  .testimonial_section,
+  .glimpses_section,
+  .demo_banner_section {
+    margin: 6.25rem 14rem 0 14rem;
+  }
+}

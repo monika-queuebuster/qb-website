@@ -1,0 +1,28 @@
+.mainBoxIndustry{
+    margin: 0 1.4rem ;
+}
+
+.mainTitle{
+  font-size: 3rem;
+  margin-top: 2rem ;
+  margin-bottom: 1.56rem;
+  margin-right: 5.3rem;
+}
+.mainTitle+p{
+    color:#5A5A5A;
+    font-size: 1.6rem;
+    margin-right: 3.26rem;
+}
+.topCardBtns {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+ }
+
+ .googlePlayBtn {
+    position: relative;
+    height: 4.5rem;
+    width: auto;
+    margin-top: 1rem;
+    cursor: pointer;
+ }

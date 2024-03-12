@@ -1,0 +1,257 @@
+{
+  "industries": [
+    {
+      "id": "1",
+      "name": "Retail",
+      "desc": "Get set grow with all things retail.",
+      "industryLogo": "/assets/Navigation/fashion.svg",
+      "altText": "retailPOS logo",
+      "link": "/Industries/retail-pos-billing-software",
+      "styleId": "retailBG",
+      "outlets": [
+        {
+          "title": "Fashion & Apparel",
+          "url": "/retail/fashion-apparel-pos-billing-software"
+        },
+        {
+          "title": "Cosmetics",
+          "url": "/retail/cosmetics-pos-billing-software"
+        },
+        {
+          "title": "Footwear",
+          "url": "/retail/footwear-pos-billing-software"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Restaurants",
+      "desc": " Optimize orders and serve a great dining experience.",
+      "industryLogo": "/assets/Navigation/restaurant.svg",
+      "altText": "restaurantPOS logo",
+      "link": "/Industries/restaurant-pos-billing-software",
+      "styleId": "restaurantBG",
+      "outlets": [
+        {
+          "title": "Fine Dine",
+          "url": "/restaurants/fine-dine-pos-billing-software"
+        },
+        {
+          "title": "QSR",
+          "url": "/restaurants/quick-service-restaurants-pos-billing-software"
+        },
+        {
+          "title": "Food Trucks",
+          "url": "/restaurants/food-trucks-pos-billing-software"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Grocery",
+      "desc": "Manage bulk SKUs and simplify your store(s).",
+      "industryLogo": "/assets/Navigation/grocery.svg",
+      "altText": "groceryPOS logo",
+      "link": "/Industries/grocery-pos-billing-software",
+      "styleId": "groceryBG",
+      "outlets": [
+        {
+          "title": "Kirana Stores",
+          "url": "/grocery/kirana-stores-pos-billing-software"
+        },
+        {
+          "title": "Supermarkets",
+          "url": "/grocery/supermarket-pos-billing-software"
+        },
+        {
+          "title": "Hypermarkets",
+          "url": "/grocery/hypermarkets-pos-billing-software"
+        },
+        {
+          "title": "FMCG",
+          "url": "/grocery/fmcg-pos-billing-software"
+        },
+        {
+          "title": "Dryfruits",
+          "desc": "Manage dry fruit businesses with precision and freshness.",
+          "url": "/grocery/dryfruits-pos-billing-software"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Electronics",
+      "desc": "Generate offers and track loose stock easily.",
+      "industryLogo": "/assets/Navigation/responsive.svg",
+      "altText": "electronicsPOS logo",
+      "link": "/Industries/electronic-pos-billing-software",
+      "styleId": "electronicBG",
+      "outlets": [
+        {
+          "title": "Mobile & Accessories",
+          "url": "/electronics/mobile-accessories-pos-billing-software"
+        },
+        {
+          "title": "Home Appliances",
+          "url": "/electronics/home-appliances-pos-billing-software"
+        },
+        {
+          "title": "Electronic Showrooms",
+          "url": "/electronics/electronics-showroom-pos-billing-software"
+        },
+        {
+          "title": "Computer Hardware",
+          "url": "/electronics/computer-hardware-pos-billing-software"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Spa &  Salon",
+      "desc": "Create appointment bookings for a relaxing experience.",
+      "industryLogo": "/assets/Navigation/salon.svg",
+      "altText": "Spa&SalonPOS logo",
+      "link": "/Industries/spa-and-salon-pos-billing-software",
+      "styleId": "salonBG",
+      "outlets": [
+        {
+          "title": "Speciality Spas",
+          "url": "/spa-and-salon/spa-pos-billing-software"
+        },
+        {
+          "title": "Gyms",
+          "url": "/spa-and-salon/gym-pos-billing-software"
+        },
+        {
+          "title": "Dermatology",
+          "url": "/spa-and-salon/dermatology-pos-billing-software"
+        },
+        {
+          "title": "Dentist",
+          "url": "/spa-and-salon/dentist-pos-billing-software"
+        }
+      ]
+    }
+  ],
+
+  "features": [
+    {
+      "id": "1",
+      "name": "Quick Bill",
+      "desc": "Create invoices without adding product catalog",
+      "featuresLogo": "/assets/Key_feature_Icon_homePage/QuickBill.svg",
+      "altText": "bill logo",
+      "link": "/features/billing-software",
+      "hoverCLass": "quickbill"
+    },
+    {
+      "id": "2",
+      "name": "Billing / Invoices",
+      "desc": "Create a catalog of products to bill your customer with ease",
+      "featuresLogo": "/assets/Key_feature_Icon_homePage/Billing.svg",
+      "altText": "billing logo",
+      "link": "/features/billing-software",
+      "hoverCLass": "billing"
+    },
+    {
+      "id": "3",
+      "name": "Inventory Management",
+      "desc": "Manage outlet level, SKU level stock information of your entire business",
+      "featuresLogo": "/assets/Key_feature_Icon_homePage/InventoryManagement.svg",
+      "altText": "inventory management logo",
+      "link": "/features/inventory-management-software",
+      "hoverCLass": "inventory"
+    },
+    {
+      "id": "4",
+      "name": "eStore / Online Dukaan",
+      "desc": "Setup online stores for your customers to place orders online",
+      "featuresLogo": "/assets/Key_feature_Icon_homePage/Estore.svg",
+      "altText": "eStore logo",
+      "link": "/features/online-store",
+      "hoverCLass": "estore"
+    },
+    {
+      "id": "5",
+      "name": "Khata / Digital Ledger",
+      "desc": "Get rid of traditional Hisab Kitab and digitalize your daily ledger (Khata)",
+      "featuresLogo": "/assets/Key_feature_Icon_homePage/CreditSales(khata).svg",
+      "altText": "khata logo",
+      "link": "/features/khata-management-software",
+      "hoverCLass": "khata"
+    },
+    {
+      "id": "6",
+      "name": "CRM & Loyalty",
+      "desc": "Manage customers and reward them with Loyalty points & discounts",
+      "featuresLogo": "/assets/Key_feature_Icon_homePage/CRM&Loyality.svg",
+      "altText": "crm logo",
+      "link": "/features/customer-loyalty-program",
+      "hoverCLass": "crm"
+    },
+    {
+      "id": "7",
+      "name": "Digital Payments",
+      "desc": "Accept multiple modes of payments from your customers",
+      "featuresLogo": "/assets/Other_Feature_HomePage/Payments.svg",
+      "altText": "payments logo",
+      "link": "/features/digital-payment-software",
+      "hoverCLass": "payments"
+    },
+    {
+      "id": "8",
+      "name": "Cloud Dashboard",
+      "desc": "Meaningful and valuable insights with bulk data managament",
+      "featuresLogo": "/assets/Other_Feature_HomePage/Cloud_Backup.svg",
+      "altText": "cloud dashboard logo",
+      "link": "/features/cloud-dashboard-management",
+      "hoverCLass": "cloud"
+    }
+  ],
+  "company": [
+    {
+      "id": "1",
+      "name": "About Us",
+      "link": "/about-us",
+      "companyIcon": "/assets/Navigation/about.svg",
+      "altText": "about us icon",
+      "hoverClass": "about",
+      "desc": "Learn more about our company, who we are, and what we do.",
+      "height": "4rem",
+      "width": "4rem"
+    },
+    {
+      "id": "2",
+      "name": "Media",
+      "link": "/media",
+      "companyIcon": "/assets/Navigation/media.svg",
+      "altText": "media icon",
+      "hoverClass": "media",
+      "desc": "Explore the latest news, updates, and media coverage of QB.",
+      "height": "4rem",
+      "width": "4rem"
+    },
+    {
+      "id": "3",
+      "name": "Careers",
+      "link": "/career",
+      "companyIcon": "/assets/Navigation/career.svg",
+      "altText": "career icon",
+      "hoverClass": "career",
+      "desc": "Discover exciting career opportunities and join our team of professionals.",
+      "height": "4rem",
+      "width": "5rem"
+    },
+    {
+      "id": "4",
+      "name": "Contact Us",
+      "link": "/contact-us",
+      "companyIcon": "/assets/Navigation/contact.svg",
+      "altText": "contact us icon",
+      "hoverClass": "contact",
+      "desc": "Let us know how we can assist you using the contact information provided.",
+      "height": "4rem",
+      "width": "5rem"
+    }
+  ]
+}

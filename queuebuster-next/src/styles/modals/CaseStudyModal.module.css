@@ -1,0 +1,73 @@
+.modal_size {
+  height: 45rem;
+  width: 60rem;
+  background-color: #fff;
+  margin: 15rem auto;
+  padding: 2rem 4rem;
+  outline: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_header > h4 {
+  font: normal normal bold 2.5rem/3rem Inter;
+  text-align: center;
+}
+
+.modal_header > button {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: rgb(186, 186, 186);
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+.otp_input {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #6d6d6d;
+  text-align: center;
+}
+
+.blue_text {
+  font-size: 1.4rem;
+  color: rgb(42, 106, 180);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 1s;
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 2px
+    no-repeat;
+}
+
+.blue_text:hover {
+  --d: 100%;
+}
+
+.black_text {
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.disabled_text {
+  color: rgb(204, 204, 204);
+  font-size: 1.4rem;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  .modal_size {
+    height: 60rem;
+    width: 38rem;
+  }
+}

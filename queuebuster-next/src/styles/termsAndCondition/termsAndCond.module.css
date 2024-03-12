@@ -1,0 +1,25 @@
+.mainContainer {
+   /* border: 2px solid red; */
+}
+.mainContainer > h1 {
+   text-align: center;
+   /* border: 2px solid red; */
+}
+.mainContainer > p {
+   text-align: center;
+   /* border: 2px solid red; */
+}
+.mainContainer > div {
+   padding: 5rem 5rem 5rem 5rem;
+   /* border: 2px solid green; */
+}
+
+.moreHelp {
+   margin: 5rem 5% 0 5%;
+   width: 90%;
+   border-radius: 1.46rem;
+   box-shadow: 5px 0px 10px #00000029;
+   padding: 3rem 5rem;
+   top: 35rem;
+   background-color: var(--white);
+}

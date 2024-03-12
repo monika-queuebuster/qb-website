@@ -1,0 +1,248 @@
+.top_section {
+   height: 30rem;
+   background-image: url("https://quebuster.s3.ap-south-1.amazonaws.com/website/assets/about-bg.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   padding: 3rem;
+   background-position: bottom;
+ }
+ .page_heading {
+   font: normal normal 400 3rem/4rem Inter;
+   color: #fff;
+ }
+ 
+ .bold_heading {
+   font: normal normal bold 3rem/4rem Inter;
+   color: #fff;
+ }
+ 
+ .page_desc {
+   font: normal normal 300 1.4rem/2rem Inter;
+   color: #fff;
+   width: 100%;
+   margin-top: 2rem;
+ }
+ 
+ .info_banner {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 1rem;
+   margin: 0 3rem;
+   position: relative;
+   bottom: 6rem;
+ }
+ 
+ .banner_element {
+   padding: 1rem;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .banner_icon_number {
+   font: normal normal 600 2rem/4rem Inter;
+ }
+ 
+ .banner_icon_name {
+   font: normal normal normal 1.4rem/2rem Inter;
+ }
+ 
+ .section_heading {
+   width: fit-content;
+   margin: auto;
+ }
+ 
+ .section_heading > h3 {
+   font: normal normal bold 2.5rem/3.1rem Inter;
+   text-align: center;
+   margin-bottom: 0rem;
+ }
+ 
+ .heading_stroke {
+   height: 2rem;
+   position: relative;
+   margin: -0.5rem 0 3rem auto;
+ }
+ 
+ .who_we_are,
+ .investor_section,
+ .leadership_section,
+ .PD_section,
+ .timeline_section {
+   margin: 6rem 3rem 0 3rem;
+ }
+ 
+ .who_we_are_text {
+   font: normal normal 300 1.8rem/3rem Inter;
+   text-align: center;
+ }
+ 
+ .bold_text {
+   font: normal normal 600 1.8rem/3rem Inter;
+ }
+ 
+ .colorful_boxes {
+   display: flex;
+   flex-direction: column;
+   gap: 5rem;
+   margin-top: 4rem;
+ }
+ 
+ .colorful_boxes > div {
+   height: 75rem;
+   padding: 2rem;
+   border-radius: 20px;
+   width: 100%;
+ }
+ 
+ .colorful_boxes > div > h2 {
+   font: normal normal 600 2.2rem/3rem Inter;
+ }
+ .colorful_boxes > div > p {
+   font: normal normal 300 1.6rem/3rem Inter;
+   margin-top: 2rem;
+ }
+ 
+ .colorful_boxes > div:nth-child(1) {
+   background-color: #8ae4f626;
+ }
+ 
+ .colorful_boxes > div:nth-child(2) {
+   background-color: #eec9ff26;
+ }
+ 
+ .blue_container {
+   background-color: #2a6ab4;
+   position: relative;
+   height: 95rem;
+   border-radius: 20px;
+   padding: 0 2rem 2rem 2rem;
+   margin: 3rem 0 5rem 0;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: space-between;
+ }
+
+ .name_designation {
+  margin-top: 2rem;
+ }
+ 
+ .name_designation > .background_icon {
+   height: 18rem;
+   width: 12rem;
+   position: absolute;
+   bottom: -1rem;
+ }
+ 
+ .blue_container > div > p {
+   color: #fff;
+   font: normal normal 300 1.6rem/3rem Inter;
+ }
+ 
+ .blue_container .yellow_text {
+   font: normal normal 600 1.8rem/3rem Inter;
+   color: #f1d076;
+   margin-bottom: 0;
+ }
+ 
+ .name_designation .light_text {
+   font: normal normal 300 1.6rem/3rem Inter;
+   color: #fff;
+ }
+ 
+ .blue_container > div:nth-child(1) {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ 
+ .blue_container > div:nth-child(2) {
+   width: 100%;
+   display: flex;
+   justify-content: end;
+ }
+ 
+ .right_img {
+   height: 30rem;
+   width: 30rem;
+   position: relative;
+   bottom: 2rem;
+ }
+ 
+ .investors_text_part {
+   width: 100%;
+ }
+ 
+ .investors_heading {
+   font: normal normal 500 2rem/3rem Inter;
+   color: #5a5a5a;
+ }
+ 
+ .investors_heading > span {
+   font: normal normal 600 3rem/3rem Inter;
+ }
+ 
+ .investors_text_part > p {
+   color: #5a5a5a;
+   font: normal normal 300 1.6rem/2.5rem Inter;
+ }
+ 
+ .investors_text_part > p > span {
+   color: #000;
+ }
+ 
+ .all_investors {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-bottom: 4rem;
+ }
+ 
+ .investor_images {
+   position: relative;
+ }
+ 
+ .leaders_grid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 0;
+ }
+ 
+ .leaders_img {
+   height: 12rem;
+   width: 12rem;
+   position: relative;
+ }
+ 
+ .leaders_img_container {
+   padding: 2rem 4rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 25rem;
+   width: 24rem;
+   transition: 1s;
+ }
+ 
+ .leaders_img_container:hover {
+   background-color: #ddf8fd;
+ }
+ 
+ .leaders_img_container .name {
+   font: normal normal 600 1.4rem/2rem Inter;
+   margin-bottom: 0;
+   margin-top: 1rem;
+ }
+ 
+ .leaders_img_container .designation {
+   font: normal normal normal 1.4rem Inter;
+   text-align: center;
+   margin-top: 0.5rem;
+   color: #5a5a5a;
+ }
+ 

@@ -1,0 +1,14 @@
+.container {
+  /* min-height: calc("100vh - 7.2rem"); */
+  /* height: 100vh; */
+  /* background-color: red; */
+}
+.testimonial_heading {
+  text-align: center;
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  margin-bottom: 3rem;
+}
+
+.testimonial_section {
+  margin: 3rem;
+}

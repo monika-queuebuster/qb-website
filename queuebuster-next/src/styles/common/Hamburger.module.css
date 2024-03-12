@@ -1,0 +1,90 @@
+.hamburgerOpenAnimation {
+   border: none;
+   animation-name: hamburgerOpening;
+   animation-duration: 0.5s;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+}
+
+@keyframes hamburgerOpening {
+   from {
+      width: 0vw;
+   }
+   to {
+      width: 100vw;
+   }
+}
+.mobileNavHeader {
+   --bs-accordion-btn-focus-box-shadow: 0 0 0 0;
+   height: 5rem;
+   white-space: nowrap;
+   overflow-x: hidden;
+}
+
+.mobileNavBody * div {
+   padding-top: 0.5rem;
+   font-weight: 400;
+}
+
+.mobileNavHeader > button {
+   font-size: 2rem;
+   font-weight: 600;
+}
+.mobileNavHeader > button:not(.collapsed) {
+   background-color: white;
+   color: black;
+   border: none;
+}
+
+.bottom_content {
+   position: fixed;
+   bottom: 5px;
+   padding: 0px 10px;
+   width: 100%;
+   height: 25%;
+   padding: 0px 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   background-color: #fff;
+}
+
+
+.login_btn {
+   width: 100%;
+   background-color: #fff;
+   border: 1px solid #020D48;
+   border-radius: 3px;
+   padding: 9px;
+   text-align: center;
+}
+
+.login_btn > a > h1 {
+   font: normal normal bold 14px/12px Inter;
+}
+
+.contact_option > div {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   cursor:default;
+}
+
+.contact_option > div > div:nth-child(1) {
+   height: 1.5rem;
+   width: 1.5rem;
+   position: relative;
+}
+
+.contact_option > div > span {
+   font-size: 1.5rem;
+   color: #000D4B;
+   font-weight: 600;
+}
+
+.contact_info {
+   font-size: 1.2rem;
+   text-align: center;
+   color: rgb(195, 195, 195);
+}

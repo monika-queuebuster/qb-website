@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_68160" data-name="Group 68160" transform="translate(-200 -2362)">
+    <g id="Group_2322" data-name="Group 2322" transform="translate(200 2362)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="30" cy="30" r="30" fill="#8ae4f6"/>
+      <g id="inventory_management" data-name="inventory management" transform="translate(9135.964 -11111)">
+        <g id="Group" transform="translate(-9120.963 11126)">
+          <path id="Shape" d="M29.126,21.4H4.825a.836.836,0,0,1-.834-.834V2.679a.836.836,0,0,0-.834-.834H.834a.834.834,0,0,0,0,1.668h1.5v17.06a2.5,2.5,0,0,0,2.5,2.5h24.3a.834.834,0,0,0,0-1.668Z" transform="translate(0 -0.306)" fill="#5a5a5a" stroke="#565657" stroke-linecap="round" stroke-width="0.4"/>
+          <path id="Shape-2" data-name="Shape" d="M27.524,27.892a3.37,3.37,0,1,0,3.37,3.37A3.383,3.383,0,0,0,27.524,27.892Zm0,5.038a1.707,1.707,0,1,1,1.707-1.707A1.747,1.747,0,0,1,27.524,32.93Z" transform="translate(-4.011 -4.632)" fill="#5a5a5a" stroke="#565657" stroke-linecap="round" stroke-width="0.4"/>
+          <path id="Shape-3" data-name="Shape" d="M25.559,0H9.83a2.5,2.5,0,0,0-2.5,2.5V16.936a2.5,2.5,0,0,0,2.5,2.5h15.73a2.5,2.5,0,0,0,2.5-2.5V2.5A2.5,2.5,0,0,0,25.559,0Zm.834,16.936a.836.836,0,0,1-.834.834H9.83A.836.836,0,0,1,9,16.936V13.9h1.787a.834.834,0,1,0,0-1.668H9V10.567h3.455a.834.834,0,0,0,0-1.668H9V2.5a.836.836,0,0,1,.834-.834h3.911V5.991a.838.838,0,0,0,1.206.75l1.832-.913,1.5,1.082a.884.884,0,0,0,.71.124l2.08-.581a.806.806,0,0,0,.625-.789v-4h3.872A.836.836,0,0,1,26.4,2.5V16.936ZM19.985,1.663V4.993L18.9,5.326,17.32,4.2a.911.911,0,0,0-.874-.084L15.4,4.661v-3Z" transform="translate(-1.218)" fill="#5a5a5a" stroke="#565657" stroke-linecap="round" stroke-width="0.4"/>
+          <path id="Shape-4" data-name="Shape" d="M11.451,14.009h-.124v1.663h.124a.831.831,0,1,0,0-1.663Zm1.663-3.331H11.327v1.663h1.787a.831.831,0,1,0,0-1.663Z" transform="translate(-1.881 -1.773)" fill="#5a5a5a" stroke="#565657" stroke-linecap="round" stroke-width="0.4"/>
+        </g>
+        <path id="Shape-5" data-name="Shape" d="M10.7,27.892a3.37,3.37,0,1,0,3.37,3.37A3.383,3.383,0,0,0,10.7,27.892Zm0,5.038a1.707,1.707,0,1,1,1.707-1.707A1.74,1.74,0,0,1,10.7,32.93Z" transform="translate(-9122.181 11121.368)" fill="#5a5a5a" stroke="#565657" stroke-linecap="round" stroke-width="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_69229" data-name="Group 69229" transform="translate(-100 -1422)">
+    <circle id="Ellipse_38" data-name="Ellipse 38" cx="40" cy="40" r="40" transform="translate(100 1422)" fill="#e4e4fc"/>
+    <g id="appointment_booking" data-name="appointment booking" transform="translate(9280 -15164)">
+      <rect id="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9144.5 16624)" fill="#fff"/>
+      <rect id="Rectangle-2" data-name="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9150.5 16624)" fill="#fff"/>
+      <rect id="Rectangle-3" data-name="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9132.5 16624)" fill="#fff"/>
+      <rect id="Rectangle-4" data-name="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9144.5 16628.5)" fill="#fff"/>
+      <rect id="Rectangle-Copy-6" width="3" height="2.5" rx="1.25" transform="translate(-9138.5 16628.5)" fill="#fff"/>
+      <rect id="Rectangle-5" data-name="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9150.5 16628.5)" fill="#fff"/>
+      <rect id="Rectangle-6" data-name="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9144.5 16633)" fill="#fff"/>
+      <rect id="Rectangle-7" data-name="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9138.5 16624)" fill="#fff"/>
+      <rect id="Rectangle-8" data-name="Rectangle" width="3" height="2.5" rx="1.25" transform="translate(-9150.5 16633)" fill="#fff"/>
+      <circle id="Oval" cx="6" cy="6" r="6" transform="translate(-9136.5 16629.5)" fill="none"/>
+      <path id="Shape" d="M27.5,3H25V2a2,2,0,0,0-4,0V3H17V2a2,2,0,0,0-4,0V3H9V2A2,2,0,0,0,5,2V3H2.5A2.5,2.5,0,0,0,0,5.5v20A2.5,2.5,0,0,0,2.5,28h14a.5.5,0,0,0,0-1H2.5A1.5,1.5,0,0,1,1,25.5V10H29v8.5a.5.5,0,0,0,1,0V5.5A2.5,2.5,0,0,0,27.5,3ZM22,2a1,1,0,0,1,2,0V5a1,1,0,0,1-2,0ZM14,2a1,1,0,0,1,2,0V5a1,1,0,0,1-2,0ZM6,2A1,1,0,0,1,8,2V5A1,1,0,0,1,6,5ZM29,9H1V5.5A1.5,1.5,0,0,1,2.5,4H5V5A2,2,0,0,0,9,5V4h4V5a2,2,0,0,0,4,0V4h4V5a2,2,0,0,0,4,0V4h2.5A1.5,1.5,0,0,1,29,5.5Z" transform="translate(-9155 16611)" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="1"/>
+      <path id="Shape-2" data-name="Shape" d="M14,13.5a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1V15a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1ZM11,15V13.5h2V15Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-3" data-name="Shape" d="M8,13.5a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1V15a1,1,0,0,0,1,1H7a1,1,0,0,0,1-1ZM5,15V13.5H7V15Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-4" data-name="Shape" d="M25,16a1,1,0,0,0,1-1V13.5a1,1,0,0,0-1-1H23a1,1,0,0,0-1,1V15a1,1,0,0,0,1,1Zm-2-2.5h2V15H23Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-5" data-name="Shape" d="M14,18a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1v1.5a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1Zm-3,1.5V18h2v1.5Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-Copy-23" d="M20,18a1,1,0,0,0-1-1H17a1,1,0,0,0-1,1v1.5a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1Zm-3,1.5V18h2v1.5Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-6" data-name="Shape" d="M8,18a1,1,0,0,0-1-1H5a1,1,0,0,0-1,1v1.5a1,1,0,0,0,1,1H7a1,1,0,0,0,1-1ZM5,19.5V18H7v1.5Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-7" data-name="Shape" d="M13,21.5H11a1,1,0,0,0-1,1V24a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V22.5A1,1,0,0,0,13,21.5ZM11,24V22.5h2V24Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-8" data-name="Shape" d="M17,16h2a1,1,0,0,0,1-1V13.5a1,1,0,0,0-1-1H17a1,1,0,0,0-1,1V15A1,1,0,0,0,17,16Zm0-2.5h2V15H17Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-9" data-name="Shape" d="M7,21.5H5a1,1,0,0,0-1,1V24a1,1,0,0,0,1,1H7a1,1,0,0,0,1-1V22.5A1,1,0,0,0,7,21.5ZM5,24V22.5H7V24Z" transform="translate(-9155 16611)" fill="#5a5a5a"/>
+      <path id="Shape-10" data-name="Shape" d="M24.5,18A6.5,6.5,0,1,0,31,24.5,6.5,6.5,0,0,0,24.5,18Zm0,12A5.5,5.5,0,1,1,30,24.5,5.5,5.5,0,0,1,24.5,30Z" transform="translate(-9155 16611)" fill="#5a5a5a" stroke="#5a5a5a" stroke-width="0.6"/>
+      <path id="Path" d="M27.389,22.4,23.5,26.293l-1.767-1.768a.5.5,0,0,0-.707.707l2.121,2.122a.5.5,0,0,0,.707,0L28.1,23.111a.5.5,0,0,0-.707-.707Z" transform="translate(-9155 16611)" fill="#5a5a5a" stroke="#5a5a5a" stroke-linecap="round" stroke-width="0.4"/>
+    </g>
+  </g>
+</svg>

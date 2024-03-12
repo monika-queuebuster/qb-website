@@ -1,0 +1,15 @@
+.header {
+   background-image: url(../../../public/assets/aboutUsheader.webp);
+   background-repeat: no-repeat;
+   height: 30rem;
+   width: 100vw;
+   background-size: cover;
+   background-position: center;
+}
+
+.totalCustomers {
+   height: 8rem;
+   width: 100%;
+   background-color: #f9d878;
+   margin-bottom: 3rem;
+}
