@@ -1,0 +1,35 @@
+.header {
+   background-image: url(../../../public/assets/ContactPage/contctPageBackgroundImage.webp);
+   background-repeat: no-repeat;
+   height: 21rem;
+   width: 100vw;
+   background-size: cover;
+   background-position: center;
+}
+
+.header > h1 {
+   color: white;
+   font-size: 3.5rem;
+   font-weight: 600;
+   padding-top: 6rem;
+   text-align: center;
+}
+
+.header > p {
+   color: white;
+   text-align: center;
+   padding: 1rem;
+   font-size: 1.5rem;
+   padding-top: 0.7rem;
+   font-weight: 200;
+}
+
+.moreHelp {
+   margin: 5rem 5% 0 5%;
+   width: 90%;
+   border-radius: 1.46rem;
+   box-shadow: 5px 0px 10px #00000029;
+   padding: 3rem 2rem;
+   top: 35rem;
+   background-color: var(--white);
+}

@@ -1,0 +1,523 @@
+.timeline_years {
+  color: #2a6ab4;
+  font: normal normal 600 1.8rem/2rem Inter;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline_years:hover {
+  color: #6b95c5;
+}
+
+.selected_year {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  bottom: 0;
+  animation: popLogo 0.1s linear 0s 1 alternate;
+  transition: 1s;
+}
+
+.timeline_outer_conatiner {
+  height: 12rem;
+  overflow-x: scroll;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline_outer_conatiner::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline_outer_conatiner {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.timeline {
+  /* border-top: 2px solid #2a6ab4; */
+  position: relative;
+  top: 1.5rem;
+  /* width: 165rem; */
+  display: flex;
+  /*  */
+}
+
+.blue_timeline {
+  height: 5px;
+  background-color: #2a6ab4;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.grey_timeline {
+  background-color: rgba(167, 167, 167, 0.351);
+  height: 5px;
+  transition: 1s;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.value_container {
+  display: flex;
+  /* gap: 12.7rem; */
+  margin-top: 2rem;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.white_markers {
+  height: 2rem;
+  width: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1.8rem;
+  border: 3px solid #2a6ab4;
+}
+
+.white_markers:hover {
+  background-color: #2a6ab4;
+}
+
+.OurJourneyDiv {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline_img {
+  width: 40%;
+  position: relative;
+  height: 43rem;
+  display: flex;
+  align-items: center;
+}
+
+.timeline_info {
+  width: 40%;
+  display: flex;
+  height: 43rem;
+  align-items: center;
+}
+
+.timeline_info > p {
+  font: normal normal 300 2.5rem/4rem Inter;
+  color: #5a5a5a;
+}
+
+.bold_text {
+  font: normal normal 600 3rem/5rem Inter;
+}
+
+.twenty_twelve_img1 {
+  height: 35rem;
+  width: 31rem;
+  position: relative;
+  animation: twentyTwelve1 1s linear 0s 1 alternate;
+}
+
+@keyframes twentyTwelve1 {
+  0% {
+    bottom: 5rem;
+    display: none;
+  }
+  100% {
+    bottom: 0rem;
+  }
+}
+
+.twenty_twelve_img2 {
+  height: 7rem;
+  width: 21rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 20rem;
+  animation: twentyTwelve2 1s linear 0s 1 alternate;
+}
+
+@keyframes twentyTwelve2 {
+  0% {
+    bottom: -2rem;
+    display: none;
+  }
+  100% {
+    bottom: 3rem;
+  }
+}
+
+.twenty_fourteen_img1 {
+  height: 32rem;
+  width: 40rem;
+  position: relative;
+  animation: twentyFourteen1 1s linear 0s 1 alternate;
+}
+
+@keyframes twentyFourteen1 {
+  0% {
+    top: 5rem;
+    display: none;
+  }
+  100% {
+    top: 0rem;
+  }
+}
+
+.twenty_fourteen_img2 {
+  width: 11rem;
+  height: 11rem;
+  position: absolute;
+  top: 1rem;
+  right: 6rem;
+  animation: twentyFourteen2 1s linear 0s 1 alternate;
+}
+
+@keyframes twentyFourteen2 {
+  0% {
+    top: -5rem;
+    display: none;
+  }
+  100% {
+    top: 1rem;
+  }
+}
+
+.twenty_fifteen_img1 {
+  height: 35rem;
+  width: 45rem;
+  position: relative;
+  animation: twentyFifteen 1s linear 0s 1;
+}
+
+@keyframes twentyFifteen {
+  0% {
+    height: 30rem;
+    width: 40rem;
+    display: none;
+  }
+  100% {
+    height: 35rem;
+    width: 45rem;
+  }
+}
+
+.twenty_sixteen_img1 {
+  height: 29rem;
+  width: 45rem;
+  position: relative;
+  animation: twentySixteen 1s linear 0s 1;
+}
+
+@keyframes twentySixteen {
+  0% {
+    top: 5rem;
+    display: none;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.twenty_nineteen_img1 {
+  height: 38rem;
+  width: 25rem;
+  position: absolute;
+  left: 19%;
+  /* bottom: -1rem; */
+  z-index: 1;
+  transform: translateY(-14%);
+  animation: twentyNineteen 1s linear 0s 1;
+}
+
+@keyframes twentyNineteen {
+  0% {
+    transform: translateY(-34%);
+    display: none;
+  }
+  100% {
+    transform: translateY(-14%);
+  }
+}
+
+.twenty_nineteen_img2 {
+  height: 25rem;
+  width: 45rem;
+  position: absolute;
+}
+
+.twenty_twentyone_img1 {
+  height: 30rem;
+  width: 45rem;
+  position: relative;
+  animation: twentyTwentyone 1s linear 0s 1;
+}
+
+@keyframes twentyTwentyone {
+  0% {
+    height: 25rem;
+    width: 40rem;
+    display: none;
+  }
+  100% {
+    height: 30rem;
+    width: 45rem;
+  }
+}
+
+.twenty_twentytwo_img1 {
+  height: 33rem;
+  width: 45rem;
+  position: relative;
+  animation: twentyTwentytwo 1s linear 0s 1;
+}
+
+@keyframes twentyTwentytwo {
+  0% {
+    height: 25rem;
+    width: 40rem;
+    display: none;
+  }
+  100% {
+    height: 33rem;
+    width: 45rem;
+  }
+}
+
+.twenty_twentythree_img1 {
+  height: 25rem;
+  width: 45rem;
+  position: relative;
+}
+
+.twenty_twentythree_img2,
+.twenty_twentythree_img3,
+.twenty_twentythree_img4 {
+  height: 5rem;
+  width: 10rem;
+  position: absolute;
+}
+
+.twenty_twentythree_img2 {
+  top: 0;
+  left: 40%;
+  animation: twentyTwentythree 2s linear 0s 1;
+}
+
+.twenty_twentythree_img3 {
+  bottom: 30%;
+  left: 0;
+  animation: twentyTwentythree 4s linear 0s 1;
+}
+
+.twenty_twentythree_img4 {
+  bottom: 17%;
+  left: 51%;
+  animation: twentyTwentythree 6s linear 0s 1;
+}
+
+@keyframes twentyTwentythree {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popLogo {
+  0% {
+    height: 1rem;
+    width: 1rem;
+  }
+  100% {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .OurJourneyDiv {
+    flex-direction: column;
+  }
+
+  .timeline {
+    width: 70rem;
+  }
+
+  .timeline_img {
+    width: 100%;
+    height: 35rem;
+    align-items: end;
+  }
+
+  .timeline_info {
+    width: 100%;
+    height: fit-content;
+    height: 15rem;
+  }
+
+  .timeline_info > p {
+    font: normal normal 300 2rem/3rem Inter;
+  }
+
+  .bold_text {
+    font: normal normal 600 2rem/3rem Inter;
+  }
+
+  .twenty_twelve_img1 {
+    height: 30rem;
+    width: 26rem;
+  }
+
+  .twenty_twelve_img2 {
+    height: 6rem;
+    width: 18rem;
+    bottom: -1rem;
+    left: 15rem;
+  }
+
+  .value_container {
+    gap: 5rem;
+  }
+
+  @keyframes twentyTwelve2 {
+    0% {
+      bottom: -2rem;
+      display: none;
+    }
+    100% {
+      bottom: -1rem;
+    }
+  }
+
+  .twenty_fourteen_img1 {
+    height: 25rem;
+    width: 33rem;
+  }
+
+  .twenty_fourteen_img2 {
+    top: 5.5rem;
+    right: -3rem;
+  }
+
+  @keyframes twentyFourteen2 {
+    0% {
+      top: -5rem;
+      display: none;
+    }
+    100% {
+      top: 5.5rem;
+    }
+  }
+
+  .twenty_fifteen_img1 {
+    height: 26rem;
+    width: 33rem;
+  }
+
+  @keyframes twentyFifteen {
+    0% {
+      height: 20rem;
+      width: 20rem;
+      display: none;
+    }
+    100% {
+      height: 26rem;
+      width: 33rem;
+    }
+  }
+
+  .twenty_sixteen_img1 {
+    height: 23rem;
+    width: 33rem;
+  }
+
+  .twenty_nineteen_img1 {
+    height: 32rem;
+    width: 22rem;
+    position: absolute;
+    left: 18%;
+    bottom: -5rem;
+  }
+
+  @keyframes twentyNineteen {
+    0% {
+      transform: translateY(-34%);
+      display: none;
+    }
+    100% {
+      transform: translateY(-15%);
+    }
+  }
+
+  .twenty_nineteen_img2 {
+    width: 33rem;
+    height: 21rem;
+  }
+
+  .twenty_twentyone_img1 {
+    height: 22rem;
+    width: 33rem;
+  }
+
+  @keyframes twentyTwentyone {
+    0% {
+      height: 15rem;
+      width: 15rem;
+      display: none;
+    }
+    100% {
+      height: 22rem;
+      width: 33rem;
+    }
+  }
+
+  .twenty_twentytwo_img1 {
+    height: 23rem;
+    width: 33rem;
+    /* animation: Timeline_twentyTwentytwo__eIwKP 1s linear 0s 1; */
+  }
+  @keyframes twentyTwentytwo {
+    0% {
+      height: 15rem;
+      width: 15rem;
+      display: none;
+    }
+    100% {
+      height: 23rem;
+      width: 33rem;
+    }
+  }
+
+  .twenty_twentythree_img1 {
+    height: 17rem;
+    width: 33rem;
+  }
+
+  .twenty_twentythree_img2,
+  .twenty_twentythree_img3,
+  .twenty_twentythree_img4 {
+    height: 3rem;
+    width: 6rem;
+  }
+
+  .twenty_twentythree_img2 {
+    top: 40%;
+  }
+
+  .twenty_twentythree_img3 {
+    top: 80%;
+  }
+
+  .twenty_twentythree_img4 {
+    top: 95%;
+  }
+}

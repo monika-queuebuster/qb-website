@@ -1,0 +1,27 @@
+.PD_banner {
+  background-color: #2a6ab4;
+  padding: 3.75rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PD_banner_heading {
+  font: normal normal bold 3.37rem/4.62rem Inter;
+  color: #fff;
+}
+
+.demo_desc {
+  font-size: 1rem;
+  color: #fff;
+  font: normal normal normal 1.8rem/3rem Inter;
+  margin-bottom: 3rem;
+  width: 60%;
+}
+
+.demo_img {
+  height: 25rem;
+  width: 25rem;
+  position: relative;
+}

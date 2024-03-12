@@ -1,0 +1,262 @@
+.hero_section {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_part {
+  width: 100%;
+  /* margin: 2rem 1rem; */
+}
+
+.red_text {
+  font: normal normal 600 2rem/4rem Inter;
+  color: #d90429;
+}
+
+.black_text {
+  font: normal normal bold 2/4rem Inter;
+  color: #343434;
+}
+
+.blue_text {
+  font: normal normal bold 3.5rem/5rem Inter;
+  color: #2a6ab4;
+}
+
+.page_desc {
+  color: #5a5a5a;
+  font: normal normal normal 1.8rem/3rem Inter;
+}
+
+.image_part {
+  width: 100%;
+}
+
+.hero_image_container {
+  height: 28rem;
+  width: 40rem;
+  position: relative;
+}
+
+.ratings {
+  display: flex;
+  gap: 3rem;
+  margin-top: 6.25rem;
+}
+
+.rating_container {
+  border-radius: 6px;
+  /* padding: 0.7rem 0.8rem; */
+}
+
+.company_img_container {
+  height: 1.65rem;
+  width: 7.5rem;
+  position: relative;
+}
+
+.element_rating {
+  font-size: 1.25rem;
+}
+
+.outof_rating {
+  font-size: 0.75rem;
+  margin-top: 0.2rem;
+}
+
+.ratings_img_container {
+  height: 1.45rem;
+  width: 6.5rem;
+  position: relative;
+  display: inline-block;
+  margin-left: 0.6rem;
+}
+
+.marquee_section {
+  background-color: #fff;
+  padding: 3.75rem 0;
+}
+
+.marquee_heading {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ecstatic_section {
+  margin: 4rem 0 0 0;
+}
+
+.features_section {
+  margin: 4rem 2rem;
+}
+
+.features_header,
+.glimpses_header,
+.video_header,
+.outlet_header,
+.testimonial_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ecstatic_header {
+  margin: 0 2rem;
+}
+
+.ecstatic_header > h3,
+.features_header > h3,
+.glimpses_header > h3,
+.video_header > h3,
+.outlet_header > h3,
+.testimonial_header > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.ecstatic_stroke {
+  height: 2rem;
+  width: 22rem;
+  position: relative;
+  left: 8rem;
+  top: -0.5rem;
+  margin-bottom: 1.9rem;
+}
+
+.features_stroke {
+  height: 2rem;
+  width: 10rem;
+  position: relative;
+  left: 4rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+.video_section,
+.outlet_section,
+.blue_fold_section,
+.demo_banner_section,
+.testimonial_section {
+  margin: 4rem 2rem 0 2rem;
+}
+
+.glimpses_section {
+  margin: 4rem 0rem 0 0rem;
+}
+
+.glimpses_stroke {
+  height: 2rem;
+  width: 10rem;
+  position: relative;
+  left: 8rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+.video_stroke {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  left: 16rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+.iframe_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iframe_left_banner {
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  padding: 2.8rem 2.8rem 0 2.8rem;
+  height: 35rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.iframe_left_banner > p {
+  color: #fff;
+  font: normal normal normal 1.8rem/3rem Inter;
+  width: 80%;
+}
+
+.large_text {
+  font: normal normal 600 3.8rem/3rem Inter;
+}
+
+.yellow_text {
+  color: #ffba00;
+}
+
+.qb_img_container {
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+}
+
+.outlet_stroke {
+  height: 2rem;
+  width: 12rem;
+  position: relative;
+  left: 6rem;
+  margin-top: -0.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.testimonial_stroke {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  left: 3.2rem;
+  margin-bottom: 2.8rem;
+  top: -0.5rem;
+}
+
+.give_it_try_section {
+  margin-top: 10rem;
+}
+
+.section_heading {
+  width: fit-content;
+  margin: auto;
+}
+
+.section_heading > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.heading_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem auto 3rem auto;
+}
+
+@media screen and (max-width: 540px) {
+  .iframe_container {
+    flex-direction: column;
+  }
+  .qb_img_container {
+    height: 14rem;
+    width: 14rem;
+  }
+  .iframe_left_banner > p {
+    width: 100%;
+  }
+  .video_stroke {
+    left: 0rem;
+    margin-top: -0.5rem;
+  }
+  .faq_section {
+    margin: 4rem 0rem;
+  }
+}

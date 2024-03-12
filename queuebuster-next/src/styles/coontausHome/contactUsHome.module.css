@@ -1,0 +1,5 @@
+.custominput::placeholder {
+    color: #5A5A5A99; 
+    font-weight: 300;
+    /* border: 2px solid red; */
+ }

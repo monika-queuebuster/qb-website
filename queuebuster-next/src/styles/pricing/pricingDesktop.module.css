@@ -1,0 +1,737 @@
+.hero_section {
+  margin: 0 0 0 9.37rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_container {
+  width: 55%;
+  margin-top: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero_section_heading {
+  font: normal normal bold 3.75rem/5rem Inter;
+  text-align: center;
+}
+
+.blue_text {
+  color: #2a6ab4;
+}
+
+.hero_section_point {
+  margin-bottom: 1rem;
+  font: normal normal normal 1.8rem/3rem Inter;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.hero_img_section {
+  background-image: url(/assets/pricing/pricing_hero_img.webp);
+  background-size: 91% 100%;
+  background-position: 99%;
+  width: 60%;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-end;
+  justify-content: center;
+  background-repeat: no-repeat;
+  margin-top: 6rem;
+}
+
+.section_two {
+  background-color: #fff;
+  padding: 6.25rem 9.3rem 0 9.3rem;
+}
+
+.section_header {
+  width: fit-content;
+  margin: auto;
+}
+
+.section_heading {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.section_stroke {
+  height: 2rem;
+  width: 20rem;
+  margin-left: auto;
+  position: relative;
+  top: -0.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.plan_section,
+.enterprise_plan_section,
+.video_section,
+.demo_banner_section {
+  margin: 6.25rem 9.3rem 0 9.3rem;
+}
+
+.testimonial_section {
+  margin: 6.25rem 5.3rem 6.25rem 5.3rem;
+}
+
+.table_filter {
+  display: flex;
+  padding: 0 4rem;
+  gap: 2rem;
+}
+
+.row {
+  height: 5rem;
+  display: flex;
+  padding: 0 4rem;
+  gap: 2rem;
+}
+
+.even_row {
+  background-color: #edf1f7;
+  border-radius: 0.4rem;
+}
+
+.odd_row {
+  background-color: #fff;
+}
+
+.table_data {
+  font: normal normal normal 1.8rem/3rem Inter;
+  display: flex;
+  align-items: center;
+}
+
+.table_data2 {
+  background-color: #eec9ff26;
+  justify-content: center;
+}
+
+.table_data3 {
+  background-color: #8ae4f626;
+  justify-content: center;
+}
+
+.no_bg_data {
+  justify-content: center;
+}
+
+.monthly_yearly {
+  width: 48.3%;
+  margin: 4rem auto;
+  padding: 4rem 0rem 0rem 0rem;
+}
+
+.choose_btn {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.choose_btn > div {
+  padding: 1.4rem 2rem;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tick_header {
+  display: flex;
+  width: 50%;
+  gap: 2rem;
+}
+
+.tick_header > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.plan_name {
+  background-color: #eec9ff26;
+  border-radius: 20px 20px 0px 0px;
+  position: relative;
+}
+
+.enterprise {
+  background-color: #8ae4f626;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.tick_heading {
+  color: #2a6ab4;
+  font: normal normal 600 2.2rem/3rem Inter;
+  margin-bottom: 2rem;
+}
+
+.plan_value {
+  font: normal normal 600 2.8rem/3rem Inter;
+  margin-bottom: 0;
+}
+
+.plan_value .part1 {
+  width: 50%;
+}
+
+.per_device {
+  font: normal normal normal 2rem/3rem Inter;
+}
+
+.prev_plan_value {
+  font: normal normal 500 2rem/3rem Inter;
+  text-decoration: line-through;
+}
+
+.light_text {
+  font: normal normal normal 1.3rem/2rem Inter;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.selected_plan {
+  background-color: #e8fbff;
+}
+
+.selected_plan > span {
+  color: #2a6ab4;
+  font-size: 1.5rem;
+}
+
+.nonselected_plan {
+  background-color: #fff;
+  color: #888888;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.colored_check {
+  color: #04c704;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.table_footer {
+  display: flex;
+  margin-top: 2.2rem;
+  background-color: #edf1f7;
+  gap: 2rem;
+  padding: 0 4rem;
+}
+
+.table_footer > p {
+  width: 50%;
+  font: normal normal 600 2.5rem/3.5rem Inter;
+  padding: 2rem 20rem 2rem 0;
+  background-color: #edf1f7;
+  /* height: 100%; */
+  margin-bottom: 0;
+}
+
+.pink_pricing_btn {
+  background-color: #fdf7ff;
+  padding: 2rem 4.2rem;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink_pricing_btn > button {
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  padding: 1.2rem 0rem;
+  border-radius: 0.3rem;
+  font: normal normal 500 1.6rem/3rem Inter;
+  background-color: #fff;
+  width: 100%;
+}
+
+.blue_pricing_btn {
+  background-color: #8ae4f626;
+  padding: 2rem 4.2rem;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue_pricing_btn > button {
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  padding: 1.2rem 0rem;
+  border-radius: 0.3rem;
+  font: normal normal 500 1.6rem/3rem Inter;
+  background-color: #fff;
+  width: 100%;
+}
+
+.pricing_btn_container {
+  display: flex;
+  width: 50%;
+  gap: 2rem;
+  /* padding-right: 4rem; */
+}
+
+.enterprise_plan_container {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  background-color: #8ae4f626;
+  border-radius: 10px;
+  padding: 5rem;
+}
+
+.enterprise_plan_container > .text_side > h4 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  margin-bottom: 2rem;
+}
+
+.enterprise_plan_container > .text_side {
+  width: 50%;
+}
+
+.enterprise_plan_container > .text_side > p {
+  color: #5a5a5a;
+  font-size: normal normal 300 1.8rem/3rem Inter;
+  width: 70%;
+  margin-bottom: 3.75rem;
+}
+
+.enterprise_plan_container .image_side {
+  margin-left: auto;
+}
+
+.coffee_img {
+  height: 24rem;
+  width: 35rem;
+  position: relative;
+}
+
+.conatiner_header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font: normal normal 500 1.8rem/3rem Inter;
+}
+
+.container_para {
+  font: normal normal normal 1.8rem/3rem Inter;
+  color: #5a5a5a;
+  margin-top: 1rem;
+}
+
+.iframe_container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.iframe_left_banner {
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  padding: 2.8rem;
+  height: 40rem;
+  width: 40%;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.iframe_left_banner > p {
+  color: #fff;
+  font: normal normal normal 1.8rem/3rem Inter;
+  width: 80%;
+}
+
+.large_text {
+  font: normal normal 600 3.8rem/3rem Inter;
+}
+
+.yellow_text {
+  color: #ffba00;
+}
+
+.qb_img_container {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.plan_container_icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+}
+
+.plan_name_value {
+  font: normal normal 600 3.8rem/2rem Inter;
+}
+
+.p_plan_name_value {
+  font: normal normal 500 2.5rem/2rem Inter;
+  text-decoration: line-through;
+  text-decoration-color: #2a6ab4;
+  color: #5a5a5a;
+}
+
+.device_per_year {
+  font: normal normal normal 1.5rem/3rem Inter;
+}
+
+.curved_arrow {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  top: 1rem;
+  left: 0.5rem;
+}
+
+.arrow_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal normal 500 1.3rem/3rem Inter;
+  color: #2a6ab4;
+  text-transform: uppercase;
+}
+
+.best_seller {
+  height: 4rem;
+  width: 12rem;
+  position: relative;
+}
+
+/* -------------hero section components---------------- */
+.annual_component {
+  background-color: #2a6ab4;
+  padding: 2rem 3rem;
+  width: 25rem;
+  height: fit-content;
+  position: relative;
+}
+
+.annual_component > .part1 > h4,
+.enterprise_component > .part1 > h4 {
+  font: normal normal 600 2rem/3rem Inter;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.annual_component > .part1 > .desc,
+.enterprise_component > .part1 > .desc {
+  color: #fff;
+  font: normal normal normal 1.2rem/1.8rem Inter;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.annual_component > .part1 > .price {
+  font: normal normal 600 2rem/1.5rem Inter;
+  color: #ffba00;
+  border-bottom: 1px solid rgb(109, 172, 220);
+  padding-bottom: 1rem;
+}
+
+.annual_component > .part1 > .price > span {
+  font: normal normal normal 1.4rem/2rem Inter;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.price_text {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 1.2rem !important;
+}
+
+.list_items {
+  padding: 1rem;
+}
+
+.annual_component .list_items > li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(185, 185, 185, 0.645);
+  color: #8edce9;
+  font: normal normal normal 1.2rem/2rem Inter;
+}
+
+.annual_component .list_items > li > span {
+  color: #fff;
+}
+
+.enterprise_component {
+  padding: 2rem 3rem;
+  width: 25rem;
+  background-color: #000;
+  position: relative;
+}
+
+.enterprise_component > .part1 > .yellow_text {
+  font: normal normal 600 1.2rem/2rem Inter;
+  color: rgb(255, 191, 0);
+  margin-bottom: 0rem;
+}
+
+.enterprise_component > .part1 > .desc2 {
+  font: normal normal normal 1.2rem/2rem Inter;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #b9b9b952;
+  color: #fff;
+  width: 90%;
+  padding-bottom: 0.5rem;
+}
+
+.enterprise_component > .part1 > .desc {
+  width: 100%;
+}
+
+.enterprise_component .list_container,
+.annual_component .list_container {
+  margin-top: 0;
+}
+
+.enterprise_component .list_items > li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #b9b9b952;
+  color: #8edce9;
+  font: normal normal normal 1.2rem/2rem Inter;
+}
+
+.enterprise_component .list_items > li > span {
+  color: #fff;
+}
+
+.annual_component .button_visible {
+  position: absolute;
+  bottom: 1rem;
+  width: 76%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#2a6ab468, #2a6ab4, #2a6ab468);
+  background: transparent linear-gradient(180deg, #1d1d1d00 0%, #2a6ab4 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.enterprise_component .button_visible {
+  position: absolute;
+  bottom: 1rem;
+  width: 76%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #1d1d1d08 0%, #1d1d1d 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.enterprise_component .button_visible > a,
+.annual_component .button_visible > a {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.hide_button {
+  display: none;
+}
+
+.mobile_choose_btn > div {
+  padding: 1.4rem 2rem;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile_choose_btn > div:nth-child(1) {
+  background-color: #faf0ff;
+}
+.mobile_choose_btn > div:nth-child(2) {
+  background-color: #d8f8ff;
+}
+
+@media screen and (max-width: 540px) {
+  .table_data {
+    font: normal normal normal 1.2rem/2rem Inter;
+  }
+
+  .table_filter {
+    padding: 0 1rem;
+  }
+
+  .row {
+    padding: 0 1rem;
+  }
+
+  .choose_btn {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .choose_btn > div {
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+  }
+
+  .monthly_yearly {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nonselected_plan {
+    font-size: 1.3rem;
+  }
+
+  .selected_plan > span {
+    font-size: 1.3rem;
+  }
+
+  .table_footer {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .table_footer > p {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .pricing_btn_container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .pink_pricing_btn,
+  .blue_pricing_btn {
+    width: 100%;
+  }
+
+  .enterprise_plan_container {
+    flex-direction: column;
+    padding: 3rem 2rem;
+  }
+
+  .left_side,
+  .right_side {
+    width: 100%;
+  }
+
+  .three_box_container {
+    grid-template-columns: auto;
+  }
+
+  .annual_component,
+  .enterprise_component {
+    padding: 2rem 1rem;
+  }
+
+  .annual_component > .part1 > h4,
+  .enterprise_component > .part1 > h4 {
+    font: normal normal 600 2rem/3rem Inter;
+    margin-bottom: 0;
+  }
+
+  .annual_component > .part1 > .desc,
+  .enterprise_component > .part1 > .desc {
+    font: normal normal normal 1rem/1.8rem Inter;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  .annual_component > .part1 > .price {
+    font: normal normal 600 2rem/3rem Inter;
+    padding-bottom: 0.5rem;
+  }
+
+  .annual_component > .part1 > .price > span {
+    font: normal normal normal 0.8rem/2rem Inter;
+  }
+
+  .annual_component .list_items > li {
+    padding: 0.3rem 0;
+    border-bottom: none;
+    font: normal normal normal 1rem/1.5rem Inter;
+  }
+
+  .enterprise_component > .part1 > .yellow_text {
+    font: normal normal 600 1rem/1.5rem Inter;
+  }
+
+  .enterprise_component > .part1 > .desc2 {
+    font: normal normal normal 1rem/1.5rem Inter;
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+
+  .enterprise_component > .part1 > .desc {
+    width: 100%;
+  }
+
+  .annual_component .list_container {
+    margin-top: 0;
+  }
+
+  .enterprise_component .list_items > li {
+    padding: 0.3rem 0;
+    border-bottom: none;
+    font: normal normal normal 1rem/1.5rem Inter;
+  }
+
+  .table_filter {
+    flex-direction: column;
+  }
+
+  .tick_header {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+
+  .tick_header > div {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  .row {
+    padding: 0 2rem;
+    height: 6rem;
+  }
+
+  .enterprise_plan_container {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+
+  .enterprise_plan_container > .text_side {
+    width: 100%;
+  }
+  .enterprise_plan_container > .text_side > p {
+    width: 100%;
+  }
+  .coffee_img {
+    height: 15rem;
+    width: 23rem;
+  }
+  .enterprise_plan_container .image_side {
+    margin: auto;
+  }
+  .light_text {
+    font: normal normal normal 1.6rem/2.5rem Inter;
+  }
+}

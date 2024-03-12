@@ -1,0 +1,165 @@
+.glimpses_container {
+  padding: 4.6rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_side {
+  width: 50%;
+}
+
+.company_logo {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.container_title {
+  font: normal normal bold 3.75rem/4.3rem Inter;
+  margin-bottom: 2rem;
+}
+
+.container_desc {
+  font: normal normal normal 1.6rem/2.3rem Inter;
+  margin-bottom: 4rem;
+}
+
+.right_side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tile1,
+.tile2 {
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  background-color: #212121;
+  display: flex;
+  position: relative;
+}
+
+.tile2 {
+  flex-direction: column;
+}
+
+.numeric_value {
+  font: normal normal bold 5rem/5rem Inter;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.tile1_desc {
+  color: #fff;
+  font: normal normal medium 1.5rem/2.25rem Inter;
+  width: 75%;
+  margin-bottom: 0;
+}
+
+.arrow_img {
+  height: 6rem;
+  width: 7rem;
+  position: absolute;
+  right: 3rem;
+  bottom: 6rem;
+}
+
+.bars_img {
+  height: 8rem;
+  width: 7rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.tile2 > .words {
+  font: normal normal bold 1.37rem/2.37rem Inter;
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
+.tile2 > .name {
+  font: normal normal bold 1.37rem/2.37rem Inter;
+  color: #fff;
+}
+
+.info {
+  font: normal normal normal 1rem/2.37rem Inter;
+  color: #fff;
+}
+
+.semicircle_design {
+  height: 20rem;
+  width: 23rem;
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+}
+
+.disabled_arrow {
+  color: rgb(217, 217, 217);
+  pointer-events: none;
+}
+
+.name_designtaion > p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 540px) {
+  .glimpses_container {
+    flex-direction: column;
+    padding: 2rem;
+    height: 88rem;
+    justify-content: center;
+  }
+  .left_side {
+    width: 100%;
+  }
+  .container_title {
+    font: normal normal bold 2.4rem/3.3rem Inter;
+    margin-bottom: 1rem;
+  }
+  .right_side {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .numeric_value {
+    font: normal normal bold 4rem/2.12rem Inter;
+  }
+  .tile1_desc {
+    margin-bottom: 2rem;
+    width: 75%;
+  }
+  .arrow_img {
+    right: 3rem;
+    bottom: 5rem;
+  }
+  .bars_img {
+    height: 7rem;
+    width: 5rem;
+    right: 0.5rem;
+  }
+  .semicircle_design {
+    height: 15rem;
+    width: 17rem;
+    bottom: 5rem;
+  }
+  .tile2 > .words {
+    width: 100%;
+  }
+  .tile2 > .name {
+    font: normal normal bold 1.37rem/1.3rem Inter;
+  }
+  .tile2 > .info {
+    font: normal normal bold 1rem/1rem Inter;
+  }
+  .company_logo {
+    height: 9rem;
+    width: 20rem;
+  }
+  .container_desc {
+    margin-bottom: 1rem;
+  }
+}

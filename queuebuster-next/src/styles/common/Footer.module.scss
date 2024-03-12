@@ -1,0 +1,160 @@
+.mainDiv {
+  padding: 7.3rem 9.3rem 2rem 9.3rem;
+}
+.mainDiv > div:nth-child(2) {
+  margin-top: 5rem;
+  color: #5a5a5a;
+  font-size: 1.314rem;
+  text-align: center;
+}
+
+.footerBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 68%;
+  gap: 7%;
+}
+.mainRightFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.footerFlexBox {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: var(--lightGray-text);
+  font-size: 1.31rem;
+}
+.footerFlexBox > div {
+  display: flex;
+  flex-direction: column;
+}
+.footerFlexBox > div > h4,
+.socialMedia > h4,
+.socialMedia + div > h4 {
+  margin-bottom: 1.2rem;
+  color: var(--blackHeading-text);
+  font-size: 1.5rem;
+}
+
+.logoBox {
+  width: "31rem";
+}
+
+.logoBox > div > p,
+.socialMedia + div > p {
+  color: var(--lightGray-text);
+  font-size: 1.31rem;
+}
+
+.logoBox > div > div:first-child,
+.socialMedia + div > p {
+  color: var(--lightGray-text);
+  font-size: 1.31rem;
+}
+
+.logoBox > div > div:first-child {
+  font: normal normal 600 1.7rem/2rem Inter;
+  color: #343434;
+  margin-bottom: 0.4rem;
+}
+
+.logoBox > div {
+  margin-top: 1.8rem;
+}
+
+.logo_container {
+  height: 4rem;
+  width: 24rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.socialMedia > div > a > img {
+  width: 3rem;
+  height: 2.8rem;
+}
+.socialMedia > div > a > img:last-child {
+  height: 2.2rem;
+  margin-right: 0.3rem;
+}
+
+.socialMedia + div > h2 {
+  margin-top: 0.73rem;
+  font-size: 2.32rem;
+  letter-spacing: 0.12rem;
+}
+
+.socialMediaIconBox {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4rem !important;
+  height: 4rem;
+  width: 22rem;
+}
+
+.icon_size {
+  height: 2.5rem;
+  width: 3.5rem;
+  position: relative;
+  transition: 0.5s;
+}
+
+.icon_size:hover {
+  height: 3rem;
+  width: 4rem;
+}
+
+.footerFlexBox a {
+  color: #5a5a5a;
+}
+
+.footerFlexBox a:hover {
+  color: rgb(42, 106, 180);
+}
+.features:hover {
+  color: rgb(42, 106, 180);
+  cursor: pointer;
+}
+
+.footer_email {
+  font: normal normal 600 1.4rem/2.5rem Inter;
+  color: #2a6ab4 !important;
+}
+
+.contact_no {
+  margin: 0;
+}
+
+.contact_no > a {
+  font: normal normal 600 1.4rem/2.5rem Inter;
+  color: #2c6bb3 !important;
+}
+
+.iso_img,
+.aicpa_img {
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+}
+
+.img_container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+
+.googleplay_btn {
+  width: 16.99931rem;
+  height: 5.12488rem;
+  position: relative;
+  cursor: pointer;
+}

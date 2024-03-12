@@ -1,0 +1,126 @@
+.getFreeDemoMainContainer {
+   display: flex;
+   justify-content: space-between;
+}
+.getFreeDemoLeftContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   width: 40%;
+   padding: 7.3rem 0rem 5rem 4rem;
+}
+.getFreeDemoLeftContainer > div:nth-child(1) {
+   margin: 0 0 0 0;
+   padding: 0 10rem 0 0;
+}
+.getFreeDemoLeftContainer > div:nth-child(1) > p:nth-child(1) {
+   font: normal 700 normal 4.38rem/5rem inter;
+   color: #3c69af;
+}
+.getFreeDemoLeftContainer > div:nth-child(1) > p:nth-child(2) {
+   font: normal normal bold 3.2rem/3.65rem inter;
+   color: #343434;
+}
+.getFreeDemoLeftContainer > div:nth-child(1) > p:nth-child(3) {
+   font: normal 400 normal 4.5rem/5rem inter;
+   color: #343434;
+}
+.getFreeDemoLeftContainer > div:nth-child(2) {
+   margin: 0 0 3rem 0;
+}
+.getFreeDemoLeftContainer > div:nth-child(2) > p {
+   font: normal 300 normal 1.9rem/2.36rem inter;
+   color: #5a5a5a;
+   margin-bottom: 5.5rem;
+}
+
+.getFreeDemorightMainContainer {
+   padding: 7.3rem 5rem 5rem 5rem;
+}
+.contactForm {
+   border-radius: 1.46rem;
+   box-shadow: 5px 0px 10px #00000029;
+   padding: 2.5rem 2.5rem 1rem 2.5rem;
+   background-color: var(--white);
+   /* position: relative;
+   animation-name: getFreeDemoForm;
+   animation-duration: 0.4s;
+   animation-iteration-count: 1;
+   animation-direction: reverse; */
+}
+/* @keyframes getFreeDemoForm {
+   0% {
+      left: 0%;
+      
+   }
+   100% {
+      left: 100%;
+   }
+} */
+
+.varifyOtp {
+   position: relative;
+   animation-name: varifyOtp;
+   animation-duration: 0.4s;
+   animation-iteration-count: 1;
+   animation-direction: reverse;
+}
+@keyframes varifyOtp {
+   0% {
+      left: 0%;
+   }
+   100% {
+      left: 100%;
+   }
+}
+
+.contactForm > p {
+   font-size: 2.92rem;
+}
+.dropDownDiv {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 3rem;
+   justify-content: space-between;
+}
+.dropDownDiv > div {
+   width: 47.6%;
+}
+
+.businessDiv {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   row-gap: 2.19rem;
+   column-gap: 0rem;
+   width: 75%;
+}
+.businessDivMobile {
+   display: grid;
+   grid-template-columns: auto auto;
+   row-gap: 2.19rem;
+   /* column-gap: 0rem; */
+   /* width: 75%; */
+   
+}
+.buttonTrigger {
+   width: 15rem;
+   background-color: white;
+   border: 0.1rem solid #5a5a5a99;
+   font-size: 1.65rem;
+   font-weight: normal;
+   color: #5a5a5a99;
+   height: 5.1rem;
+   transition: all 0.1s ease-in-out;
+}
+.buttonTrigger:hover {
+   color: #3c69af;
+   background-color: white;
+   font-weight: bold;
+   transform: scale(1.03);
+   border: 0.1rem solid #3c69af;
+}
+.activeButton {
+   color: #3c69af;
+   font-weight: bold;
+   border: 0.1rem solid #3c69af;
+}

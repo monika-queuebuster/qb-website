@@ -1,0 +1,27 @@
+.Mobile_PD_banner {
+  background-color: #2a6ab4;
+  padding: 3rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Mobile_PD_banner_heading {
+  font: normal normal bold 3.37rem/4.5rem Inter;
+  color: #fff;
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.demo_img {
+  height: 12rem;
+  width: 20rem;
+  position: relative;
+}
+
+.demo_desc {
+  color: #fff;
+  margin-bottom: 3rem;
+  text-align: center;
+}

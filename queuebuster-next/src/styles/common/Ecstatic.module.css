@@ -1,0 +1,57 @@
+.ecstatic_card {
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 1rem;
+}
+
+.icon {
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    margin-bottom: 1.3rem;
+}
+
+.ecstatic_heading {
+    font: normal normal 600 1.6rem/3rem Inter;
+}
+
+.image_container {
+    height: 22rem;
+    width: 28rem;
+    position: relative;
+}
+
+.ecstatic_desc {
+    font: normal normal normal 1.6rem/2.5rem Inter;
+    margin-bottom: 0;
+    color: #5a5a5a;
+}
+
+.show_more {
+    font: normal normal 600 1.4rem/2.5rem Inter;
+    color: #393939;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.disabled_arrow {
+    color: rgb(217, 217, 217);
+    pointer-events: none;
+}
+
+.text_container {
+    height: 8rem;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.show_animation {
+    height: 25rem;
+}
+
+.tag_text {
+    padding: 0.8rem 1rem;
+    border-radius: 36px;
+    height: fit-content;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,367 @@
+.hero_section {
+  margin: 0 3rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  flex-direction: column;
+}
+
+.text_container {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.hero_section_heading {
+  font: normal normal bold 3.75rem/5rem Inter;
+}
+
+.blue_text {
+  color: #2a6ab4;
+}
+
+.hero_section_point {
+  margin-bottom: 1rem;
+  font: normal normal normal 1.8rem/3rem Inter;
+  color: #5a5a5a;
+}
+
+.hero_img_section {
+  background-image: url("/assets/pricing/pricing_hero_img.webp");
+  background-size: 100% 100%;
+  background-position: 100%;
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.section_two {
+  background-color: #fff;
+  padding: 4rem 1rem 0 1rem;
+}
+
+.section_header {
+  width: fit-content;
+  margin: auto;
+}
+
+.section_heading {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.section_stroke {
+  height: 2rem;
+  width: 20rem;
+  margin: auto;
+  position: relative;
+  top: -0.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.plan_section,
+.enterprise_plan_section,
+.video_section,
+.demo_banner_section {
+  margin: 4rem 3rem 0 3rem;
+}
+
+.testimonial_section {
+  margin: 4rem 2rem 0rem 2rem;
+}
+
+.table_filter {
+  display: flex;
+  padding: 0 4rem;
+  gap: 2rem;
+}
+
+.row {
+  height: 5rem;
+  display: flex;
+  padding: 0 4rem;
+  gap: 2rem;
+}
+
+.even_row {
+  background-color: #edf1f7;
+}
+
+.odd_row {
+  background-color: #fff;
+}
+
+.table_data {
+  font: normal normal normal 1.8rem/3rem Inter;
+  display: flex;
+  align-items: center;
+}
+
+.table_data2 {
+  background-color: #eec9ff26;
+  justify-content: center;
+}
+
+.table_data3 {
+  background-color: #8ae4f626;
+  justify-content: center;
+}
+
+.monthly_yearly {
+  width: 48.3%;
+  margin: 4rem 0;
+  padding: 4rem 10rem 0rem 0rem;
+}
+
+.choose_btn {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.choose_btn > div {
+  padding: 1.4rem 2rem;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tick_header {
+  display: flex;
+  width: 50%;
+  gap: 2rem;
+}
+
+.tick_header > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.plan_name {
+  background-color: #eec9ff26;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.enterprise {
+  background-color: #8ae4f626;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.tick_heading {
+  color: #2a6ab4;
+  font: normal normal 600 2.2rem/3rem Inter;
+}
+
+.plan_value {
+  font: normal normal 600 2.8rem/3rem Inter;
+  margin-bottom: 0;
+}
+
+.light_text {
+  font: normal normal normal 1.3rem/3rem Inter;
+}
+
+.selected_plan {
+  background-color: #8ae4f626;
+}
+
+.selected_plan > span {
+  color: #2a6ab4;
+  font-size: 1.5rem;
+}
+
+.nonselected_plan {
+  background-color: #fff;
+  color: #888888;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.colored_check {
+  color: #04c704;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.table_footer {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.table_footer > p {
+  width: 50%;
+  font: normal normal 600 2.5rem/3.5rem Inter;
+  padding: 0 20rem 0 4rem;
+}
+
+.pink_pricing_btn {
+  background-color: #fdf7ff;
+  padding: 2rem 4.2rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink_pricing_btn > button {
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  padding: 1.2rem 0rem;
+  border-radius: 0.3rem;
+  font: normal normal 500 1.6rem/3rem Inter;
+  background-color: #fff;
+  width: 100%;
+}
+
+.blue_pricing_btn {
+  background-color: #8ae4f626;
+  padding: 2rem 4.2rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue_pricing_btn > button {
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  padding: 1.2rem 0rem;
+  border-radius: 0.3rem;
+  font: normal normal 500 1.6rem/3rem Inter;
+  background-color: #fff;
+  width: 100%;
+}
+
+.pricing_btn_container {
+  display: flex;
+  width: 50%;
+  gap: 2rem;
+  padding-right: 4rem;
+}
+
+.enterprise_plan_container {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  background-color: #eec9ff26;
+  border-radius: 20px;
+  padding: 3.2rem 5.2rem;
+}
+
+.left_side {
+  width: 40%;
+}
+
+.left_side > h4 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  margin-bottom: 2rem;
+}
+
+.left_side > p {
+  margin-bottom: 3.75rem;
+  font: normal normal normal 1.8rem/3rem Inter;
+  color: #5a5a5a;
+}
+
+.right_side {
+  width: 58%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 2.2rem;
+}
+
+.orange_container {
+  background-color: #ffe6e6;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+}
+
+.three_box_container {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 2.2rem;
+}
+
+.two_box_container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2.2rem;
+}
+
+.green_container {
+  background-color: #eafff8;
+  padding: 4.5rem 2rem;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.yellow_container {
+  background-color: #fff4d8;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+}
+
+.blue_container {
+  background-color: #ddf9ff;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+}
+
+.conatiner_header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font: normal normal 500 1.8rem/3rem Inter;
+}
+
+.container_para {
+  font: normal normal normal 1.8rem/3rem Inter;
+  color: #5a5a5a;
+  margin-top: 1rem;
+}
+
+.iframe_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.iframe_left_banner {
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  padding: 2.8rem;
+  height: 40rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.iframe_left_banner > p {
+  color: #fff;
+  font: normal normal normal 1.8rem/3rem Inter;
+  width: 100%;
+}
+
+.large_text {
+  font: normal normal 600 3.8rem/3rem Inter;
+}
+
+.yellow_text {
+  color: #ffba00;
+}
+
+.qb_img_container {
+  height: 14rem;
+  width: 14rem;
+  position: absolute;
+  bottom: 0;
+}

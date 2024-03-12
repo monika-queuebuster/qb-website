@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.accContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+.accHeader {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0;
+}
+.accHeader > button {
+  font: normal normal normal 1.606rem/2.044rem Inter;
+  color: #626060 !important;
+  font-weight: 600;
+}
+.acctoggle {
+  font: normal normal normal 1.606rem/2.044rem Inter;
+  color: #5a5a5a;
+}
+
+.accHeader > button:not(.collapsed)::after {
+  background: url("../../../public/assets/outlet_types/PlusIcon.svg");
+  height: 1.5rem;
+  width: 1.5rem;
+  background-size: cover;
+}
+.accHeader > button.collapsed::after {
+  background: url("../../../public/assets/outlet_types/MinusIcon.svg");
+}
+.accHeader > button:not(.collapsed) {
+  background-color: transparent;
+  color: black;
+}

@@ -1,0 +1,161 @@
+.modal_size {
+  transition: 1s;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(229, 255, 255);
+  z-index: 101;
+  padding: 4rem 9.3rem;
+}
+
+.stack1,
+.stack2 {
+  position: absolute;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.stack1 {
+  background-color: #a3ced6;
+  width: 92%;
+  top: 4rem;
+}
+
+.stack2 {
+  background-color: #b3e0e8;
+  top: 2rem;
+  width: 96%;
+}
+
+.inner_modal_container {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  padding-top: 8rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.inner_modal_container::-webkit-scrollbar {
+  display: none;
+}
+
+.form_container {
+  width: 60rem;
+  /* text-align: center; */
+}
+
+.form_heading {
+  font: normal normal 500 3rem/3.75rem Inter;
+  text-align: center;
+}
+
+.blue_bold_text {
+  font: normal normal bold 3rem/3.75rem Inter;
+  color: #2a6ab4;
+}
+
+.form_desc {
+  font: normal normal normal 1.4rem/2.2rem Inter;
+  margin-top: 1.5rem;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.otp_input {
+  height: 4.5rem;
+  width: 6rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.modal_footer_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.qblogo {
+  height: 5rem;
+  width: 15rem;
+  position: relative;
+}
+
+.modal_footer_container .text {
+  font: normal normal 600 1.6rem/2rem Inter;
+}
+
+.icon_container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.merchants_icons {
+  position: relative;
+}
+
+.blue_text {
+  font-size: 1.4rem;
+  color: rgb(42, 106, 180);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 1s;
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 2px
+    no-repeat;
+}
+
+.blue_text:hover {
+  --d: 100%;
+}
+
+.black_text {
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.disabled_text {
+  color: rgb(204, 204, 204);
+  font-size: 1.4rem;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  .modal_size {
+    padding: 2rem 2rem;
+  }
+  .form_heading {
+    font: normal normal 400 2rem/3rem Inter;
+  }
+  .blue_bold_text {
+    font: normal normal 600 2rem/3rem Inter;
+  }
+  .form_container {
+    width: 30rem;
+    margin-top: 3rem;
+  }
+  .form_desc {
+    font: normal normal normal 1.4rem/2.2rem Inter;
+  }
+  .otp_input {
+    height: 5rem;
+    width: 5rem;
+  }
+  .icon_container {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .merchants_icons {
+    height: 3rem;
+    width: 8rem;
+  }
+}

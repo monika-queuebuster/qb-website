@@ -1,0 +1,60 @@
+.modal_size {
+  height: 60rem;
+  width: 50rem;
+  z-index: 1000;
+  background-color: #fff;
+  margin: 9rem auto;
+  overflow: scroll;
+  position: relative;
+  outline: none;
+}
+
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e2e2e2;
+  position: fixed;
+  width: inherit;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.modal_heading {
+  font: normal normal normal 1.4rem/3rem Inter;
+  margin-bottom: 0;
+}
+
+.close_btn {
+  font-size: 1.7rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: grey;
+  font-weight: 800;
+}
+
+.image_container {
+  height: 70rem;
+  width: 50rem;
+  padding: 1rem;
+  margin-top: 4rem;
+}
+
+.certification_img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 540px) {
+  .modal_size {
+    height: 60rem;
+    width: 35rem;
+  }
+
+  .image_container {
+    height: 60rem;
+    width: 35rem;
+  }
+}

@@ -1,0 +1,78 @@
+.page_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.error_image {
+  height: 48rem;
+  width: 35rem;
+  position: relative;
+}
+
+.error_text {
+  text-align: center;
+  width: 50%;
+  margin: 3rem 0;
+}
+
+.industries_section {
+  margin: 6.1rem 9.37rem 0 9.37rem;
+}
+
+.industry_section_heading {
+  position: relative;
+  height: 3.93rem;
+  width: 24rem;
+  margin: auto;
+}
+
+.industries_stroke_img {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  right: 4.5rem;
+  top: -0.5rem;
+}
+
+.industry_heading,
+.testimonial_heading {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.testimonial_section {
+  margin: 6.31rem 9.37rem;
+}
+
+.mobile_testimonial_section {
+    margin: 6.31rem 2rem;
+}
+
+.testimonials_stroke_img {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  left: 3.2rem;
+  margin-bottom: 2.8rem;
+  top: -0.5rem;
+}
+
+.demo_banner_section {
+    margin: 0 9.37rem;
+}
+
+.mobile_demo_banner_section {
+    margin: 0 2rem;
+}
+
+@media screen and (max-width: 540px) {
+    .error_text {
+        width: 90%;
+    }
+    .industries_section {
+        margin: 6.3rem 2rem 0 2rem;
+    }
+}

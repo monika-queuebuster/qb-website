@@ -1,0 +1,212 @@
+.AllInOneTopCard {
+   height: 73.905rem;
+}
+.aboutUsTopDiv > div:nth-child(1) {
+   height: 57.305rem;
+}
+.aboutUsTopDiv > div:nth-child(2) {
+   background-color: #f9d878;
+   height: 14.6rem;
+}
+
+.mainDataDivInTopCard {
+   display: flex;
+   height: 58rem;
+}
+.mainDataDivInTopCard > div:nth-child(1) {
+   width: 50%;
+   padding: 0 0 0 7rem;
+}
+
+.mainDataDivInTopCard > div:nth-child(1) {
+   padding-top: 10rem;
+}
+.mainDataDivInTopCard > div:nth-child(1) {
+   position: relative;
+}
+.mainDataDivInTopCard > div:nth-child(2) {
+   display: flex;
+   align-items: flex-end;
+}
+.mainDataDivInTopCard > div:nth-child(1) > div:nth-child(1) {
+   width: 65%;
+   font-size: 4.38rem;
+}
+
+.mainDataDivInTopCard > div:nth-child(1) > div:nth-child(1) > h1 {
+   font-size: 4.38rem;
+}
+
+.mainDataDivInTopCard > div:nth-child(1) > div:nth-child(2) {
+   width: 80%;
+   font-size: 1.898rem;
+   text-align: justify;
+   color: #242424;
+}
+.AllInOnetopCardBtns {
+   display: flex;
+   gap: 3rem;
+   margin-top: 2rem;
+}
+.companyInfoData___ {
+   height: 14.6rem;
+   background-color: #f9d878;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+   padding: 0 7rem 0 5rem;
+}
+.companyInfoData___ > div > h4 {
+   color: #252526;
+   font-size: 3.65rem;
+   text-align: center;
+   font-weight: bold;
+}
+.companyInfoData___ > div > p {
+   color: #7a6c47;
+   font-size: 2.19rem;
+   text-align: center;
+}
+.groceryBillingImg {
+   height: auto;
+   height: 32.3rem;
+   width: 56.8rem;
+   position: relative;
+}
+.mobileImg {
+   position: absolute;
+   width: 14.381rem;
+   height: 29rem;
+   left: 120rem;
+   top: 37.3rem;
+}
+.cards1 {
+   position: absolute;
+   width: 11.242rem;
+   height: 15rem;
+   top: 24.7rem;
+   left: 67.2rem;
+}
+.cards2 {
+   position: absolute;
+   width: 13.505rem;
+   height: 16rem;
+   top: 13rem;
+   left: 79.5rem;
+}
+.aboutUsTopDivImg {
+   position: absolute;
+   height: 52.925rem;
+   top: 19rem;
+   left: 52%;
+}
+
+.googlePlayBtn {
+   position: relative;
+   height: 4.5rem;
+   width: auto;
+   margin-top: 2.2rem;
+   cursor: pointer;
+}
+
+.ourKeyFeature_MainContainer {
+   display: flex;
+   padding: 5.59rem 0 0rem 0;
+}
+
+.jusTRY {
+   background-color: #f2d366;
+   border-top-left-radius: 8rem;
+   border-bottom-left-radius: 8rem;
+   color: #777278;
+   width: 7rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   writing-mode: vertical-rl;
+   text-orientation: mixed;
+   letter-spacing: 1rem;
+   font-size: 4.5rem;
+   font-weight: 500;
+   transform: rotate(180deg);
+   margin: 0 8rem 0 0;
+}
+
+.installBox {
+   margin: 7.5rem 7rem;
+   padding: 0 8rem;
+   display: grid;
+   grid-template-columns: 48% 48%;
+   height: 55rem;
+   gap: 4%;
+}
+
+.installBox > div:last-child > img {
+   width: 100%;
+   height: 100%;
+}
+
+.iconBox {
+   display: flex;
+   gap: 2.2rem;
+   width: 80%;
+   margin-top: 2.5rem;
+}
+
+.installBox h2 {
+   font-size: 2.8rem;
+   margin-bottom: 1.5rem;
+}
+
+.installBox h3 {
+   font-size: 2.1rem;
+}
+
+.installBox p {
+   font-size: 1.6rem;
+}
+
+.iconBox > div:nth-child(1) {
+   height: 6rem;
+   width: 6rem;
+   aspect-ratio: 1/1;
+   position: relative;
+}
+
+.installBox > div:first-child {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.contactUs_mainContainer {
+   display: flex;
+   /* height: 49rem; */
+   margin: 10rem 0 10rem 0;
+   justify-content: space-between;
+}
+.contactUs_mainContainer > div:nth-child(1) {
+   display: flex;
+}
+
+.contactUsTILT_bar {
+   background-color: #eff6ff;
+   border-top-left-radius: 8rem;
+   border-bottom-left-radius: 8rem;
+   color: #5b86b8;
+   width: 7rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   writing-mode: vertical-rl;
+   text-orientation: mixed;
+   letter-spacing: 1rem;
+   font-size: 4.5rem;
+   font-weight: 500;
+   transform: rotate(180deg);
+   margin: 0 8rem 0 0;
+}
+.giveItTryDivInAllInOnePage {
+   margin-top: 10rem;
+}

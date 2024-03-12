@@ -1,0 +1,63 @@
+.pricing_page_container {
+    /* margin: 5rem 9.3rem; */
+    display: flex;
+}
+
+.form_section {
+    width: 60%;
+    padding: 5rem 6.3rem 3rem 9.3rem;
+    border-right: 1px solid #ddf8fd;
+}
+
+.summary_section {
+    width: 40%;
+    padding: 5rem 9.3rem 3rem 3rem;
+    background-color: #fff;
+    
+}
+
+.form_heading {
+    font: normal normal 400 3rem/5rem Inter;
+}
+
+.blue_text {
+    color: #2A6AB4;
+    font: normal normal 500 3rem/5rem Inter;
+}
+
+.form_desc {
+    font: normal normal normal 1.8rem/3rem Inter;
+    width: 70%;
+    margin-bottom: 4rem;
+}
+
+.form_row {
+    display: flex;
+    gap: 6rem;
+}
+
+.summary_section_heading {
+    font: normal normal bold 1.8rem/3rem Inter;
+}
+
+.pricing_type_heading {
+    font: normal normal 400 1.6rem/3rem Inter;
+    color: #2A6AB4;
+    margin-top: 2rem;
+}
+
+.pricing_type_desc {
+    font: normal normal 400 1.6rem/2.2rem Inter;
+    margin-bottom: 2rem;
+}
+
+.subscription_summary {
+    border-top: 1px dashed rgb(202, 202, 202);
+    border-bottom: 1px dashed rgb(202, 202, 202);
+    padding: 2rem 0;
+}
+
+.total_summary {
+    padding: 2rem 0;
+    border-bottom: 1px dashed rgb(202, 202, 202);
+}

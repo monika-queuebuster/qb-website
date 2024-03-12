@@ -1,0 +1,433 @@
+.stack_container {
+  margin: 3rem 2rem;
+  position: relative;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d78cf;
+  border-radius: 20px;
+}
+
+.stack1 {
+  background-color: #3586e3;
+  height: 40rem;
+  width: 95%;
+  position: absolute;
+  top: 3rem;
+  border-radius: 20px;
+}
+
+.stack2 {
+  background-color: #2d78cf;
+  height: 40rem;
+  width: 97.5%;
+  position: absolute;
+  top: 1.5rem;
+  border-radius: 20px;
+}
+
+.hero_section {
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  background-color: #2a6ab4;
+  border-radius: 20px;
+}
+
+.text_container {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.small_heading {
+  font: normal normal normal 2rem/3rem Inter;
+}
+
+.bold_heading {
+  font: normal normal bold 2.7rem/4rem Inter;
+}
+
+.page_desc {
+  margin-top: 1rem;
+  font: normal normal normal 1.6rem/2.4rem Inter;
+}
+
+.section_heading {
+  width: fit-content;
+  margin: auto;
+}
+
+.section_heading > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.heading_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem 0 3rem auto;
+}
+
+.marquee_section {
+  background-color: #fff;
+  padding: 9.3rem 0 0 0;
+}
+
+.feature_rich {
+  margin: 6rem 2rem;
+  position: relative;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.feature_stack1 {
+  background-color: #d0e5fe;
+  height: 60rem;
+  width: 95%;
+  position: absolute;
+  top: 3rem;
+  border-radius: 20px;
+}
+
+.feature_stack2 {
+  background-color: #edf5ff;
+  height: 60rem;
+  width: 97.5%;
+  position: absolute;
+  top: 1.5rem;
+  border-radius: 20px;
+}
+
+.feature_stack3 {
+  background-color: #fcfdff;
+  height: 60rem;
+  width: 100%;
+  position: absolute;
+  top: 0rem;
+  border-radius: 20px;
+}
+
+.feature_small_box {
+  display: flex;
+  gap: 0.5rem;
+  height: 5rem;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.feature_icons {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+}
+
+.icon_title {
+  font: normal normal 400 1rem/1.5rem Inter;
+  width: 65%;
+}
+
+.inner_container {
+  width: 95%;
+  height: 70%;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.qb_logo {
+  height: 8rem;
+  width: 8rem;
+  position: relative;
+}
+
+.inner_container .end_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.inner_container .mid_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.ecommerce_icons {
+  height: 6rem;
+  width: 7rem;
+  position: absolute;
+}
+
+.connecting_arrow {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+}
+
+.straight_arrow {
+  height: 4rem;
+  width: 1rem;
+  position: absolute;
+}
+
+.stacked_container {
+  margin: 6rem 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.stacked_container .container1 {
+  position: absolute;
+  height: 3rem;
+  bottom: -3rem;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.stacked_container .container2 {
+  position: absolute;
+  bottom: -1.5rem;
+  width: 94.5%;
+  border-radius: 20px;
+  height: 3rem;
+}
+
+.stacked_container .container3 {
+  width: 100%;
+  border-radius: 20px;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  /* height: 130rem; */
+}
+
+.left_container {
+  width: 100%;
+}
+
+.left_container ul {
+  padding: 0;
+  margin-bottom: 3rem;
+}
+
+.left_container ul li {
+  list-style: none;
+  /* border-left: 2px solid #ffba00; */
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font: normal normal 400 1.5rem/2.3rem Inter;
+}
+
+.container_heading {
+  font: normal normal 600 2rem/3rem Inter;
+}
+
+.container_desc {
+  font: normal normal 400 1.5rem/2.3rem Inter;
+  margin-top: 1rem;
+}
+
+.show_more {
+  font: normal normal 600 1.7rem/2rem Inter;
+  color: rgb(157, 157, 157);
+  cursor: pointer;
+}
+
+.right_container {
+  width: 31rem;
+  position: relative;
+  height: 31rem;
+  margin: 3rem auto;
+}
+
+.ecommerce_img1 {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.ecommerce_img2 {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.ecommerce_img3 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 3rem;
+}
+
+.ecommerce_img4 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  top: 5rem;
+  left: -1rem;
+}
+
+.ecommerce_img5 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  top: 0.5rem;
+  right: -1.5rem;
+}
+
+.ecommerce_img6 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  bottom: 10rem;
+  left: -2.5rem;
+}
+.omnichannel_img1,
+.wms_img1,
+.invoice_img1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.omnichannel_img1 > img,
+.wms_img1 > img,
+.invoice_img1 > img {
+  border-radius: 15px;
+}
+
+.omnichannel_img3 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  box-shadow: 0px 9.37px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.omnichannel_img2 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  bottom: 13rem;
+  left: 3rem;
+  z-index: 1;
+  box-shadow: 0px 6.969px 29.749px 0px rgba(0, 0, 0, 0.15);
+}
+
+.omnichannel_img4 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  left: -2rem;
+  bottom: 10rem;
+  box-shadow: 3.552px 3.552px 31.97px 0px rgba(0, 0, 0, 0.05);
+}
+
+.omnichannel_img5 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  left: -2rem;
+  top: 8rem;
+  box-shadow: 3.616px 3.616px 32.547px 0px rgba(0, 0, 0, 0.05);
+}
+
+.omnichannel_img6 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  left: 2rem;
+  bottom: 5rem;
+  box-shadow: 3.245px 3.245px 29.205px 0px rgba(0, 0, 0, 0.05);
+}
+
+.wms_img2 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  bottom: 9.5rem;
+  left: -1rem;
+  box-shadow: 6px 6px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wms_img3 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wms_img4 {
+  width: 0rem;
+  height: 0rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 4rem;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+}
+
+.invoice_img2 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  bottom: 2rem;
+  left: -1rem;
+  box-shadow: 0px 4.63px 46.302px 0px rgba(0, 0, 0, 0.15);
+}
+
+.invoice_img3 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  left: -1rem;
+  bottom: 10rem;
+  box-shadow: 3.616px 3.616px 32.547px 0px rgba(0, 0, 0, 0.05);
+}
+
+.invoice_img4 {
+  height: 0rem;
+  width: 0rem;
+  position: absolute;
+  bottom: 10rem;
+  right: -1rem;
+  box-shadow: 0px 3.2px 32px 0px rgba(0, 0, 0, 0.25);
+}
+
+.feature_rich_img_container {
+  width: fit-content;
+  margin: auto;
+}
+
+.feature_rich_img {
+  height: 50rem;
+  width: 30rem;
+  position: relative;
+}

@@ -1,0 +1,75 @@
+.header {
+  background-image: url("https://quebuster.s3.ap-south-1.amazonaws.com/website/assets/careers/hero-img+(2).webp");
+  background-repeat: no-repeat;
+  height: 21rem;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.header > h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.header > p {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 0.7rem;
+}
+
+.teamImage {
+  height: 22.5rem;
+  width: 35rem;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.teamImage > img {
+  border-radius: 2.2rem;
+}
+
+.numberWhyJoin {
+  font-size: 5rem;
+  color: #222222;
+  opacity: 0.2;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.culture_content > p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.img_grid_container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 3rem;
+  gap: 0.5rem;
+}
+
+.grid_top_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.tlc_img,
+.trc_img {
+  width: 100%;
+  height: 13rem;
+  position: relative;
+}
+
+.m1c_img,
+.m2c_img {
+  width: 100%;
+  height: 13rem;
+  position: relative;
+}

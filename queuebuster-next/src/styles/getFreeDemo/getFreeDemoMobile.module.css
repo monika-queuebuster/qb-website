@@ -1,0 +1,8 @@
+.cardMobile {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /* box-shadow: 5px 0px 10px #00000029;
+     border-radius: 20px; */
+    border: 2.5px solid #0d0d0d18;
+    border-radius: 10px;
+    opacity: 1;
+ }

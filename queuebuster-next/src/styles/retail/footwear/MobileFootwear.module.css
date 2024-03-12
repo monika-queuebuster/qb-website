@@ -1,0 +1,229 @@
+.hero_stack_container {
+  position: relative;
+  margin: 4rem 2rem 0 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero_stack1 {
+  background-color: #3586e3;
+  border-radius: 20px;
+  position: absolute;
+  top: 3rem;
+  width: 100%;
+  width: 95%;
+}
+
+.hero_stack2 {
+  background-color: #2d78cf;
+  position: absolute;
+  top: 1.5rem;
+  border-radius: 20px;
+  width: 97.5%;
+}
+
+.hero_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.show_more_text {
+  font: normal normal 600 1.6rem/2.4rem Inter;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.hero_text_container {
+  margin: 1rem;
+}
+
+.heading1 {
+  font: normal normal normal 2rem/3rem Inter;
+  color: #fff;
+}
+
+.heading2 {
+  font: normal normal bold 2.7rem/4rem Inter;
+  color: #e3faff;
+}
+
+.hero_desc {
+  font: normal normal normal 1.6rem/2.4rem Inter;
+  color: #fff;
+  margin: 1rem 0;
+  margin-bottom: 0;
+}
+
+.marquee_section {
+  margin-top: 10rem;
+}
+
+.section_heading {
+  width: fit-content;
+  margin: auto;
+}
+
+.section_heading > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.heading_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem 0 3rem auto;
+}
+
+.features_section,
+.demo_banner_section,
+.testimonial_section {
+  margin: 3rem 2rem 0 2rem;
+}
+
+.get_started_section {
+  margin: 3rem 2rem 3rem 2rem;
+  background-color: #f8d47837;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.get_started_section > div {
+  width: 100%;
+}
+
+.get_started_section .right_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.get_started_section > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+
+.get_started_section > div:nth-child(1) > h4 {
+  font: normal normal 600 2rem/3rem Inter;
+  text-align: center;
+}
+
+.get_started_section > div:nth-child(1) > p {
+  font: normal normal normal 1.8rem/3rem Inter;
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.right_img_container {
+  height: 25rem;
+  width: 29rem;
+  position: relative;
+  margin-top: auto;
+}
+
+.why_qb_section {
+  margin: 4rem 2rem 0 2rem;
+}
+
+.why_qb_section > h2 {
+  margin: 3rem 0 3rem 0;
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+}
+
+.why_container {
+  background-color: #8ae4f626;
+  border-radius: 10px;
+}
+
+.why_container .content_part {
+  padding: 4rem 1rem;
+}
+
+.why_qb_section .read_more_part {
+  text-align: center;
+  padding: 2rem;
+  font: normal normal 600 1.6rem/2.5rem Inter;
+  border-top: 2px dashed #80e8fe;
+}
+
+.why_qb_section .read_more_part > span {
+  cursor: pointer;
+}
+
+.why_text {
+  margin-bottom: 3rem;
+}
+
+.why_text > h4 {
+  color: #2a6ab4;
+  font: normal normal 600 1.8rem/3rem Inter;
+}
+
+.why_text > p {
+  font: normal normal normal 1.6rem/2.5rem Inter;
+}
+
+.other_features_stroke {
+  height: 2rem;
+  position: relative;
+  margin: -0.5rem auto;
+}
+
+.other_features_Desc {
+  margin-top: 2rem;
+  font: normal normal normal 1.6rem/3rem Inter;
+  text-align: center;
+}
+
+.other_features {
+  padding: 1rem;
+  border: 1px solid rgba(68, 185, 255, 0.29);
+  width: 17rem;
+  height: 21rem;
+  background-color: rgba(68, 185, 255, 0.1);
+  margin: 0;
+}
+
+.other_features > p {
+  font: normal normal 500 1.2rem/1.5rem Inter;
+  margin-top: 0.5rem;
+}
+
+.description {
+  font: normal normal 300 1.2rem/1.5rem Inter !important;
+}
+
+.other_features .icon {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+}
+
+.other_features_section {
+  margin: 5rem 2rem 0 2rem;
+}
+
+.other_features_section .text_side {
+  width: 100%;
+}
+.other_features_section .box_side {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.other_features_section .box_side .other_features {
+  border-radius: 15px;
+}

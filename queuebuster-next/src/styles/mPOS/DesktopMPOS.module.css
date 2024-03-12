@@ -1,0 +1,356 @@
+.hero_section {
+  display: flex;
+  margin: 0rem 6.25rem 0 9.3rem;
+}
+
+.hero_section > .text_container {
+  width: 45%;
+  margin-top: 7.1rem;
+}
+
+.hero_heading {
+  font: normal normal 600 3.75rem/5rem Inter;
+}
+
+.blue_text {
+  color: #2a6ab4;
+}
+
+.hero_content {
+  font: normal normal normal 1.8rem/3rem Inter;
+  margin: 1.8rem 0 3.2rem 0;
+}
+
+.ratings {
+  display: flex;
+  gap: 5rem;
+  margin-top: 6.25rem;
+}
+
+.rating_container {
+  border-radius: 6px;
+}
+
+.company_img_container {
+  height: 3.65rem;
+  width: 11.5rem;
+  position: relative;
+}
+
+.element_rating {
+  font-size: 2rem;
+}
+
+.outof_rating {
+  font-size: 1rem;
+  margin-top: 0.4rem;
+}
+
+.ratings_img_container {
+  height: 2.45rem;
+  width: 9rem;
+  position: relative;
+  display: inline-block;
+  margin-left: 0.6rem;
+}
+
+.hero_section > .image_container {
+  width: 50%;
+}
+
+.hero_img {
+  height: 63rem;
+  width: 76rem;
+  position: relative;
+}
+
+/* section 2 */
+.section_two {
+  padding-top: 3.75rem;
+  background-color: #fff;
+}
+
+.section_two_heading {
+  text-align: center;
+  font: normal normal bold 2.8rem/3.8rem Inter;
+  margin-bottom: 1rem;
+}
+
+/* section 3 */
+
+.mpos_features {
+  margin: 6.3rem 9.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+}
+
+.mpos_card {
+  padding: 6.3rem;
+  border-radius: 20px;
+  display: flex;
+  gap: 5rem;
+}
+
+.feature_text {
+  width: 60%;
+}
+
+.colored_bg {
+  width: 40%;
+  border-radius: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.feature_text > h3 {
+  font: normal normal bold 2.8rem/2.4rem Inter;
+  margin-bottom: 1.8rem;
+}
+
+.feature_text > p {
+  color: #5a5a5a;
+  font: normal normal normal 1.8rem/3rem Inter;
+  margin-bottom: 2.5rem;
+}
+
+.feature_point > div {
+  color: #5a5a5a;
+  font: normal normal normal 1.8rem/3rem Inter;
+  margin-bottom: 2.8rem;
+  padding-left: 1rem;
+}
+
+.feature_img {
+  position: relative;
+}
+
+.container_link > a {
+  font: normal normal 600 2rem/2rem Inter;
+}
+
+/* how does it work section */
+.working_section_heading {
+  text-align: center;
+  font: normal normal bold 2.8rem/3.8rem Inter;
+  margin-bottom: 1rem;
+}
+
+.working_section {
+  margin: 0 9.3rem;
+}
+
+.working_content {
+  width: 60%;
+}
+
+.working_content > h4 {
+  font: normal normal bold 2.8rem/3.8rem Inter;
+}
+
+.working_content > p {
+  font: normal normal normal 1.8rem/3rem Inter;
+}
+
+.work_container {
+  display: flex;
+}
+
+.working_img_container {
+  margin-top: 5rem;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.working_timeline {
+  width: 1px;
+  height: 32rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.timeline_point {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.timeline_content {
+  padding-left: 5rem;
+  height: 10rem;
+  transition: 1s;
+}
+
+.timeline_display {
+  padding-left: 0;
+  height: 10rem;
+  transition: 1s;
+  position: relative;
+  top: -1rem;
+}
+
+.timeline_content > div > h4 {
+  font: normal normal 600 1.8rem/3rem Inter;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.working_timeline > div {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  right: 0.8rem;
+  background-color: #fff;
+}
+
+.step_icon {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  right: 2.5rem;
+  top: -1rem;
+}
+
+.inner_icon {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+}
+
+/* features section */
+.features_section {
+  margin: 6.25rem 9.3rem 0 9.3rem;
+}
+
+/* video section */
+.iframe_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.75rem;
+}
+
+.iframe_left_banner {
+  background-color: #2a6ab4;
+  border-radius: 20px;
+  padding: 2.8rem;
+  height: 40.25rem;
+  width: 46.93rem;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.iframe_left_banner > div:nth-child(1) {
+  color: #fff;
+  font: normal normal normal 1.8rem/3rem Inter;
+  width: 80%;
+}
+
+.large_text {
+  font: normal normal 600 3.8rem/3rem Inter;
+}
+
+.yellow_text {
+  color: #ffba00;
+}
+
+.qb_img_container {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  bottom: 0;
+}
+
+/* give it try section */
+.give_it_try_section {
+  margin-top: 10rem;
+}
+
+/* common section */
+.features_header,
+.video_header,
+.outlet_header,
+.testimonial_header {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+}
+
+.features_header > h3,
+.video_header > h3,
+.outlet_header > h3,
+.testimonial_header > h3 {
+  font: normal normal bold 2.5rem/3.1rem Inter;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.video_section,
+.outlet_section,
+.blue_fold_section,
+.demo_banner_section {
+  margin: 6.25rem 9.3rem 0 9.3rem;
+}
+
+.testimonial_section {
+  margin: 6.25rem 5.3rem 0 5.3rem;
+}
+
+/* stroke css */
+.features_stroke {
+  height: 2rem;
+  width: 10rem;
+  position: relative;
+  margin-left: auto;
+  margin-top: -0.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.outlet_stroke {
+  height: 2rem;
+  width: 12rem;
+  position: relative;
+  margin-left: auto;
+  margin-top: -0.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.video_stroke,
+.testimonial_stroke {
+  height: 2rem;
+  width: 15rem;
+  position: relative;
+  margin-left: auto;
+  margin-top: -0.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.clients_stroke {
+  height: 2rem;
+  width: 18rem;
+  position: relative;
+  top: -1.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.work_stroke {
+  height: 2rem;
+  width: 10rem;
+  position: relative;
+  top: -2rem;
+  left: 7rem;
+  margin-bottom: 3.75rem;
+}
