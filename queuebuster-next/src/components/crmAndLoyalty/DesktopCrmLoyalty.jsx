@@ -11,7 +11,7 @@ import OtherHighlights from '../common/OtherHighlights';
 import RewardingSection from '../common/RewardingSection';
 import Router from 'next/router';
 import NewIndustryCards from '../common/NewIndustryCards';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import PersonalisedDemoBanner from '../common/PersonalisedDemoBanner';
 import content from '../../language/ENGLISH.json'
 import VerificationPopup from '../modals/VerificationPopup';
@@ -35,7 +35,7 @@ const DesktopCrmLoyalty = () => {
                 <div className={styles.left_container}>
                     <h1>
                         <span className={styles.black_text}>{crmPageHeading}</span><br />
-                        <span className={styles.blue_text}><ReactTyped strings={[crmTypingText1, crmTypingText2, crmTypingText3, crmTypingText4]} typeSpeed={200} loop /></span>
+                        {/* <span className={styles.blue_text}><ReactTyped strings={[crmTypingText1, crmTypingText2, crmTypingText3, crmTypingText4]} typeSpeed={200} loop /></span> */}
                     </h1>
                     <p className={styles.page_subheading}>{crmPageDescP1}<b>{crmPageDescP2}</b></p>
                     <div style={{ display: "flex", gap: "2rem" }}>

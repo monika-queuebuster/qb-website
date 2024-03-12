@@ -14,7 +14,7 @@ import dynamic from "next/dynamic";
 import Router from 'next/router';
 import Link from 'next/link';
 import { useIsInViewport } from '@/utils';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import PersonalisedDemoBanner from '../common/PersonalisedDemoBanner';
 import IndustryFeatures from '../common/IndustryFeatures';
 import BlueFoldBanner from '../common/BlueFoldBanner';
@@ -69,7 +69,7 @@ const DesktopEnterprise = () => {
             <VerificationPopup isOpen={demoModal} closeModal={() => setDemoModal(false)} formHeading={formHeading} />
             <div className={styles.section1}>
                 <div className={styles.leftSide}>
-                    <h1 className={styles.enterpriseHeading}>{integratedOmnichannel} <ReactTyped strings={[bigger, smarter, greater]} typeSpeed={200} loop /></h1>
+                    {/* <h1 className={styles.enterpriseHeading}>{integratedOmnichannel} <ReactTyped strings={[bigger, smarter, greater]} typeSpeed={200} loop /></h1> */}
                     <p className={styles.enterprisePara}>{enterpriseSubPara}</p>
                     <div className={styles.btn_container}>
                         <Link href='#enterpriseForm' onClick={(e) => handleScroll(e)}>

@@ -10,7 +10,7 @@ import FAQmobile from '../Industry/FAQ_mobile';
 import Router from 'next/router';
 import Link from 'next/link';
 import NewIndustryCards from '../common/NewIndustryCards';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import MobilePDBanner from '../common/MobilePDBanner';
 import content from '../../language/ENGLISH.json'
 import OtherHighlights from '../common/OtherHighlights';
@@ -36,7 +36,7 @@ const MobileCrmLoyalty = () => {
         <div className={styles.left_container}>
           <h1>
             <span className={styles.black_text}>{crmPageHeading}</span>
-            <span className={styles.blue_text}><ReactTyped strings={[crmTypingText1, crmTypingText2, crmTypingText3, crmTypingText4]} typeSpeed={300} loop /></span>
+            {/* <span className={styles.blue_text}><ReactTyped strings={[crmTypingText1, crmTypingText2, crmTypingText3, crmTypingText4]} typeSpeed={300} loop /></span> */}
           </h1>
           <div className={styles.right_container}>
             <div className={styles.section1_image_container}>

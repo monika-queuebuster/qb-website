@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -31,7 +31,7 @@ const DesktopFoodTruck = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>Food Truck Billing Software for</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["Take Away", "Payments", "QR Ordering"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["Take Away", "Payments", "QR Ordering"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>Experience effortless billing with QueueBuster Android POS, a top-of-the-line Food truck billing solution designed for speed, accuracy, and quality of service. This POS software is perfectly mobile for your food truck or food cart. In the interest of shelf space, you can ditch the legacy billing machine and opt for a smartphone or a smaller Android Payment machine and use QueueBuster on that. </p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

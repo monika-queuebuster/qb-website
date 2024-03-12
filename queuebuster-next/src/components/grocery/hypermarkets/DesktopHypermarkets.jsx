@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -32,7 +32,7 @@ const DesktopHypermarkets = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>A HyperMarket Billing Software for</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["Billing", "Inventory Management", "Daily Sales"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["Billing", "Inventory Management", "Daily Sales"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>QueueBuster HyperMarket Billing Software is the ultimate solution for simplifying your billing, inventory management, and daily sales. With advanced features and a user-friendly interface, QB Billing software will revolutionize the way you do business.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

@@ -10,7 +10,7 @@ import { toast } from 'sonner';
 import { checkOtp, sendOtp, getFreeDemo } from '@/services/signUpServices';
 import { SelectDrop } from '../../getFreeDemoNewCont/SelectDrop';
 import { useRouter } from 'next/router';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 
 const GDNV3 = ({ setRemoveContent, mainHeading, heading }) => {
     const router = useRouter();

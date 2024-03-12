@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/MobileFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -30,7 +30,7 @@ const MobileFMCG = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>FMCG Distribution Billing Software for</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["GST Billing", "Purchase", "Inventory Management", "Reporting"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["GST Billing", "Purchase", "Inventory Management", "Reporting"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>Optimize your FMCG retail business with our advanced solution that provides billing, inventory management, beat tracking, pricing, markdowns, schemes, discounts, mobile app for orders, GST, E-Invoicing, mobile reporting, and more.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

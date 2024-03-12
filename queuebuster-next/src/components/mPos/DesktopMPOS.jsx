@@ -12,7 +12,7 @@ import TestimonialSection from '../common/TestimonialSection';
 import BlueFoldBanner from '../common/BlueFoldBanner';
 import IndustryFeatures from '../common/IndustryFeatures';
 import { features } from '@/constants/mpos';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import TrustFactor from '../common/TrustFactor';
@@ -40,7 +40,7 @@ const DesktopMPOS = () => {
             <VerificationPopup isOpen={demoModal} closeModal={() => setDemoModal(false)} formHeading={formHeading} />
             <div className={styles.hero_section}>
                 <div className={styles.text_container}>
-                    <h1 className={styles.hero_heading}>{pageHeading} <span className={styles.blue_text}><ReactTyped strings={[typewritterText1, typewritterText2, typewritterText3]} typeSpeed={200} loop /></span></h1>
+                    {/* <h1 className={styles.hero_heading}>{pageHeading} <span className={styles.blue_text}><ReactTyped strings={[typewritterText1, typewritterText2, typewritterText3]} typeSpeed={200} loop /></span></h1> */}
                     <p className={styles.hero_content}>{pageDesc}</p>
                     <BlackCustomButton text='Get Started' style={{ padding: '0 2rem' }} onClick={() => router.push('/get-free-demo')} />
                     <div className={styles.ratings}>

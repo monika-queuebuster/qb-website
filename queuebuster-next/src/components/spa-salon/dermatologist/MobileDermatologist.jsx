@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/MobileFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -29,7 +29,7 @@ const MobileGym = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>Skin Clinic Billing Software for</span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["Dermatology", "Trichology", "Botox Centers"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["Dermatology", "Trichology", "Botox Centers"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>QueueBuster Skin Clinic billing software provides a seamless business experience to customers by automating the billing process and reducing the chances of errors. This software allows you to manage patient records, appointments, and inventory all in one place.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/DesktopFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -31,7 +31,7 @@ const DesktopCosmetics = () => {
                     <div className={styles.hero_text_container}>
                         <h1>
                             <span className={styles.heading1}>Beauty & Cosmetics Store Billing Software for </span><br />
-                            <span className={styles.heading2}><ReactTyped strings={["Billing", "Inventory", "CRM & Loyalty", "Daily Sales Report"]} typeSpeed={200} loop /></span>
+                            {/* <span className={styles.heading2}><ReactTyped strings={["Billing", "Inventory", "CRM & Loyalty", "Daily Sales Report"]} typeSpeed={200} loop /></span> */}
                         </h1>
                         <p className={styles.hero_desc}>Maximize sales for your beauty and cosmetics store with QueueBuster – the user-friendly Cosmetics Store Billing software. Streamline orders, manage inventory effortlessly, and boost customer satisfaction. Elevate your business digitally, selling more of what your customers love.</p>
                         <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />

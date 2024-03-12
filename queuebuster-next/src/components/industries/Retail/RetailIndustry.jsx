@@ -13,7 +13,7 @@ import content from '../../../language/ENGLISH.json'
 import FrequentQuestions from '../../homePage/FrequentQuestions';
 import PersonalisedDemoBanner from '../../common/PersonalisedDemoBanner';
 import styles from '../../../styles/Industries/retail/DesktopRetail.module.css';
-import ReactTyped from "react-typed";
+// import ReactTyped from "react-typed";
 import { useRouter } from 'next/router';
 import TrustFactor from '@/components/common/TrustFactor';
 import Verification from '@/components/modals/Verification';
@@ -39,7 +39,7 @@ const RetailIndustry = () => {
             <div className={styles.text_part}>
                <h1>
                   <span className={styles.black_text}>{pageHeading}</span><br />
-                  <span className={styles.blue_text}><ReactTyped strings={[typingText1, typingText2, typingText3]} typeSpeed={200} loop /></span>
+                  {/* <span className={styles.blue_text}><ReactTyped strings={[typingText1, typingText2, typingText3]} typeSpeed={200} loop /></span> */}
                </h1>
                <p className={styles.page_desc}>{pageDesc}</p>
                <div style={{ display: "flex", gap: "2rem" }}>

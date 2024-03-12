@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Router from 'next/router';
 import FAQmobile from '../Industry/FAQ_mobile';
 import GiveItTryMobile from '../Industry/GiveItTry_mobile';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import NewIndustryCards from '../common/NewIndustryCards';
 import MobilePDBanner from '../common/MobilePDBanner';
 import content from '../../language/ENGLISH.json'
@@ -35,7 +35,7 @@ const InventoryMobile = () => {
         <div className={styles.left_container}>
           <h1>
             <span className={styles.black_text}>{inventoryPageHeadingP1}{inventoryPageHeadingP2}{inventoryPageHeadingP3}</span><br/>
-            <span className={styles.blue_text}><ReactTyped strings={[inventoryTypingText1, inventoryTypingText2, inventoryTypingText3]} typeSpeed={200} loop /></span>
+            {/* <span className={styles.blue_text}><ReactTyped strings={[inventoryTypingText1, inventoryTypingText2, inventoryTypingText3]} typeSpeed={200} loop /></span> */}
           </h1>
           <div className={styles.right_container}>
             <div className={styles.section1_image_container}>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from '../../styles/billing/MobileBilling.module.css'
-import ReactTyped from 'react-typed'
+// import ReactTyped from 'react-typed'
 import { BlackCustomButton, BlueCustomButton, MarqueeComponentHomePage, TransparentCustomButton, WhiteCustomButton } from '../qbStrap'
 import { ratingInfo, ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import Image from 'next/image';
@@ -33,7 +33,7 @@ const MobileBilling = () => {
         <div className={styles.left_container}>
           <h1>
             <span className={styles.black_text}>{billingPageHeading}</span> <br />
-            <span className={styles.blue_text}><ReactTyped strings={[billingTypingText1, billingTypingText2, billingTypingText3, billingTypingText4]} typeSpeed={300} loop /></span>
+            {/* <span className={styles.blue_text}><ReactTyped strings={[billingTypingText1, billingTypingText2, billingTypingText3, billingTypingText4]} typeSpeed={300} loop /></span> */}
           </h1>
           <div className={styles.right_container}>
             <div className={styles.section1_image_container}>

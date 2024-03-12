@@ -11,7 +11,7 @@ import OtherHighlights from '../common/OtherHighlights';
 import RewardingSection from '../common/RewardingSection';
 import Router from 'next/router';
 import NewIndustryCards from '../common/NewIndustryCards';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import PersonalisedDemoBanner from '../common/PersonalisedDemoBanner';
 import content from '../../language/ENGLISH.json'
 import VerificationPopup from '../modals/VerificationPopup';
@@ -35,7 +35,7 @@ const InventoryDesktop = () => {
                 <div className={styles.left_container}>
                     <h1>
                         <span className={styles.black_text}>{inventoryPageHeadingP1} {inventoryPageHeadingP2} </span><span className={styles.black_text}>{inventoryPageHeadingP3}</span><br />
-                        <span className={styles.blue_text}><ReactTyped strings={[inventoryTypingText1, inventoryTypingText2, inventoryTypingText3]} typeSpeed={200} loop /></span>
+                        {/* <span className={styles.blue_text}><ReactTyped strings={[inventoryTypingText1, inventoryTypingText2, inventoryTypingText3]} typeSpeed={200} loop /></span> */}
                     </h1>
                     <p className={styles.page_subheading}>{inventoryPageDesc}</p>
                     <div style={{ display: "flex", gap: "2rem" }}>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../../../styles/retail/footwear/MobileFootwear.module.css';
 import Image from 'next/image';
-import ReactTyped from 'react-typed';
+// import ReactTyped from 'react-typed';
 import { BlackCustomButton, MarqueeComponentHomePage, WhiteCustomButton } from '@/components/qbStrap';
 import { ClientsArr1, testimonialData, videoTestimonial } from '@/constants/common';
 import content from '../../../language/ENGLISH.json'
@@ -31,7 +31,7 @@ const MobileGym = () => {
           <div className={styles.hero_text_container}>
             <h1>
               <span className={styles.heading1}>Gym & Fitness Center Billing Software for</span><br />
-              <span className={styles.heading2}><ReactTyped strings={["Crossfit Studios", "Zumba Centers", "Yoga Classes"]} typeSpeed={200} loop /></span>
+              {/* <span className={styles.heading2}><ReactTyped strings={["Crossfit Studios", "Zumba Centers", "Yoga Classes"]} typeSpeed={200} loop /></span> */}
             </h1>
             <p className={styles.hero_desc}>QueueBuster Gym & Fitness Center Billing Software simplifies the process of subscriptions and bookings for customers. With this Android-based solution, customers can easily sign up for memberships and book classes seamlessly. QB POS allows staff to efficiently manage class schedules, keep track of attendance, and process payments, which streamlines operations for the gym or fitness center.</p>
             <WhiteCustomButton text="Get Free Demo" style={{ padding: "0 2rem", marginTop: "3rem" }} onClick={() => (setDemoModal(true), setHeading("Book your free demo now!"))} />
